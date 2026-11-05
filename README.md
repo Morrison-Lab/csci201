@@ -1,4 +1,5 @@
 <!-- README.md is generated from README.Rmd. Edit README.Rmd, then knit it. -->
+
 # CSCI 201 course logistics
 
 Logistics for CSCI 201, Math for Computer Science: the syllabus, the calendar and the Canvas calendar sync.
