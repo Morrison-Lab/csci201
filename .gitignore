@@ -79,3 +79,5 @@ renv/staging/
 # Lychee link checker
 .lycheecache/
 lychee-output/
+# The printable ABCD card the syllabus links; images/abcd-card.py draws it.
+!images/abcd-card.pdf
