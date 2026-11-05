@@ -1,0 +1,29 @@
+---
+title: "WWU CSCI 201 Syllabus"
+subtitle: "Winter 2027"
+number-sections: false
+format:
+  html: default
+  revealjs:
+    output-file: syllabus-slides.html
+  pdf:
+    output-file: syllabus-handout.pdf
+    toc: false
+  docx:
+    output-file: syllabus.docx
+---
+
+::: callout-note
+This is the Winter 2027 syllabus.
+Items marked **TBD** (to be determined) have not been set yet.
+The syllabus is subject to change;
+I will announce in class any change made after the first day of class.
+:::
+
+{{< include _subfiles/syllabus/_course-information.qmd >}}
+
+{{< include _subfiles/syllabus/_description-outcomes-readings.qmd >}}
+
+{{< include _subfiles/syllabus/_similar-courses-materials.qmd >}}
+
+{{< include _subfiles/syllabus/_schedule.qmd >}}

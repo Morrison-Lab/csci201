@@ -1,0 +1,67 @@
+## Course Information {.unnumbered}
+
+Number
+: [CSCI 201](https://catalog.wwu.edu/search_advanced.php?cur_cat_oid=23&search_database=Search&search_db=Search&cpage=1&ecpage=1&ppage=1&spage=1&tpage=1&location=3&filter%5Bkeyword%5D=CSCI%20201)
+
+Name
+: Discrete Math and Functional Programming for Computer Scientists
+
+Website
+: [*Math for Computer Science* (mcs)](https://morrison-lab.github.io/mcs/)
+
+Term
+: Winter 2027 (January 5 to March 19, 2027)
+
+Credits
+: 4 (three hours of lecture and two hours of lab each week)
+
+Lecture
+: Monday, Wednesday, and Friday, in one of two meeting times
+  (see [Sections](#sections))
+
+Lab
+: One two-hour lab each week, on Thursday or Friday
+  (see [Sections](#sections))
+
+Office hours
+: **TBD**, in my office (Communication Facility 463) unless otherwise noted
+
+Prerequisites
+: CSCI 145,
+  and one of MATH 124, 125, 134, 135, or 138
+  (or a score of 3 or higher on the AP Calculus AB or BC exam),
+  each with a grade of C- or better.
+
+### Sections {.unnumbered #sections}
+
+Each section pairs a lecture time with a lab time.
+Attend the lecture and the lab of the section you registered for.
+
+| CRN   | Lecture (Monday, Wednesday, Friday)              | Lab                                                |
+|:------|:-------------------------------------------------|:---------------------------------------------------|
+| 13745 | 11:00--11:50am, Environmental Studies Center 313 | Friday 8:00--9:50am, Communication Facility 164    |
+| 13746 | 11:00--11:50am, Environmental Studies Center 313 | Friday 12:00--1:50pm, Communication Facility 164   |
+| 13747 | 9:00--9:50am, Communication Facility 023         | Thursday 2:00--3:50pm, Communication Facility 164  |
+| 13748 | 9:00--9:50am, Communication Facility 023         | Thursday 12:00--1:50pm, Communication Facility 026 |
+
+The times and rooms are from
+[WWU's class schedule for CSCI 201 in Winter 2027](https://web4u.banner.wwu.edu/pls/wwis/bwckctlg.p_disp_listcrse?term_in=202710&subj_in=CSCI&crse_in=201&schd_in=C),
+read on 2026-10-23;
+check there for any change.
+The lab teaching assistants (TAs) and their office hours are **TBD**.
+
+## Contact Information {.unnumbered}
+
+Name
+: Ezra Morrison
+
+Office
+: Communication Facility 463
+
+Email
+: <ezra.morrison@wwu.edu>, for matters unrelated to the course only
+  (Teams chat is better for those)
+
+All course-related correspondence goes through Canvas,
+including confidential matters;
+see [Communication](#communication).

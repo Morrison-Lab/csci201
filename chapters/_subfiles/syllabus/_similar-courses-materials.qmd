@@ -1,0 +1,32 @@
+## Similar Courses {.unnumbered #similar-courses}
+
+Other universities teach courses much like this one,
+and many post their materials at no cost.
+They are a good place to see a topic explained a second way.
+
+Discrete mathematics and proofs:
+
+- MIT's [6.042J *Mathematics for Computer Science*](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/)
+  (Spring 2015, on MIT OpenCourseWare),
+  with recorded lectures, readings and problem sets.
+- Stanford's [CS 103 *Mathematical Foundations of Computing*](https://web.stanford.edu/class/cs103/),
+  with lecture slides and problem sets.
+- The University of Washington's [CSE 311 *Foundations of Computing I*](https://courses.cs.washington.edu/courses/cse311/),
+  with lecture slides and homework from past quarters.
+
+Functional programming:
+
+- Stanford's [CS 107 *Programming Paradigms*](https://see.stanford.edu/Course/CS107)
+  (Spring 2008, on Stanford Engineering Everywhere),
+  whose recorded lectures 19 to 23 and handouts introduce Scheme, Racket's parent language.
+- Stanford's [CS 242 *Programming Languages*](https://stanford-cs242.github.io/f19/) (Fall 2019),
+  with lecture notes on the lambda calculus and functional programming.
+- Stanford's [CS 99 *Functional Programming and Theorem Proving in Lean 4*](https://web.stanford.edu/class/cs99/),
+  which carries functional programming over to writing proofs.
+
+## Materials {.unnumbered}
+
+I will distribute worksheets, homework, and lab materials on Canvas.
+The lecture notes are on this site, listed in the menu bar.
+Each chapter is also available as slides and as a PDF handout,
+linked under **Other Formats** on the chapter's page.

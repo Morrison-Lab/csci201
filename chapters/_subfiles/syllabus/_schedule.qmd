@@ -1,0 +1,30 @@
+## Schedule {.unnumbered #schedule}
+
+The topics and dates of future lectures may change.
+The [course calendar](calendar.qmd) gives the day-by-day agenda,
+including every deadline;
+the table below gives the topics and readings week by week.
+Readings are sections of Epp's *Discrete Mathematics with Applications* (5th ed.).
+Classes begin on Tuesday, January 5,
+so the first lecture is on Wednesday, January 6.
+Monday, January 18 (Martin Luther King Jr. Day)
+and Monday, February 15 (Presidents' Day)
+are university holidays, with no class.
+
+| Week | Dates | Topics | Assigned work | Reading |
+|:-----|:------|:-------|:------------|:--------|
+| 1 | Jan 5--8 | Introduction to [functional programming](https://morrison-lab.github.io/mcs/chapters/functional-programming.html); [propositional logic](https://morrison-lab.github.io/mcs/chapters/propositional-logic.html), [predicates and quantifiers](https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html), [logical equivalence and negation](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html) | Quiz 0; Lab 1 | 1.1, 2.1--2.3, 3.1 |
+| 2 | Jan 11--15 | Proofs: [inference and direct proof](https://morrison-lab.github.io/mcs/chapters/direct-proof.html), [contrapositive, and contradiction](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html) | Lab 2; Homework 1 | 4.1--4.2, 4.4 |
+| 3 | Jan 18--22 | Proofs, continued; sets and functions | Lab 3; Homework 2 | 1.2--1.3, 4.7--4.8 |
+| 4 | Jan 25--29 | Mathematical induction; loop invariants | **Midterm 1**, Wednesday, Jan 27 | 5.1--5.2 |
+| 5 | Feb 1--5 | Induction, continued; recurrence relations | Lab 4; Homework 3 | 5.4--5.6 |
+| 6 | Feb 8--12 | Growth rates of functions (big-O and asymptotic notation) | Lab 5; Homework 4 | 11.2--11.3 |
+| 7 | Feb 15--19 | Relations; graphs: paths, cycles, and connectivity | **Midterm 2**, Wednesday, Feb 17 | 1.4, 8.1--8.3, 10.1 |
+| 8 | Feb 22--26 | Graphs: breadth-first and depth-first traversal | Lab 6; Homework 5 | 10.1, 10.3, class notes |
+| 9 | Mar 1--5 | State machines and finite automata | Lab 7; Homework 6 | 12.2 |
+| 10 | Mar 8--12 | Trees and their traversal | Lab 8 | 10.4--10.6 |
+| Finals | Mar 15--19 | | **Final exam**: Tuesday, Mar 16 (CRNs 13745, 13746) or Thursday, Mar 18 (CRNs 13747, 13748), 10:30am--12:30pm | |
+
+The midterm dates are tentative.
+If a midterm's date changes, I will announce the change
+at least two weeks before that exam is given.
