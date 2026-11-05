@@ -4,7 +4,16 @@ Project guidance for Claude Code (CLI, IDE, and the GitHub Action). The same con
 
 ## Project context
 
-`csci201` is the logistics shell for CSCI 201, Math for Computer Science: the syllabus, the calendar and the Canvas calendar sync. The topic notes (logic, proofs, sets, relations, graphs, automata, trees, functional programming) live in [`Morrison-Lab/mcs`](https://github.com/Morrison-Lab/mcs), and assessments in the private `Morrison-Lab/mcsg`; link to mcs chapters with absolute URLs. It was created from the [`qwt`](https://github.com/Morrison-Lab/qwt) website template on 2026-11-05 ([mcs#60](https://github.com/Morrison-Lab/mcs/issues/60), [mcs#94](https://github.com/Morrison-Lab/mcs/issues/94)). This repository is private; the rendered site is public.
+`csci201` is the logistics shell for CSCI 201, Math for Computer Science:
+the syllabus, the calendar and the Canvas calendar sync.
+The topic notes (logic, proofs, sets, relations, graphs, automata, trees, functional programming)
+live in [`Morrison-Lab/mcs`](https://github.com/Morrison-Lab/mcs),
+and assessments in the private `Morrison-Lab/mcsg`;
+link to mcs chapters with absolute URLs.
+It was created from the [`qwt`](https://github.com/Morrison-Lab/qwt) website template on 2026-11-05
+([mcs#60](https://github.com/Morrison-Lab/mcs/issues/60),
+[mcs#94](https://github.com/Morrison-Lab/mcs/issues/94)).
+This repository is private; the rendered site is public.
 
 Authoritative style guides:
 
