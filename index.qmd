@@ -1,5 +1,5 @@
 ---
-title: "Quarto Website Template"
+title: "CSCI 201 Course Logistics"
 format:
   html: default
   revealjs:
