@@ -27,3 +27,9 @@ I will announce in class any change made after the first day of class.
 {{< include _subfiles/syllabus/_similar-courses-materials.qmd >}}
 
 {{< include _subfiles/syllabus/_schedule.qmd >}}
+
+{{< include _subfiles/syllabus/_communication-software.qmd >}}
+
+{{< include _subfiles/syllabus/_active-learning.qmd >}}
+
+{{< include _subfiles/syllabus/_grading.qmd >}}
