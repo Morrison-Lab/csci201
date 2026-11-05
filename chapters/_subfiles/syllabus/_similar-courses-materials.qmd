@@ -27,6 +27,6 @@ Functional programming:
 ## Materials {.unnumbered}
 
 I will distribute worksheets, homework, and lab materials on Canvas.
-The lecture notes are on this site, listed in the menu bar.
+The lecture notes are on the [course notes site](https://morrison-lab.github.io/mcs/), listed in its menu bar.
 Each chapter is also available as slides and as a PDF handout,
 linked under **Other Formats** on the chapter's page.
