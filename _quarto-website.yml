@@ -37,6 +37,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "Syllabus"
+        href: chapters/syllabus.qmd
       - text: "Calendar"
         href: chapters/calendar.qmd
       - text: "Chapters"
@@ -68,6 +70,7 @@ website:
     contents:
       - text: "Home"
         href: index.qmd
+      - chapters/syllabus.qmd
       - chapters/calendar.qmd
       - section: "Chapters"
         contents:
