@@ -1,4 +1,5 @@
-# csci201
+<!-- README.md is generated from README.Rmd. Edit this file, then knit it. -->
+# CSCI 201 course logistics
 
 Logistics for CSCI 201, Math for Computer Science: the syllabus, the calendar and the Canvas calendar sync.
 The topic notes are in [`Morrison-Lab/mcs`](https://github.com/Morrison-Lab/mcs).
