@@ -33,3 +33,9 @@ I will announce in class any change made after the first day of class.
 {{< include _subfiles/syllabus/_active-learning.qmd >}}
 
 {{< include _subfiles/syllabus/_grading.qmd >}}
+
+{{< include _subfiles/syllabus/_deadlines-collaboration-honesty.qmd >}}
+
+{{< include _subfiles/syllabus/_labs-writing-conduct.qmd >}}
+
+{{< include _subfiles/syllabus/_services-policies-feedback.qmd >}}
