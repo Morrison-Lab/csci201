@@ -27,4 +27,10 @@ exclude = [
   "https://127.0.0.1.*",
   # quarto.org is a trusted site but may be unreachable from CI runners
   "https://quarto.org/.*",
+  # These syllabus pages load in a browser but answer CI's link checker with
+  # 403 Forbidden (the same exclusions as mcs).
+  "https://www.acm.org/code-of-ethics",
+  "https://www.wwu.edu/dean-students",
+  # web.stanford.edu serves a certificate chain CI's link checker cannot verify.
+  "https://web.stanford.edu/.*",
 ]
