@@ -1,0 +1,82 @@
+## Disabilities {.unnumbered}
+
+Reasonable accommodation for persons with documented disabilities
+should be established within the first two weeks of class
+and arranged through the Disability Access Center:
+telephone 360-650-3083; email <drsfrontdesk@wwu.edu>;
+and on the web at [Disability Access Center](https://disability.wwu.edu/).
+
+## Student Services {.unnumbered}
+
+Western encourages students to seek assistance and support at the onset of an illness, difficulty, or crisis.
+
+- In the case of a medical concern or question,
+  please contact the Health Center: 360-650-3400,
+  or visit [Student Health](https://studenthealth.wwu.edu/).
+- In the case of an emotional or psychological concern or question,
+  please contact the Counseling and Wellness Center: 360-650-3164,
+  or visit [Counseling and Wellness Center](https://cwc.wwu.edu/).
+- In the case of a health and safety concern,
+  please contact the University Police: 360-650-3555,
+  or visit [University Police](https://police.wwu.edu/).
+- In the case of a family or personal crisis or emergency,
+  please contact the [Dean of Students](https://www.wwu.edu/dean-students).
+- To seek confidential support related to sexual violence,
+  please contact CASAS (360-650-3700), the Student Health Center, and/or the Counseling and Wellness Center.
+  To report sexual violence, please contact University Police, Bellingham Police,
+  and/or the Title IX Coordinator
+  in Western's [Civil Rights and Title IX Compliance](https://crtc.wwu.edu/) office (360-650-3307).
+  Faculty are responsible employees who are required to report sex discrimination,
+  including sexual violence that they learn about, to the Title IX Coordinator.
+
+## Career Advising {.unnumbered}
+
+I am glad to meet with you to discuss your short-, medium-, and long-term career goals.
+[Academic Advising & Career Readiness](https://aacr.wwu.edu/) is also available
+for help with academic planning or your career,
+such as finding jobs and internships or getting feedback on your resume.
+
+## Other Policies {.unnumbered}
+
+Please read [Syllabi\@WWU](https://syllabi.wwu.edu/) for additional, important policies,
+including accommodations, equal opportunity, the medical excuse policy,
+ethical use of WWU computing resources, and the student conduct code.
+
+## Start-of-Quarter Survey {.unnumbered}
+
+Please fill out the anonymous [start-of-quarter survey](https://docs.google.com/forms/d/e/1FAIpQLSeR4g368PE_HCeyF2IVcyVmSFBxhTfrTP69BX8ZCSfB6_R80A/viewform)
+before class on Friday, January 8.
+Every question is optional.
+A few more optional questions need your name, so they are not on the form;
+answer them in a Canvas message to me instead.
+
+## Anonymous Feedback {.unnumbered}
+
+Unlike the start-of-quarter survey,
+the [anonymous feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdGo-31iMGMyFMAMxgwGkPVa2mK4vK8lGEBN6fxCGwuZcfV-w/viewform)
+stays open all quarter,
+so you can use it at any time.
+Tell me what is working, what is not,
+and how I could improve the course.
+I read every response.
+
+<!--
+Outtakes from Kameron Decker Harris's Fall 2026 CSCI 201 syllabus,
+not adopted here; restore by moving the text above into a section.
+
+In-class device use: "Cell phone and laptop use are not allowed in class.
+Put your phone in 'do not disturb' mode and stow it away during class time.
+It's hard to fluidly write mathematics or draw diagrams on the computer.
+Research has also shown that we retain information better when we write by
+hand compared to using a laptop. Exceptions will be made if you have a
+specific accommodation; talk to me. Laptops are of course expected and used
+in the lab period."
+
+Communication: Kam asked students to email him rather than message him
+through Canvas. This syllabus routes all course-related correspondence,
+confidential matters included, through Canvas.
+
+Revisions: "You are allowed to revise your work at my discretion. In general,
+revisions are not allowed, but I may make allowances for students
+experiencing hardship or in danger of failing the class."
+-->

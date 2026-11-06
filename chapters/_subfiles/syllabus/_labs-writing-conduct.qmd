@@ -1,0 +1,60 @@
+## Computer Labs {.unnumbered}
+
+Each section's weekly lab meets in a department computer lab
+(see [Sections](#sections)).
+Outside your lab time, you should be able to use any of the department's open labs,
+most of which run the Linux operating system.
+Racket is free, so you can also install it on your own computer
+(see [Software](#software)).
+
+## Writing to Think {.unnumbered #writing-to-think}
+
+When you are stuck in this course, try putting your question into words in writing.
+Write it in full sentences,
+with the definitions, proof steps or code you used and what you have already tried.
+
+The habit pays off in two ways.
+A written question can be posted on Canvas Discussions (see [Communication](#communication)) so I and others can help.
+Writing your thoughts down also helps clarify your question,
+and that sometimes answers it.
+In an interview on the *5 Minute Mentor* podcast, [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport) says:
+
+> As someone said, "Writing is nature's way of showing you how fuzzy your thinking is."
+> If you think you understand something, and don't write down your ideas, you only think you're thinking.
+>
+> --- Leslie Lamport [@lamport2019think]
+
+The same holds for proofs, which are the writing this course asks of you most.
+
+## Library Writing Resources {.unnumbered}
+
+The Hacherl Research & Writing Studio supports almost anything that involves words:
+group projects, essays, posters, podcasts, lab reports, applications, grad theses and more.
+You can work with them just like an open art studio or lab space,
+where you get work done with feedback along the way.
+Drop into the Studio on the second level of Haggard Hall or use their online chat to:
+
+- stay focused and get things done;
+- discuss ideas with someone;
+- share something you're making;
+- ask for tips any time you have difficulty.
+
+See <https://library.wwu.edu/rws> for details.
+
+## Student Conduct {.unnumbered}
+
+I am committed to maintaining an inclusive, supportive, and professional environment
+in all academic settings, including lectures, labs, and course-related online spaces.
+I expect students to live up to the
+[Association for Computing Machinery (ACM) Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics),
+the ethical code adopted by nearly every software professional.
+A pattern of failing to follow the ACM Code of Ethics and Professional Conduct
+can negatively affect course grades, up to and including a failing grade for the course.
+Conduct is also considered when determining admission to the major.
+
+## Course Materials {.unnumbered}
+
+Do not sell or distribute questions or answers to any assignment, quiz, or exam,
+or other course materials given out on Canvas.
+The lecture notes on this site are open,
+under the license on the [home page](../index.qmd).
