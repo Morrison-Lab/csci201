@@ -4,7 +4,7 @@ The topics and dates of future lectures may change.
 The [course calendar](calendar.qmd) gives the day-by-day agenda,
 including every deadline;
 the table below gives the topics and readings week by week.
-Readings are sections of Epp's *Discrete Mathematics with Applications* (5th ed.).
+Readings are sections of Epp's *Discrete Mathematics with Applications* (5th ed.), which is recommended, not required.
 Classes begin on Tuesday, January 5,
 so the first lecture is on Wednesday, January 6.
 Monday, January 18 (Martin Luther King Jr. Day)
