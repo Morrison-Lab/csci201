@@ -50,7 +50,7 @@ Mirrors [`.github/copilot-instructions.md`](.github/copilot-instructions.md). Ke
 - **Lists of 3+ items**: use bullet lists rather than comma-separated prose. Always leave a blank line before a markdown bullet list (especially in `.qmd` files).
 - **Code chunks**: HTML output folds code by default: `_quarto-website.yml` sets `code-fold: true` (with `code-tools: true`, so readers can show all code at once), as rme does. Keep the default when the *output* (plot, table) is the point and the code is incidental. Set `#| code-fold: false` on tutorial code, short examples, code that is the main focus, and chunks where the console output is the main content.
 - **R style**: respect `.lintr.R`. Run `lintr::lint_dir()` before declaring R changes done.
-- **Navigation**: `_quarto-website.yml` defines a docked sidebar because `page-navigation: true` builds its previous/next links from the sidebar. Add each new page to both the navbar and the sidebar, in the same order. Keep Home as the first sidebar entry and keep `page-navigation.html` included, which fixes the navbar highlighting that entry would otherwise break (see the README's "Page navigation" section).
+- **Navigation**: `_quarto-website.yml` defines a docked sidebar because `page-navigation: true` builds its previous/next links from the sidebar. Add each new page to both the navbar and the sidebar, in the same order. Keep Home as the first sidebar entry and keep `page-navigation.html` included, which fixes the navbar highlighting that entry would otherwise break.
 - **Quarto chunks**: prefer chunk options as YAML-style `#|` directives, not as inline `r, opt = val` arguments.
 
 ## Working in this repo
