@@ -11,7 +11,7 @@ permissions: read-all
 
 jobs:
   lint-project:
-    runs-on: ubuntu-latest
+    runs-on: ${{ github.event.repository.private && vars.CI_RUNNER || 'ubuntu-latest' }}
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
