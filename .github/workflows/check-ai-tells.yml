@@ -21,7 +21,7 @@ permissions:
 
 jobs:
   filter:
-    runs-on: ubuntu-latest
+    runs-on: ${{ github.event.repository.private && vars.CI_RUNNER || 'ubuntu-latest' }}
     outputs:
       run_check: ${{ steps.filter.outputs.run_check }}
     steps:

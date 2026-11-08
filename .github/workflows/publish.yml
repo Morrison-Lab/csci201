@@ -32,4 +32,9 @@ jobs:
       formats: ''
       timezone: America/Los_Angeles
       freeze-cache: true
+      # Private repo: render on the WWU clusters (HTCondor).
+      cluster-render: ${{ github.event.repository.private }}
+      cluster-head: cse-head.cluster.cs.wwu.edu csci-head.cluster.cs.wwu.edu csci-lab-head.cs.wwu.edu:922
+      cluster-image: /cluster/home/morri313/ci/image/lds-ci.sif
+      cluster-image-file: /home/morri313/ci/image/lds-ci.sif
       checkout-submodules: true

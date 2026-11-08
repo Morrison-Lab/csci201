@@ -60,7 +60,13 @@ jobs:
       timeout-minutes: 120
       timezone: America/Los_Angeles
       # Rebuild when this label is added or removed (it toggles highlighting below).
-      extra-preview-labels: '["no-preview-highlights"]'
+      extra-preview-labels: '["no-preview-highlights","preview:runner"]'
+      # Private repo: render on the WWU clusters (HTCondor) instead of a
+      # GitHub-hosted runner. The preview:runner label forces the runner.
+      cluster-render: ${{ github.event.repository.private && !contains(github.event.pull_request.labels.*.name, 'preview:runner') }}
+      cluster-head: cse-head.cluster.cs.wwu.edu csci-head.cluster.cs.wwu.edu csci-lab-head.cs.wwu.edu:922
+      cluster-image: /cluster/home/morri313/ci/image/lds-ci.sif
+      cluster-image-file: /home/morri313/ci/image/lds-ci.sif
       # Compare against the published render: banner on the home page naming the
       # changed pages, highlighted changed text, and Word files with tracked
       # changes. Highlighting is off while the PR carries the
@@ -82,7 +88,7 @@ jobs:
   page-banners:
     needs: build
     if: github.event.action != 'closed' && needs.build.result == 'success'
-    runs-on: ubuntu-latest
+    runs-on: ${{ github.event.repository.private && vars.CI_RUNNER || 'ubuntu-latest' }}
     permissions:
       contents: read
     steps:
