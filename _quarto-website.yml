@@ -39,6 +39,8 @@ website:
         href: index.qmd
       - text: "Syllabus"
         href: chapters/syllabus.qmd
+      - text: "Prerequisite Self-Test"
+        href: chapters/prerequisite-self-test.qmd
       - text: "Calendar"
         href: chapters/calendar.qmd
       - text: "Chapters"
@@ -71,6 +73,7 @@ website:
       - text: "Home"
         href: index.qmd
       - chapters/syllabus.qmd
+      - chapters/prerequisite-self-test.qmd
       - chapters/calendar.qmd
       - section: "Chapters"
         contents:
