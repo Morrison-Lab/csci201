@@ -13,7 +13,7 @@ link to mcs chapters with absolute URLs.
 It was created from the [`qwt`](https://github.com/Morrison-Lab/qwt) website template on 2026-11-05
 ([mcs#60](https://github.com/Morrison-Lab/mcs/issues/60),
 [mcs#94](https://github.com/Morrison-Lab/mcs/issues/94)).
-This repository is private; the rendered site is public.
+This repository and its rendered site are public (made public 2026-11-15).
 
 Authoritative style guides:
 
