@@ -33,4 +33,7 @@ exclude = [
   "https://www.wwu.edu/dean-students",
   # web.stanford.edu serves a certificate chain CI's link checker cannot verify.
   "https://web.stanford.edu/.*",
+  # The self-test's PDF links to the page's own web copy, which cannot exist on
+  # the published site until the PR that adds the page merges and deploys.
+  "https://morrison-lab.github.io/csci201/chapters/prerequisite-self-test.html",
 ]

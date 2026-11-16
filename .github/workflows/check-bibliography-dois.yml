@@ -25,3 +25,6 @@ jobs:
       # Follows the callee's runs-on choice: a private repo with CI_RUNNER
       # set runs on the self-hosted runner, which has R and pak but no sudo.
       preinstalled-toolchain: ${{ github.event.repository.private && vars.CI_RUNNER != '' }}
+      # OpenStax books carry no DOI: a CrossRef search for "Algebra and
+      # Trigonometry 2e OpenStax Abramson" found none (2026-11-14).
+      exclude-keys: abramson2021algebra

@@ -1,0 +1,13 @@
+:::{#sol-prereq-inequality-negate}
+
+The statement is false.
+Multiplying both sides of an inequality by a negative number reverses it,
+so $a < b$ gives $-a > -b$.
+For example,
+$1 < 2$,
+but $-1 > -2$.
+
+To review,
+read the rule for [negating both sides of an inequality](https://morrison-lab.github.io/mds/algebra-basics.html#thm-neg-ineq).
+
+:::
