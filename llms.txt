@@ -6,7 +6,8 @@
 
 - [CSCI 201 Course Logistics](https://morrison-lab.github.io/csci201/index.llms.md)
 - [WWU CSCI 201 Syllabus](https://morrison-lab.github.io/csci201/chapters/syllabus.llms.md)
-- [Chapter 1: Introduction](https://morrison-lab.github.io/csci201/chapters/chapter1.llms.md)
-- [Calendar](https://morrison-lab.github.io/csci201/chapters/calendar.llms.md)
 - [Chapter 2: Advanced Topics](https://morrison-lab.github.io/csci201/chapters/chapter2.llms.md)
+- [Calendar](https://morrison-lab.github.io/csci201/chapters/calendar.llms.md)
+- [Chapter 1: Introduction](https://morrison-lab.github.io/csci201/chapters/chapter1.llms.md)
+- [Prerequisite Self-Test](https://morrison-lab.github.io/csci201/chapters/prerequisite-self-test.llms.md)
 - [Theorem Examples](https://morrison-lab.github.io/csci201/chapters/theorem-examples.llms.md)
