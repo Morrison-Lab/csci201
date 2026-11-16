@@ -43,14 +43,8 @@ website:
         href: chapters/prerequisite-self-test.qmd
       - text: "Calendar"
         href: chapters/calendar.qmd
-      - text: "Chapters"
-        menu:
-          - text: "Chapter 1: Introduction"
-            href: chapters/chapter1.qmd
-          - text: "Chapter 2: Advanced Topics"
-            href: chapters/chapter2.qmd
-          - text: "Theorem Examples"
-            href: chapters/theorem-examples.qmd
+      - text: "Lecture Notes"
+        href: https://morrison-lab.github.io/mcs/
     right:
       - icon: github
         href: https://github.com/Morrison-Lab/csci201
@@ -75,11 +69,8 @@ website:
       - chapters/syllabus.qmd
       - chapters/prerequisite-self-test.qmd
       - chapters/calendar.qmd
-      - section: "Chapters"
-        contents:
-          - chapters/chapter1.qmd
-          - chapters/chapter2.qmd
-          - chapters/theorem-examples.qmd
+      - text: "Lecture Notes"
+        href: https://morrison-lab.github.io/mcs/
 
 callouty-theorem:
   thm:
