@@ -36,7 +36,7 @@ Authoritative style guides:
 - `anchor-landing.html` --- HTML include (`format.html.include-after-body`) that keeps the reader's place while equations and images change the page height
   (the same file as in `Morrison-Lab/lds`)
 - `styles.css` --- website styling; `styles-reveal.scss`, `qwt-reveal-toggle.html` (the same four-theme dropdown for slides), and the `revealjs-*.lua` filters drive the reveal.js slide output
-- `assets/`, `images/` --- static image and asset files (site pages, docs, CI/PR screenshots)
+- `images/` --- static image files for the pages (the syllabus's ABCD card and the script that draws it)
 - `.github/workflows/` --- CI workflow definitions
 - `.github/scripts/` --- helper scripts used by workflows
 - `.github/instructions/` --- path-scoped Copilot rules that attach by file glob (see `.github/copilot-instructions.md`)
@@ -72,12 +72,11 @@ Mirrors [`.github/copilot-instructions.md`](.github/copilot-instructions.md). Ke
 `.claude/settings.json` declares the `Morrison-Lab` marketplace (source:
 [`Morrison-Lab/ai-config`](https://github.com/Morrison-Lab/ai-config)) and enables
 its `ai-config@Morrison-Lab` plugin, along with the `posit-dev-skills` and `sembr`
-marketplaces this template also carries, matching
+marketplaces the qwt template also carries, matching
 [`Morrison-Lab/qbt`](https://github.com/Morrison-Lab/qbt). Declaring is not
 installing: a local session still needs `claude plugin install ai-config@Morrison-Lab`
-once. Because this is a template repository, this declaration is copied once into
-every repo created from it --- an omission here silently ships to every downstream
-site.
+once.
+This declaration came from the qwt template.
 
 ## Pull request expectations
 
@@ -88,7 +87,8 @@ site.
 
 ## Things to avoid
 
-- Adding new top-level dependencies (R packages, Quarto extensions) without a clear reason; this is a template, so every dependency lands in every downstream book.
+- Adding new top-level dependencies (R packages, Quarto extensions) without a clear reason;
+  each dependency is one more thing to keep updated.
 - Reformatting unrelated files.
 - Inventing URLs or citations --- only use sources actually present in `references.bib` or explicitly provided.
 
