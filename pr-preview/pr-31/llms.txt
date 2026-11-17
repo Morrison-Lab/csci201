@@ -1,0 +1,10 @@
+# CSCI 201 Course Logistics
+
+> Syllabus, calendar and Canvas sync for CSCI 201, Math for Computer Science
+
+## Pages
+
+- [CSCI 201 Course Logistics](https://morrison-lab.github.io/csci201/index.llms.md)
+- [Prerequisite Self-Test](https://morrison-lab.github.io/csci201/chapters/prerequisite-self-test.llms.md)
+- [Calendar](https://morrison-lab.github.io/csci201/chapters/calendar.llms.md)
+- [WWU CSCI 201 Syllabus](https://morrison-lab.github.io/csci201/chapters/syllabus.llms.md)
