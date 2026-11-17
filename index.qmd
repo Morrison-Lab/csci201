@@ -20,3 +20,10 @@ by [Douglas Ezra Morrison](https://d-morrison.github.io/).
 - The [lecture notes](https://morrison-lab.github.io/mcs/) are on their own site.
 
 Canvas lists every due date and is the place to submit work.
+
+## License {.unnumbered}
+
+The course content on this site is released under the
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license (CC BY 4.0),
+and its code under the MIT License;
+the `LICENSE.md` file in the [repository](https://github.com/Morrison-Lab/csci201) says which covers what.
