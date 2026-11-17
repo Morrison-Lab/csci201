@@ -23,7 +23,11 @@ website:
   # https://quarto.org/docs/websites/website-llms.html --- use `llms-txt:`, not `llms:` (schema error)
   llms-txt: true
   page-footer:
-    center: "Built with [Quarto](https://quarto.org/)"
+    left:
+      - text: "Douglas Ezra Morrison"
+    right:
+      - text: "Found a typo or error, or have a request or suggestion? Open an issue."
+        href: https://github.com/Morrison-Lab/csci201/issues/new
   back-to-top-navigation: true
   # Previous/next links at the foot of each page follow the sidebar's order,
   # so page-navigation does nothing without the sidebar below.
