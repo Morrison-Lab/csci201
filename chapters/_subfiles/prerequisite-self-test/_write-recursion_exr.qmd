@@ -1,4 +1,4 @@
-:::{#exr-prereq-write-recursion}
+:::{#exr-prereq-write-recursion answer-space="3in"}
 #### Writing a recursive function
 
 You may use `xs == []` to test for the empty list,

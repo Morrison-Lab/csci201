@@ -1,0 +1,12 @@
+title: answer-space
+author: Morrison-Lab
+version: 0.1.0
+quarto-required: ">=1.6.0"
+contributes:
+  filters:
+    # pre-ast: Quarto turns exercise divs into its own theorem nodes early,
+    # so a filter at the default stage never sees an `exr-` div.
+    - path: answer-space.lua
+      at: pre-ast
+  shortcodes:
+    - answer-space-shortcode.lua

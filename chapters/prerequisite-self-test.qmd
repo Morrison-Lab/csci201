@@ -7,10 +7,16 @@ format:
   pdf:
     output-file: prerequisite-self-test-exercises.pdf
     toc: false
+    # Room to work each exercise by hand on a printed copy.
+    filters:
+      - Morrison-Lab/callouty-theorem
+      - coatless-quarto/custom-callout
+      - Morrison-Lab/answer-space
     # Number the exercises 1, 2, 3 rather than 0.1, 0.2:
     # Quarto numbers them within sections, which this page leaves unnumbered.
     include-before-body:
       text: '\counterwithout{exercise}{section}'
+answer-space: 2in
 ---
 
 {{< include ../latex-macros/macros.qmd >}}
