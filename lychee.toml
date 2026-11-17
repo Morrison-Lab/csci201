@@ -27,6 +27,10 @@ exclude = [
   # 403 Forbidden (the same exclusions as mcs).
   "https://www.acm.org/code-of-ethics",
   "https://www.wwu.edu/dean-students",
+  # courses.cs.washington.edu resets connections from CI runners and cloud
+  # hosts (a timeout on every main run since 2026-11-15, csci201#22), while
+  # www.cs.washington.edu answers normally.
+  "https://courses.cs.washington.edu/.*",
   # web.stanford.edu serves a certificate chain CI's link checker cannot verify.
   "https://web.stanford.edu/.*",
   # The self-test's PDF links to the page's own web copy, which cannot exist on
