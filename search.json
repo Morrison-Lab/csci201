@@ -4,7 +4,17 @@
     "href": "index.html",
     "title": "CSCI 201 Course Logistics",
     "section": "",
-    "text": "Welcome\nThis website holds the course logistics for CSCI 201, “Discrete Math and Functional Programming for Computer Scientists”, as taught in Winter Quarter 2027 at Western Washington University by Douglas Ezra Morrison.\n\nThe syllabus gives the course policies, grading and the week-by-week schedule.\nThe prerequisite self-test checks the background the course assumes, before it starts.\nThe calendar gives the day-by-day plan of lectures, labs and due dates.\nThe lecture notes are on their own site.\n\nCanvas lists every due date and is the place to submit work.\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "text": "This website holds the course logistics for CSCI 201, “Discrete Math and Functional Programming for Computer Scientists”, as taught in Winter Quarter 2027 at Western Washington University by Douglas Ezra Morrison.\n\nThe syllabus gives the course policies, grading and the week-by-week schedule.\nThe prerequisite self-test checks the background the course assumes, before it starts.\nThe calendar gives the day-by-day plan of lectures, labs and due dates.\nThe lecture notes are on their own site.\n\nCanvas lists every due date and is the place to submit work.\n\n\nExcept where noted, the course content on this site is released under the Creative Commons Attribution 4.0 International license (CC BY 4.0), and its code under the MIT License. The LICENSE.md file in the repository says which covers what.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "CSCI 201 Course Logistics",
+    "section": "",
+    "text": "Except where noted, the course content on this site is released under the Creative Commons Attribution 4.0 International license (CC BY 4.0), and its code under the MIT License. The LICENSE.md file in the repository says which covers what.",
     "crumbs": [
       "Home"
     ]
