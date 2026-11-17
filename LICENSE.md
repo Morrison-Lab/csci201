@@ -12,7 +12,8 @@ Neither license covers the following, since they are not ours to license:
 - **Quotations and cited material** belong to their authors.
 - **The `latex-macros/` submodule** carries its own license.
 - **Vendored extensions** in `_extensions/` carry their own licenses where they include one.
-  `coatless-quarto/custom-callout` publishes no license, so no license here covers it ([csci201#32](https://github.com/Morrison-Lab/csci201/issues/32)).
+  `coatless-quarto/custom-callout` is under the GNU Affero General Public License 3.0, in [its repository](https://github.com/coatless-quarto/custom-callout);
+  the copy here does not yet carry that license's text ([csci201#32](https://github.com/Morrison-Lab/csci201/issues/32)).
 - **Quarto's own page scripts, styles and fonts** in the rendered site carry their own licenses.
 
 When reusing the course content, credit "CSCI 201 course logistics, Morrison-Lab/csci201" with a link to <https://github.com/Morrison-Lab/csci201>, link the license, and say what you changed.
