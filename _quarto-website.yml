@@ -7,9 +7,6 @@ project:
     - "!README.md"
     - "!appendix-document-metadata.qmd"
     - "!references.qmd"
-    # Template demo page, deleted in the next PR (#25); keep it out of
-    # the site until then, since nothing links to it.
-    - "!chapters/theorem-examples.qmd"
     # The `latex-macros` git submodule provides macro definitions for include/
     # shortcode use, not standalone site pages. Don't render its .qmd files
     # directly: macros-table.qmd uses DT::datatable() (an HTML widget) that
