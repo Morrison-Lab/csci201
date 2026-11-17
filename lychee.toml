@@ -16,11 +16,7 @@ accept = [200, 201, 202, 203, 204, 206, 301, 302, 303, 307, 308, 429]
 # Timeout per request (in seconds)
 timeout = 20
 
-# Exclude template URLs that users should replace
 exclude = [
-  "https://github.com/YOUR-USERNAME/.*",
-  "https://YOUR-USERNAME.github.io/.*",
-  "https://your-username.github.io/.*",
   "http://localhost.*",
   "https://localhost.*",
   "http://127.0.0.1.*",
@@ -31,6 +27,10 @@ exclude = [
   # 403 Forbidden (the same exclusions as mcs).
   "https://www.acm.org/code-of-ethics",
   "https://www.wwu.edu/dean-students",
+  # courses.cs.washington.edu resets connections from CI runners and cloud
+  # hosts (a timeout on every main run since 2026-11-15, csci201#22), while
+  # www.cs.washington.edu answers normally.
+  "https://courses.cs.washington.edu/.*",
   # web.stanford.edu serves a certificate chain CI's link checker cannot verify.
   "https://web.stanford.edu/.*",
   # The self-test's PDF links to the page's own web copy, which cannot exist on
