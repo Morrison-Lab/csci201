@@ -36,7 +36,7 @@ Authoritative style guides:
 - `anchor-landing.html` --- HTML include (`format.html.include-after-body`) that keeps the reader's place while equations and images change the page height
   (the same file as in `Morrison-Lab/lds`)
 - `styles.css` --- website styling; `styles-reveal.scss`, `qwt-reveal-toggle.html` (the same four-theme dropdown for slides), and the `revealjs-*.lua` filters drive the reveal.js slide output
-- `assets/`, `images/` --- static image and asset files (site pages, docs, CI/PR screenshots)
+- `images/` --- static image files for the pages (the syllabus's ABCD card and the script that draws it)
 - `.github/workflows/` --- CI workflow definitions
 - `.github/scripts/` --- helper scripts used by workflows
 - `.github/instructions/` --- path-scoped Copilot rules that attach by file glob (see `.github/copilot-instructions.md`)
