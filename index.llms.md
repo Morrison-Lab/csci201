@@ -4,69 +4,17 @@ Code
 
 Published
 
-Last modified: 2026-11-16 20:44:58 (PST)
+Last modified: 2026-11-16 20:47:31 (PST)
 
 # Welcome
 
-This is a Quarto website template that you can use to create your own website.
+This website holds the course logistics for [CSCI 201](https://catalog.wwu.edu/search_advanced.php?cur_cat_oid=23&search_database=Search&search_db=Search&cpage=1&ecpage=1&ppage=1&spage=1&tpage=1&location=3&filter%5Bkeyword%5D=CSCI%20201), “Discrete Math and Functional Programming for Computer Scientists”, as taught in Winter Quarter 2027 at [Western Washington University](https://www.wwu.edu/) by [Douglas Ezra Morrison](https://d-morrison.github.io/).
 
-The notes are available in multiple formats:
+- The [syllabus](chapters/syllabus.llms.md) gives the course policies, grading and the week-by-week schedule.
+- The [prerequisite self-test](chapters/prerequisite-self-test.llms.md) checks the background the course assumes, before it starts.
+- The [calendar](chapters/calendar.llms.md) gives the day-by-day plan of lectures, labs and due dates.
+- The [lecture notes](https://morrison-lab.github.io/mcs/) are on their own site.
 
-- **HTML Website**: Navigate using the navbar for easy access to all pages
-- **RevealJS Slides**: Each chapter can generate a presentation format with `-slides.html` suffix
-- **PDF Handouts**: Each chapter can generate a PDF handout with `-handout.pdf` suffix
-- **DOCX Documents**: Each chapter can generate a Microsoft Word document with `.docx` extension
-
-## 0.1 About this website
-
-This website is built with [Quarto](https://quarto.org/), an open-source scientific and technical publishing system. You can use Quarto to create books, websites, blogs, presentations, and more from markdown files.
-
-## 0.2 Getting Started
-
-To use this template:
-
-1.  **Update the configuration**: Edit `_quarto-website.yml` to change the website title, site URL, and navigation menu.
-
-2.  **Add your content**: Create new `.qmd` files for each page and add them to the navigation menu and the sidebar in `_quarto-website.yml` (the sidebar order sets the previous/next page links).
-
-3.  **Customize the style**: Modify `styles.css` to change the appearance of your website.
-
-4.  **Add references**: Update `references.bib` with your citations.
-
-## 0.3 Building the website
-
-To render the website locally:
-
-``` bash
-quarto render
-```
-
-To preview the website with live reload:
-
-``` bash
-quarto preview
-```
-
-The rendered output will be in the `_site/` directory, which can be published to GitHub Pages.
-
-## 0.4 Publishing to GitHub Pages
-
-This template includes a GitHub Actions workflow that automatically builds and publishes your website to GitHub Pages when you push to the main branch.
-
-To enable GitHub Pages:
-
-1.  Go to your repository settings
-2.  Navigate to “Pages” in the left sidebar
-3.  Under “Build and deployment”, set Source to “GitHub Actions”
-4.  Push your changes to the main branch
-5.  The workflow will automatically build and deploy your website
-
-Your website will be available at `https://YOUR-USERNAME.github.io/YOUR-REPO/`
-
-## 0.5 License
-
-Add your license information here.
-
-## References
+Canvas lists every due date and is the place to submit work.
 
 Back to top
