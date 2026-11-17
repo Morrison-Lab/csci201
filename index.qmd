@@ -26,4 +26,4 @@ Canvas lists every due date and is the place to submit work.
 Except where noted, the course content on this site is released under the
 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license (CC BY 4.0),
 and its code under the MIT License.
-The repository's [`LICENSE.md`](https://github.com/Morrison-Lab/csci201/blob/main/LICENSE.md) says which covers what.
+The `LICENSE.md` file in the [repository](https://github.com/Morrison-Lab/csci201) says which covers what.
