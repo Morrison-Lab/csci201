@@ -4,7 +4,7 @@ Code
 
 Published
 
-Last modified: 2026-11-16 20:49:48 (PST)
+Last modified: 2026-11-16 22:44:16 (PST)
 
 # Welcome
 
@@ -19,6 +19,6 @@ Canvas lists every due date and is the place to submit work.
 
 ## License
 
-The course content on this site is released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license (CC BY 4.0), and its code under the MIT License; the `LICENSE.md` file in the [repository](https://github.com/Morrison-Lab/csci201) says which covers what.
+Except where noted, the course content on this site is released under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license (CC BY 4.0), and its code under the MIT License. The `LICENSE.md` file in the [repository](https://github.com/Morrison-Lab/csci201) says which covers what.
 
 Back to top
