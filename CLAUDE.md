@@ -72,12 +72,11 @@ Mirrors [`.github/copilot-instructions.md`](.github/copilot-instructions.md). Ke
 `.claude/settings.json` declares the `Morrison-Lab` marketplace (source:
 [`Morrison-Lab/ai-config`](https://github.com/Morrison-Lab/ai-config)) and enables
 its `ai-config@Morrison-Lab` plugin, along with the `posit-dev-skills` and `sembr`
-marketplaces this template also carries, matching
+marketplaces the qwt template also carries, matching
 [`Morrison-Lab/qbt`](https://github.com/Morrison-Lab/qbt). Declaring is not
 installing: a local session still needs `claude plugin install ai-config@Morrison-Lab`
-once. Because this is a template repository, this declaration is copied once into
-every repo created from it --- an omission here silently ships to every downstream
-site.
+once.
+This declaration came from the qwt template.
 
 ## Pull request expectations
 
@@ -88,7 +87,8 @@ site.
 
 ## Things to avoid
 
-- Adding new top-level dependencies (R packages, Quarto extensions) without a clear reason; this is a template, so every dependency lands in every downstream book.
+- Adding new top-level dependencies (R packages, Quarto extensions) without a clear reason;
+  each dependency is one more thing to keep updated.
 - Reformatting unrelated files.
 - Inventing URLs or citations --- only use sources actually present in `references.bib` or explicitly provided.
 
