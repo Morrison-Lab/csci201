@@ -6,7 +6,7 @@ Logic, integers, sets and induction
 
 Published
 
-Last modified: 2026-11-18 20:03:17 (PST)
+Last modified: 2026-11-18 20:13:30 (PST)
 
 This is the note sheet that comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It summarizes the definitions, laws and notation that the exam uses. The full definitions, with examples, are in the [notes](https://morrison-lab.github.io/mcs/). The sheet leaves out some of the notes’ results.
 
@@ -46,6 +46,8 @@ $\mathbb{Z}$ is the set of integers, $\mathbb{Q}$ the set of rational numbers, a
 
 - $n$ is *even* if $n = 2 k$ for some integer $k$.
 - $n$ is *odd* if $n = 2 k + 1$ for some integer $k$.
+- Every integer is even or odd, and none is both.
+- The sum, difference and product of two integers are integers.
 - $a \mid b$ ($a$ *divides* $b$) if $b = a k$ for some integer $k$.
 - For a positive integer $n$, $a \equiv b \pmod{n}$ if $n \mid (a - b)$.
 - For a positive integer $n$, there are unique integers $q$ and $r$ with $a = q n + r$ and $0 \le r < n$; $r$ is the *remainder* of $a$ on division by $n$.
