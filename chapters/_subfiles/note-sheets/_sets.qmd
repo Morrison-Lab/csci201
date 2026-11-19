@@ -1,3 +1,7 @@
+::: {.content-visible when-format="html"}
+## Sets
+:::
+
 | | |
 | --- | --- |
 | [Element](https://morrison-lab.github.io/mcs/chapters/sets.html#def-set) | $x \in A$ |

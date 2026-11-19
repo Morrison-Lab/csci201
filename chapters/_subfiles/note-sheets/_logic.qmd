@@ -1,3 +1,7 @@
+::: {.content-visible when-format="html"}
+## Logic
+:::
+
 | $P$ | $Q$ | $\neg P$ | $P \land Q$ | $P \lor Q$ | $P \Rightarrow Q$ | $P \Leftrightarrow Q$ |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | T | T | F | T | T | T | T |

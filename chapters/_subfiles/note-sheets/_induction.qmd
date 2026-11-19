@@ -1,7 +1,11 @@
+::: {.content-visible when-format="html"}
+## Induction
+:::
+
 | | |
 | --- | --- |
 | Sum | $\sumto{i}{n} a_i = a_1 + a_2 + \cdots + a_n$ |
-| [Induction](https://morrison-lab.github.io/mcs/chapters/induction.html#def-proof-by-induction) | $P(b)$ and $\forall k \ge b, P(k) \Rightarrow P(k + 1)$ give $\forall n \ge b, P(n)$ |
+| [Induction](https://morrison-lab.github.io/mcs/chapters/induction.html#def-proof-by-induction) | $P(b)$ and $P(k) \Rightarrow P(k + 1)$ for every integer $k \ge b$ give $P(n)$ for every integer $n \ge b$ |
 | Base case | $P(b)$ |
 | Inductive step | assume $P(k)$ (the inductive hypothesis), show $P(k + 1)$ |
 

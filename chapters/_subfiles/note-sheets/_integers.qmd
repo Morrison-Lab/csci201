@@ -1,6 +1,10 @@
+::: {.content-visible when-format="html"}
+## Integers
+:::
+
 | | |
 | --- | --- |
-| [Integers](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-integers), [rationals](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-rational-numbers), [reals](https://morrison-lab.github.io/mcs/chapters/sets.html#def-real-numbers) | $\bbZ$, $\bbQ$, $\bbR$ |
+| [Integers](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-integers), rationals, [reals](https://morrison-lab.github.io/mcs/chapters/sets.html#def-real-numbers) | $\bbZ$, $\bbQ$, $\bbR$ |
 | [Even](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-even-odd) | $n = 2 k$ for some $k \in \bbZ$ |
 | [Odd](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-odd) | $n = 2 k + 1$ for some $k \in \bbZ$ |
 | Parity | every integer is even or odd, and none is both |
