@@ -10,8 +10,9 @@ format:
     toc: false
     # A printed sheet needs no last-modified stamp.
     date: ""
+    # Quarto's default class (KOMA scrartcl) takes any size;
+    # extarticle has no 7pt option and would fall back to 10pt.
     fontsize: 7pt
-    documentclass: extarticle
     links-as-notes: false
     geometry:
       - top=0.25in
