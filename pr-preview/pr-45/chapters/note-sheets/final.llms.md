@@ -6,7 +6,7 @@ The whole course: the tables of the three midterm sheets
 
 Published
 
-Last modified: 2026-11-19 02:23:37 (PST)
+Last modified: 2026-11-19 02:30:34 (PST)
 
 This sheet comes printed with the final exam. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the [notes](https://morrison-lab.github.io/mcs/). [Download the PDF](final.pdf) to print it.
 
@@ -161,7 +161,7 @@ Table 11: Growth of functions.
 | [Transitive](https://morrison-lab.github.io/mcs/chapters/relations.html#def-transitive) | $\forall a, b, c \in A, (((a \mathrel{R} b) \land (b \mathrel{R} c)) \Rightarrow (a \mathrel{R} c))$ |
 | [Antisymmetric](https://morrison-lab.github.io/mcs/chapters/relations.html#def-antisymmetric) | $\forall a, b \in A, (((a \mathrel{R} b) \land (b \mathrel{R} a)) \Rightarrow (a = b))$ |
 | [Equivalence relation](https://morrison-lab.github.io/mcs/chapters/relations.html#def-equivalence-relation) | reflexive, symmetric and transitive |
-| [Equivalence class](https://morrison-lab.github.io/mcs/chapters/relations.html#def-equivalence-class) | $[a] = {\mathopen{}\left\{b \in A : b \sim a\right\}\mathclose{}}$ |
+| [Equivalence class](https://morrison-lab.github.io/mcs/chapters/relations.html#def-equivalence-class) | $[a] = {\mathopen{}\left\{b \in A : b \mathrel{R} a\right\}\mathclose{}}$ |
 | [Injective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-injective) $f : A \to B$ | $\forall a_1, a_2 \in A, ((f(a_1) = f(a_2)) \Rightarrow (a_1 = a_2))$ |
 | [Surjective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-surjective) | $\forall b \in B, \exists a \in A, f(a) = b$ |
 | [Bijective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-bijective) | injective and surjective |
