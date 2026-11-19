@@ -12,7 +12,9 @@ format:
     date: ""
     # Quarto's default class (KOMA scrartcl) takes any size;
     # extarticle has no 7pt option and would fall back to 10pt.
-    fontsize: 7pt
+    # Use KOMA's fontsize= option: `fontsize: 7pt` passes a bare `7pt`,
+    # which the newer KOMA in CI ignores, so the sheet came out at 10pt.
+    classoption: [fontsize=7pt]
     geometry:
       - top=0.25in
       - bottom=0.25in
