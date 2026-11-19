@@ -1,0 +1,18 @@
+::: {.content-visible when-format="html"}
+## Trees
+:::
+
+| | |
+| --- | --- |
+| [Tree](https://morrison-lab.github.io/mcs/chapters/trees.html#def-tree) | a connected graph with no cycles |
+| [Edges of a tree](https://morrison-lab.github.io/mcs/chapters/trees.html#thm-tree-edges) | a tree with $n$ vertices has $n - 1$ edges |
+| [Binary tree](https://morrison-lab.github.io/mcs/chapters/trees.html#def-binary-tree) | $\mathtt{nil}$, or $\operatorname{node}(x, L, R)$: root label $x$, subtrees $L$ and $R$ |
+| In Racket | $\mathtt{nil}$ is `'()`, $\operatorname{node}(x, L, R)$ is `(list x L R)` |
+| [Preorder](https://morrison-lab.github.io/mcs/chapters/trees.html#def-preorder) | root, preorder of $L$, preorder of $R$ |
+| [Inorder](https://morrison-lab.github.io/mcs/chapters/trees.html#def-inorder) | inorder of $L$, root, inorder of $R$ |
+| [Postorder](https://morrison-lab.github.io/mcs/chapters/trees.html#def-postorder) | postorder of $L$, postorder of $R$, root |
+| [Level](https://morrison-lab.github.io/mcs/chapters/trees.html#def-tree-level), [height](https://morrison-lab.github.io/mcs/chapters/trees.html#def-tree-height) | the root is at level 0, a child one below its parent; height is the largest level |
+| [Leaf](https://morrison-lab.github.io/mcs/chapters/trees.html#def-tree-leaf) | a vertex with no children |
+| Leaf of a tree with no root | a vertex of degree 1 |
+
+: Trees. {#tbl-ns-trees tbl-colwidths="[42,58]"}

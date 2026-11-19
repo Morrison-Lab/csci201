@@ -1,0 +1,89 @@
+---
+title: "Final exam note sheet"
+subtitle: "The whole course: the tables of the three midterm sheets"
+---
+
+{{< include ../../latex-macros/macros.qmd >}}
+
+::: {.content-visible when-format="html"}
+This sheet comes printed with the final exam.
+You may not bring your own notes,
+so study with this sheet.
+It leaves out some results;
+the full definitions are in the [notes](https://morrison-lab.github.io/mcs/).
+[Download the PDF](final.pdf) to print it.
+:::
+
+{{< include ../_subfiles/note-sheets/_logic.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_integers.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_sets.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_induction.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_strong-induction.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_loop-invariants.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_racket.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_recurrences.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_growth.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_relations-functions.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_graphs.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_automata.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_trees.qmd >}}

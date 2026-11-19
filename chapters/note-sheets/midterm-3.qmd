@@ -1,0 +1,35 @@
+---
+title: "Midterm 3 note sheet"
+subtitle: "Relations and functions, graphs, finite automata and trees"
+---
+
+{{< include ../../latex-macros/macros.qmd >}}
+
+::: {.content-visible when-format="html"}
+This sheet comes printed with Midterm 3.
+You may not bring your own notes,
+so study with this sheet.
+It leaves out some results;
+the full definitions are in the [notes](https://morrison-lab.github.io/mcs/).
+[Download the PDF](midterm-3.pdf) to print it.
+:::
+
+{{< include ../_subfiles/note-sheets/_relations-functions.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_graphs.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_automata.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_trees.qmd >}}

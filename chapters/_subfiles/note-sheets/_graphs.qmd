@@ -1,0 +1,29 @@
+::: {.content-visible when-format="html"}
+## Graphs
+:::
+
+| | |
+| --- | --- |
+| [Degree](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-degree) | $\deg(v)$: edges with endpoint $v$, a loop counting twice |
+| [Walk](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-walk) from $u$ to $v$ | $v_0, e_1, v_1, \ldots, e_n, v_n$, $v_0 = u$, $v_n = v$, $e_i$ joins $v_{i - 1}$ and $v_i$; length $n$ |
+| [Trail](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-trail), [path](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-graph-path) | a walk with no repeated edge; with no repeated vertex |
+| [Circuit](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-circuit) | a trail of length $\ge 1$ from a vertex to itself |
+| [Connected](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-connected) | a walk between every two vertices |
+| [Euler circuit](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-euler-circuit) | a circuit that contains every edge |
+| [Euler trail](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-euler-trail) | a trail from $u$ to $v \ne u$ that contains every edge |
+| [Hamiltonian cycle](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-hamiltonian-cycle) | a circuit that visits every vertex once, then returns to its start |
+| [Bipartite](https://morrison-lab.github.io/mcs/chapters/graphs.html#def-bipartite) | $V = V_1 \cup V_2$ with $V_1 \cap V_2 = \emptyset$, and every edge has one endpoint in $V_1$ and one in $V_2$ |
+
+: Graphs. {#tbl-ns-graphs tbl-colwidths="[42,58]"}
+
+```text
+procedure bfs(G, s)                       procedure dfs(G, v)   // start: dfs(G, s)
+    mark s, and set dist[s] := 0              mark v
+    Q := a queue containing only s            for each vertex u in the list of v, in order
+    while Q is not empty                          if u is not marked
+        v := remove the front of Q                    dfs(G, u)
+        for each vertex u in the list of v, in order
+            if u is not marked
+                mark u, and set dist[u] := dist[v] + 1
+                add u to the back of Q
+```
