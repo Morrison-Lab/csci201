@@ -6,7 +6,7 @@ The note sheet printed with each exam, to study with ahead of time
 
 Published
 
-Last modified: 2026-11-18 21:02:56 (PST)
+Last modified: 2026-11-18 21:46:23 (PST)
 
 You do not bring your own notes to an exam. Instead, each exam comes with a printed note sheet, and the same sheets are here, so you can study with the sheet you will have in the exam. Each sheet gives the definitions, laws and notation that its exam uses. It leaves out some results from the notes, so study the notes too.
 
