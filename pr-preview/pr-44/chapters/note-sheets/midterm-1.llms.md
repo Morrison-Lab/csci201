@@ -6,7 +6,7 @@ Logic, integers, sets and induction
 
 Published
 
-Last modified: 2026-11-19 01:37:21 (PST)
+Last modified: 2026-11-19 01:52:19 (PST)
 
 This sheet comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the [notes](https://morrison-lab.github.io/mcs/). [Download the PDF](midterm-1.pdf) to print it.
 
