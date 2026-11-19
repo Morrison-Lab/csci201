@@ -4,17 +4,17 @@
 
 | | |
 | --- | --- |
-| [Relation](https://morrison-lab.github.io/mcs/chapters/relations.html#def-relation) on $A$ | $R \subseteq A \times A$; $a \mathrel{R} b$ means $(a, b) \in R$ |
-| [Reflexive](https://morrison-lab.github.io/mcs/chapters/relations.html#def-reflexive) | $a \mathrel{R} a$ for every $a \in A$ |
-| [Symmetric](https://morrison-lab.github.io/mcs/chapters/relations.html#def-symmetric-relation) | $a \mathrel{R} b \Rightarrow b \mathrel{R} a$ |
-| [Transitive](https://morrison-lab.github.io/mcs/chapters/relations.html#def-transitive) | $a \mathrel{R} b \land b \mathrel{R} c \Rightarrow a \mathrel{R} c$ |
-| [Antisymmetric](https://morrison-lab.github.io/mcs/chapters/relations.html#def-antisymmetric) | $a \mathrel{R} b \land b \mathrel{R} a \Rightarrow a = b$ |
+| [Relation](https://morrison-lab.github.io/mcs/chapters/relations.html#def-relation) on $A$ | $R \subseteq A \times A$, and $(a \mathrel{R} b) \Leftrightarrow ((a, b) \in R)$ |
+| [Reflexive](https://morrison-lab.github.io/mcs/chapters/relations.html#def-reflexive) | $\forall a \in A, a \mathrel{R} a$ |
+| [Symmetric](https://morrison-lab.github.io/mcs/chapters/relations.html#def-symmetric-relation) | $\forall a, b \in A, ((a \mathrel{R} b) \Rightarrow (b \mathrel{R} a))$ |
+| [Transitive](https://morrison-lab.github.io/mcs/chapters/relations.html#def-transitive) | $\forall a, b, c \in A, (((a \mathrel{R} b) \land (b \mathrel{R} c)) \Rightarrow (a \mathrel{R} c))$ |
+| [Antisymmetric](https://morrison-lab.github.io/mcs/chapters/relations.html#def-antisymmetric) | $\forall a, b \in A, (((a \mathrel{R} b) \land (b \mathrel{R} a)) \Rightarrow (a = b))$ |
 | [Equivalence relation](https://morrison-lab.github.io/mcs/chapters/relations.html#def-equivalence-relation) | reflexive, symmetric and transitive |
 | [Equivalence class](https://morrison-lab.github.io/mcs/chapters/relations.html#def-equivalence-class) | $[a] = \set{b \in A : b \sim a}$ |
-| [Injective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-injective) $f : A \to B$ | $f(a_1) = f(a_2) \Rightarrow a_1 = a_2$ |
-| [Surjective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-surjective) | for every $b \in B$ there is an $a \in A$ with $f(a) = b$ |
+| [Injective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-injective) $f : A \to B$ | $\forall a_1, a_2 \in A, ((f(a_1) = f(a_2)) \Rightarrow (a_1 = a_2))$ |
+| [Surjective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-surjective) | $\forall b \in B, \exists a \in A, f(a) = b$ |
 | [Bijective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-bijective) | injective and surjective |
-| [Inverse](https://morrison-lab.github.io/mcs/chapters/relations.html#def-inverse-function) of a bijection | $f^{-1} : B \to A$, $f^{-1}(b) = a \Leftrightarrow f(a) = b$ |
-| [Floor](https://morrison-lab.github.io/mcs/chapters/loop-invariants.html#def-floor) | $\floor{x}$: the largest integer $\le x$ |
+| [Inverse](https://morrison-lab.github.io/mcs/chapters/relations.html#def-inverse-function) of a bijection | $f^{-1} : B \to A$ with $(f^{-1}(b) = a) \Leftrightarrow (f(a) = b)$ |
+| [Floor](https://morrison-lab.github.io/mcs/chapters/loop-invariants.html#def-floor) | $\floor{x} = \max \set{n \in \bbZ : n \le x}$ |
 
 : Relations and functions. {#tbl-ns-relations-functions tbl-colwidths="[42,58]"}

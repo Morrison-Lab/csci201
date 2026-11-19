@@ -7,8 +7,8 @@
 | [DFA](https://morrison-lab.github.io/mcs/chapters/automata.html#def-dfa) | $M = (S, \Sigma, \delta, s_0, F)$: states, alphabet, $\delta : S \times \Sigma \to S$, initial state, accepting states |
 | [Transition table](https://morrison-lab.github.io/mcs/chapters/automata.html#def-transition-table) | $\to$ marks the initial state, $*$ each accepting state |
 | Empty string | $\lambda$ |
-| [Run](https://morrison-lab.github.io/mcs/chapters/automata.html#def-run) on $w = x_1 \cdots x_n$ | $r_0, \ldots, r_n$ with $r_0 = s_0$, $r_i = \delta(r_{i - 1}, x_i)$ |
-| [Accepts](https://morrison-lab.github.io/mcs/chapters/automata.html#def-accept) $w$ | the last state $r_n$ of the run is accepting |
-| [Language](https://morrison-lab.github.io/mcs/chapters/automata.html#def-automaton-language) | $L(M)$: the set of strings $M$ accepts |
+| [Run](https://morrison-lab.github.io/mcs/chapters/automata.html#def-run) on $w = x_1 \cdots x_n$ | $r_0, \ldots, r_n$ with $r_0 = s_0$ and $r_i = \delta(r_{i - 1}, x_i)$ |
+| [Accepts](https://morrison-lab.github.io/mcs/chapters/automata.html#def-accept) $w$ | $r_n \in F$ |
+| [Language](https://morrison-lab.github.io/mcs/chapters/automata.html#def-automaton-language) | $L(M) = \set{w : M \text{ accepts } w}$ |
 
 : Finite automata. {#tbl-ns-automata tbl-colwidths="[42,58]"}
