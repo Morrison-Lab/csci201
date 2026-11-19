@@ -10,7 +10,7 @@
 | [Transitive](https://morrison-lab.github.io/mcs/chapters/relations.html#def-transitive) | $\forall a, b, c \in A, (((a \mathrel{R} b) \land (b \mathrel{R} c)) \Rightarrow (a \mathrel{R} c))$ |
 | [Antisymmetric](https://morrison-lab.github.io/mcs/chapters/relations.html#def-antisymmetric) | $\forall a, b \in A, (((a \mathrel{R} b) \land (b \mathrel{R} a)) \Rightarrow (a = b))$ |
 | [Equivalence relation](https://morrison-lab.github.io/mcs/chapters/relations.html#def-equivalence-relation) | reflexive, symmetric and transitive |
-| [Equivalence class](https://morrison-lab.github.io/mcs/chapters/relations.html#def-equivalence-class) | $[a] = \set{b \in A : b \sim a}$ |
+| [Equivalence class](https://morrison-lab.github.io/mcs/chapters/relations.html#def-equivalence-class) | $[a] = \set{b \in A : b \mathrel{R} a}$ |
 | [Injective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-injective) $f : A \to B$ | $\forall a_1, a_2 \in A, ((f(a_1) = f(a_2)) \Rightarrow (a_1 = a_2))$ |
 | [Surjective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-surjective) | $\forall b \in B, \exists a \in A, f(a) = b$ |
 | [Bijective](https://morrison-lab.github.io/mcs/chapters/relations.html#def-bijective) | injective and surjective |
