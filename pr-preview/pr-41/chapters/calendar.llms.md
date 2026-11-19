@@ -6,7 +6,7 @@ Winter 2027
 
 Published
 
-Last modified: 2026-11-18 21:36:33 (PST)
+Last modified: 2026-11-18 21:42:38 (PST)
 
 The topics and dates of future lectures may change. The [syllabus](../chapters/syllabus.llms.md#schedule) gives the topics and readings week by week; this calendar gives them day by day, so where the two differ, this calendar is the more recent plan.
 
