@@ -5,21 +5,31 @@ subtitle: "Logic, integers, sets and induction"
 
 {{< include ../../latex-macros/macros.qmd >}}
 
-This is the note sheet that comes printed with Midterm 1.
+::: {.content-visible when-format="html"}
+This sheet comes printed with Midterm 1.
 You may not bring your own notes,
 so study with this sheet.
-It summarizes the definitions, laws and notation that the exam uses.
-The full definitions, with examples, are in the [notes](https://morrison-lab.github.io/mcs/).
-The sheet leaves out some of the notes' results.
-
-::: {.content-visible when-format="html"}
-To print it, download the [PDF](midterm-1.pdf).
+It leaves out some results;
+the full definitions are in the [notes](https://morrison-lab.github.io/mcs/).
+[Download the PDF](midterm-1.pdf) to print it.
 :::
 
 {{< include ../_subfiles/note-sheets/_logic.qmd >}}
 
+```{=latex}
+\needspace{3\baselineskip}
+```
+
 {{< include ../_subfiles/note-sheets/_integers.qmd >}}
 
+```{=latex}
+\needspace{3\baselineskip}
+```
+
 {{< include ../_subfiles/note-sheets/_sets.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
 
 {{< include ../_subfiles/note-sheets/_induction.qmd >}}

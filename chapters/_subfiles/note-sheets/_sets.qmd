@@ -1,11 +1,17 @@
+::: {.content-visible when-format="html"}
 ## Sets
+:::
 
-- $x \in A$: $x$ is an element of $A$.
-- $\emptyset$ is the empty set,
-  and $\card{A}$ is the number of elements of a finite set $A$.
-- $A \subseteq B$ if every element of $A$ is an element of $B$.
-- $A = B$ if $A \subseteq B$ and $B \subseteq A$.
-- $A \cup B = \set{x : x \in A \lor x \in B}$ and $A \cap B = \set{x : x \in A \land x \in B}$.
-- $A - B = \set{x : x \in A \land x \notin B}$.
-- $\powerset{A}$, the *power set* of $A$, is the set of all subsets of $A$.
-- $A \times B = \set{(a, b) : a \in A \land b \in B}$, the set of ordered pairs.
+| | |
+| --- | --- |
+| [Element](https://morrison-lab.github.io/mcs/chapters/sets.html#def-set) | $x \in A$ |
+| [Empty set](https://morrison-lab.github.io/mcs/chapters/sets.html#def-empty-set), [cardinality](https://morrison-lab.github.io/mcs/chapters/sets.html#def-cardinality) | $\emptyset$, $\card{A}$ |
+| [Subset](https://morrison-lab.github.io/mcs/chapters/sets.html#def-subset) | $(A \subseteq B) \Leftrightarrow (\forall x, ((x \in A) \Rightarrow (x \in B)))$ |
+| [Set equality](https://morrison-lab.github.io/mcs/chapters/set-proofs.html#thm-double-inclusion) | $(A = B) \Leftrightarrow ((A \subseteq B) \land (B \subseteq A))$ |
+| [Union](https://morrison-lab.github.io/mcs/chapters/sets.html#def-union) | $A \cup B = \set{x : (x \in A) \lor (x \in B)}$ |
+| [Intersection](https://morrison-lab.github.io/mcs/chapters/sets.html#def-intersection) | $A \cap B = \set{x : (x \in A) \land (x \in B)}$ |
+| [Difference](https://morrison-lab.github.io/mcs/chapters/sets.html#def-set-difference) | $A - B = \set{x : (x \in A) \land (x \notin B)}$ |
+| [Power set](https://morrison-lab.github.io/mcs/chapters/sets.html#def-power-set) | $\powerset{A} = \set{S : S \subseteq A}$ |
+| [Cartesian product](https://morrison-lab.github.io/mcs/chapters/sets.html#def-cartesian-product) | $A \times B = \set{(a, b) : (a \in A) \land (b \in B)}$ |
+
+: Sets. {#tbl-ns-sets tbl-colwidths="[42,58]"}

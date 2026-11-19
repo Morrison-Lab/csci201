@@ -1,6 +1,8 @@
 # Shared settings for the exam note sheets.
-# Each sheet renders as a web page and as a compact PDF to print:
-# two columns and small type, so a midterm sheet fits on one page, front and back.
+# Each sheet renders as a web page and as a compact PDF to print.
+# The layout follows the lds note sheets: one column, 7pt type, narrow margins,
+# and label | formula tables with bold captions above them.
+# One column because pipe tables become longtables, which LaTeX cannot set in two columns.
 number-sections: false
 format:
   html: default
@@ -8,17 +10,27 @@ format:
     toc: false
     # A printed sheet needs no last-modified stamp.
     date: ""
-    fontsize: 9pt
-    documentclass: extarticle
-    classoption: [twocolumn]
-    geometry: [margin=0.5in, columnsep=0.3in]
+    # Quarto's default class (KOMA scrartcl) takes any size;
+    # extarticle has no 7pt option and would fall back to 10pt.
+    fontsize: 7pt
+    geometry:
+      - top=0.25in
+      - bottom=0.25in
+      - left=0.5in
+      - right=0.5in
     include-in-header:
       text: |
-        \usepackage{titlesec}
-        \titleformat*{\section}{\normalsize\bfseries}
-        \titlespacing*{\section}{0pt}{1.2ex}{0.6ex}
+        \renewcommand{\arraystretch}{0.9}
+        \setlength{\parskip}{0pt}
+        \setlength{\LTpre}{0pt}
+        \setlength{\LTpost}{3pt}
+        \setlength{\LTleft}{0pt}
+        \setlength{\LTright}{0pt}
         \pagestyle{empty}
-        % Keep each pseudocode block in one column.
-        \usepackage{etoolbox}
-        \BeforeBeginEnvironment{Shaded}{\par\noindent\begin{minipage}{\linewidth}}
-        \AfterEndEnvironment{Shaded}{\end{minipage}\par}
+        \usepackage{needspace}
+        \usepackage{titling}
+        \setlength{\droptitle}{-5em}
+        % titling's \maketitle does not print KOMA's \subtitle, so print it here.
+        \posttitle{\par{\normalsize\csname @subtitle\endcsname\par}\end{center}\vspace{-4em}}
+        \usepackage{caption}
+        \captionsetup[table]{font=bf,skip=0pt,position=top}
