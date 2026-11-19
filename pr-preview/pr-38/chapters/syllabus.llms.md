@@ -6,7 +6,7 @@ Winter 2027
 
 Published
 
-Last modified: 2026-11-18 20:36:03 (PST)
+Last modified: 2026-11-18 20:44:42 (PST)
 
 > **NOTE:**
 >
@@ -204,7 +204,7 @@ Most classes include a worksheet: guided practice that reinforces the day’s co
 
 When you are stuck in this course, try putting your question into words in writing. Write it in full sentences, with the definitions, proof steps or code you used and what you have already tried.
 
-The habit pays off in two ways. A written question can be posted on Canvas Discussions (see [Communication](#communication)) so I and others can help. Writing your thoughts down also helps clarify your question, and that sometimes answers it. In an interview on the *5 Minute Mentor* podcast, [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport) says:
+Writing the question down helps in two ways. A written question can be posted on Canvas Discussions (see [Communication](#communication)) so I and others can help. Writing your thoughts down also helps clarify your question, and that sometimes answers it. In an interview on the *5 Minute Mentor* podcast, [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport) says:
 
 > As someone said, “Writing is nature’s way of showing you how fuzzy your thinking is.” If you think you understand something, and don’t write down your ideas, you only think you’re thinking.
 >
