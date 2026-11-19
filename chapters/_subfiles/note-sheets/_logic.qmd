@@ -1,0 +1,36 @@
+## Logic
+
+$\neg P$ is "not $P$",
+$P \land Q$ is "$P$ and $Q$",
+$P \lor Q$ is "$P$ or $Q$" (or both),
+$P \Rightarrow Q$ is "if $P$, then $Q$",
+and $P \Leftrightarrow Q$ is "$P$ if and only if $Q$".
+
+$$
+\begin{array}{cc|ccccc}
+P & Q & \neg P & P \land Q & P \lor Q & P \Rightarrow Q & P \Leftrightarrow Q \\
+\hline
+\text{T} & \text{T} & \text{F} & \text{T} & \text{T} & \text{T} & \text{T} \\
+\text{T} & \text{F} & \text{F} & \text{F} & \text{T} & \text{F} & \text{F} \\
+\text{F} & \text{T} & \text{T} & \text{F} & \text{T} & \text{T} & \text{F} \\
+\text{F} & \text{F} & \text{T} & \text{F} & \text{F} & \text{T} & \text{T}
+\end{array}
+$$
+
+$A \equiv B$ (logically equivalent) means that $A$ and $B$ have the same truth value in every row of their truth table.
+
+- Double negation: $\neg \neg P \equiv P$.
+- De Morgan: $\neg (P \land Q) \equiv \neg P \lor \neg Q$ and $\neg (P \lor Q) \equiv \neg P \land \neg Q$.
+- Conditional: $P \Rightarrow Q \equiv \neg P \lor Q$.
+- Biconditional: $P \Leftrightarrow Q \equiv (P \Rightarrow Q) \land (Q \Rightarrow P)$.
+- Distributive: $P \land (Q \lor R) \equiv (P \land Q) \lor (P \land R)$ and $P \lor (Q \land R) \equiv (P \lor Q) \land (P \lor R)$.
+
+The *converse* of $P \Rightarrow Q$ is $Q \Rightarrow P$,
+and its *contrapositive* is $\neg Q \Rightarrow \neg P$, which is equivalent to it.
+
+$\forall x \in D, P(x)$ is "for every $x$ in $D$, $P(x)$",
+and $\exists x \in D, P(x)$ is "there is an $x$ in $D$ such that $P(x)$".
+Negating moves $\neg$ inward and swaps the quantifier:
+
+- $\neg \forall x \in D, P(x) \equiv \exists x \in D, \neg P(x)$;
+- $\neg \exists x \in D, P(x) \equiv \forall x \in D, \neg P(x)$.

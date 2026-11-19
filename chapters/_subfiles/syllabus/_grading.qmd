@@ -84,10 +84,15 @@ Tuesday, March 16 for the 11:00 sections (CRNs 13745 and 13746)
 and Thursday, March 18 for the 9:00 sections (CRNs 13747 and 13748),
 both 10:30am--12:30pm.
 
-- Each midterm lasts 50 minutes,
-  and you may bring one page of notes (front and back).
-- The final exam lasts 120 minutes,
-  and you may bring two pages of notes (front and back).
+- Each midterm lasts 50 minutes.
+- The final exam lasts 120 minutes.
+
+You do not bring your own notes to an exam.
+Instead, I hand out a printed note sheet with each exam,
+which gives the definitions, laws and notation that the exam uses.
+The same sheets are on this site ahead of time,
+on the [exam note sheets](note-sheets.qmd) page,
+so you can study with the sheet you will have in the exam.
 
 If you know in advance that you will be unable to take an exam at the scheduled time,
 let me know at least one week before the exam,

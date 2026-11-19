@@ -1,0 +1,9 @@
+## Induction
+
+$\sumto{i}{n} a_i = a_1 + a_2 + \cdots + a_n$.
+
+*Induction*: if $P(b)$ is true,
+and $P(k) \Rightarrow P(k + 1)$ for every integer $k \ge b$,
+then $P(n)$ is true for every integer $n \ge b$.
+$P(b)$ is the *base case*,
+and in the *inductive step* the assumption $P(k)$ is the *inductive hypothesis*.

@@ -1,0 +1,14 @@
+## Integers
+
+$\bbZ$ is the set of integers, $\bbQ$ the rational numbers and $\bbR$ the real numbers.
+For integers $a$, $b$, $k$ and $n$:
+
+- $n$ is *even* if $n = 2 k$ for some integer $k$, and *odd* if $n = 2 k + 1$ for some integer $k$.
+- $a \mid b$ ($a$ *divides* $b$) if $b = a k$ for some integer $k$.
+- For a positive integer $n$, $a \equiv b \pmod{n}$ if $n \mid (a - b)$.
+- For a positive integer $n$, there are unique integers $q$ and $r$
+  with $a = q n + r$ and $0 \le r < n$;
+  $r$ is the *remainder* of $a$ on division by $n$.
+- A real number $x$ is *rational* if $x = a / b$ for some integers $a$ and $b$ with $b \ne 0$.
+
+A *counterexample* to $\forall x \in D, P(x)$ is an $x \in D$ for which $P(x)$ is false.
