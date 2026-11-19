@@ -6,5 +6,7 @@
 
 - [CSCI 201 Course Logistics](https://morrison-lab.github.io/csci201/index.llms.md)
 - [Prerequisite Self-Test](https://morrison-lab.github.io/csci201/chapters/prerequisite-self-test.llms.md)
+- [Exam Note Sheets](https://morrison-lab.github.io/csci201/chapters/note-sheets.llms.md)
 - [Calendar](https://morrison-lab.github.io/csci201/chapters/calendar.llms.md)
+- [Midterm 1 note sheet](https://morrison-lab.github.io/csci201/chapters/note-sheets/midterm-1.llms.md)
 - [WWU CSCI 201 Syllabus](https://morrison-lab.github.io/csci201/chapters/syllabus.llms.md)

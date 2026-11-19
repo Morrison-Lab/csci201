@@ -6,7 +6,7 @@ Winter 2027
 
 Published
 
-Last modified: 2026-11-18 19:50:38 (PST)
+Last modified: 2026-11-18 20:57:36 (PST)
 
 > **NOTE:**
 >
@@ -232,8 +232,10 @@ Weekly labs give hands-on programming practice, with a TA available to answer qu
 
 The course has two in-class midterm exams, tentatively on Wednesday, January 27 (week 4) and Wednesday, February 17 (week 7), and a cumulative final exam during finals week, in our classroom at the time WWU’s [finals schedule](https://registrar.wwu.edu/calendars/finals) assigns, which is set by the lecture time: Tuesday, March 16 for the 11:00 sections (CRNs 13745 and 13746) and Thursday, March 18 for the 9:00 sections (CRNs 13747 and 13748), both 10:30am–12:30pm.
 
-- Each midterm lasts 50 minutes, and you may bring one page of notes (front and back).
-- The final exam lasts 120 minutes, and you may bring two pages of notes (front and back).
+- Each midterm lasts 50 minutes.
+- The final exam lasts 120 minutes.
+
+You do not bring your own notes to an exam. Instead, I hand out a printed note sheet with each exam, which gives the definitions, laws and notation that the exam uses. The same sheets are on this site ahead of time, on the [exam note sheets](../chapters/note-sheets.llms.md) page, so you can study with the sheet you will have in the exam.
 
 If you know in advance that you will be unable to take an exam at the scheduled time, let me know at least one week before the exam, and we may be able to reschedule it.
 
@@ -257,7 +259,7 @@ Please talk to me *in advance* if you need an accommodation or an extension; the
 
 **AI tools.** AI tools such as large language model chatbots are **allowed on homework and worksheets only**. Use them like a collaborator, not as a source of answers: you must still write your answer in your own words, and you are responsible for understanding it. **Say whether you used an AI tool, and name it,** on each assignment. Students who rely heavily on AI tools often struggle on exams, where the tools are not available. AI tools are not allowed on lab work, including lab work you finish after the lab period.
 
-**Exams** are solo: work alone, without help from anyone else and without AI tools; the only aid allowed is your page(s) of notes, as described under [Exams](#exams).
+**Exams** are solo: work alone, without help from anyone else and without AI tools; the only aid allowed is the note sheet handed out with the exam, as described under [Exams](#exams).
 
 ## Academic Honesty
 

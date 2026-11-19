@@ -31,6 +31,17 @@
     ]
   },
   {
+    "objectID": "chapters/note-sheets.html",
+    "href": "chapters/note-sheets.html",
+    "title": "Exam Note Sheets",
+    "section": "",
+    "text": "You do not bring your own notes to an exam. Instead, each exam comes with a printed note sheet, and the same sheets are here, so you can study with the sheet you will have in the exam. Each sheet gives the definitions, laws and notation that its exam uses. It leaves out some results from the notes, so study the notes too.\n\nMidterm 1 (PDF): logic, integers, sets and induction.\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets"
+    ]
+  },
+  {
     "objectID": "chapters/calendar.html",
     "href": "chapters/calendar.html",
     "title": "Calendar",
@@ -39,6 +50,66 @@
     "crumbs": [
       "Home",
       "Calendar"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html",
+    "href": "chapters/note-sheets/midterm-1.html",
+    "title": "Midterm 1 note sheet",
+    "section": "",
+    "text": "This is the note sheet that comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It summarizes the definitions, laws and notation that the exam uses. The full definitions, with examples, are in the notes. The sheet leaves out some of the notes’ results.\nTo print it, download the PDF.",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html#logic",
+    "href": "chapters/note-sheets/midterm-1.html#logic",
+    "title": "Midterm 1 note sheet",
+    "section": "Logic",
+    "text": "Logic\n\\(\\neg P\\) is “not \\(P\\)”, \\(P \\land Q\\) is “\\(P\\) and \\(Q\\)”, \\(P \\lor Q\\) is “\\(P\\) or \\(Q\\)” (or both), \\(P \\Rightarrow Q\\) is “if \\(P\\), then \\(Q\\)”, and \\(P \\Leftrightarrow Q\\) is “\\(P\\) if and only if \\(Q\\)”.\n\\[\n\\begin{array}{cc|ccccc}\nP & Q & \\neg P & P \\land Q & P \\lor Q & P \\Rightarrow Q & P \\Leftrightarrow Q \\\\\n\\hline\n\\text{T} & \\text{T} & \\text{F} & \\text{T} & \\text{T} & \\text{T} & \\text{T} \\\\\n\\text{T} & \\text{F} & \\text{F} & \\text{F} & \\text{T} & \\text{F} & \\text{F} \\\\\n\\text{F} & \\text{T} & \\text{T} & \\text{F} & \\text{T} & \\text{T} & \\text{F} \\\\\n\\text{F} & \\text{F} & \\text{T} & \\text{F} & \\text{F} & \\text{T} & \\text{T}\n\\end{array}\n\\]\n\\(A \\equiv B\\) (logically equivalent) means that \\(A\\) and \\(B\\) have the same truth value in every row of their truth table.\n\nDouble negation: \\(\\neg \\neg P \\equiv P\\).\nDe Morgan: \\(\\neg (P \\land Q) \\equiv \\neg P \\lor \\neg Q\\) and \\(\\neg (P \\lor Q) \\equiv \\neg P \\land \\neg Q\\).\nConditional: \\(P \\Rightarrow Q \\equiv \\neg P \\lor Q\\).\nBiconditional: \\(P \\Leftrightarrow Q \\equiv (P \\Rightarrow Q) \\land (Q \\Rightarrow P)\\).\nDistributive: \\(P \\land (Q \\lor R) \\equiv (P \\land Q) \\lor (P \\land R)\\) and \\(P \\lor (Q \\land R) \\equiv (P \\lor Q) \\land (P \\lor R)\\).\n\nThe converse of \\(P \\Rightarrow Q\\) is \\(Q \\Rightarrow P\\), and its contrapositive is \\(\\neg Q \\Rightarrow \\neg P\\), which is equivalent to it.\n\\(\\forall x \\in D, P(x)\\) is “for every \\(x\\) in \\(D\\), \\(P(x)\\)”, and \\(\\exists x \\in D, P(x)\\) is “there is an \\(x\\) in \\(D\\) such that \\(P(x)\\)”. Negating moves \\(\\neg\\) inward and swaps the quantifier:\n\n\\(\\neg \\forall x \\in D, P(x) \\equiv \\exists x \\in D, \\neg P(x)\\);\n\\(\\neg \\exists x \\in D, P(x) \\equiv \\forall x \\in D, \\neg P(x)\\).",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html#integers",
+    "href": "chapters/note-sheets/midterm-1.html#integers",
+    "title": "Midterm 1 note sheet",
+    "section": "Integers",
+    "text": "Integers\n\\(\\mathbb{Z}\\) is the set of integers, \\(\\mathbb{Q}\\) the set of rational numbers, and \\(\\mathbb{R}\\) the set of real numbers. For integers \\(a\\), \\(b\\), \\(k\\) and \\(n\\):\n\n\\(n\\) is even if \\(n = 2 k\\) for some integer \\(k\\).\n\\(n\\) is odd if \\(n = 2 k + 1\\) for some integer \\(k\\).\nEvery integer is even or odd.\nNo integer is both even and odd.\nThe sum, difference and product of two integers are integers.\n\\(a \\mid b\\) (\\(a\\) divides \\(b\\)) if \\(b = a k\\) for some integer \\(k\\).\nFor a positive integer \\(n\\), \\(a \\equiv b \\pmod{n}\\) if \\(n \\mid (a - b)\\).\nFor a positive integer \\(n\\), there are unique integers \\(q\\) and \\(r\\) with \\(a = q n + r\\) and \\(0 \\le r &lt; n\\); \\(r\\) is the remainder of \\(a\\) on division by \\(n\\).\nA real number \\(x\\) is rational if \\(x = a / b\\) for some integers \\(a\\) and \\(b\\) with \\(b \\ne 0\\).\n\nA counterexample to \\(\\forall x \\in D, P(x)\\) is an \\(x \\in D\\) for which \\(P(x)\\) is false.",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html#sets",
+    "href": "chapters/note-sheets/midterm-1.html#sets",
+    "title": "Midterm 1 note sheet",
+    "section": "Sets",
+    "text": "Sets\n\n\\(x \\in A\\): \\(x\\) is an element of \\(A\\).\n\\(\\emptyset\\) is the empty set, and \\({\\mathopen{}\\left|A\\right|\\mathclose{}}\\) is the number of elements of a finite set \\(A\\).\n\\(A \\subseteq B\\) if every element of \\(A\\) is an element of \\(B\\).\n\\(A = B\\) if \\(A \\subseteq B\\) and \\(B \\subseteq A\\).\n\\(A \\cup B = {\\mathopen{}\\left\\{x : x \\in A \\lor x \\in B\\right\\}\\mathclose{}}\\) and \\(A \\cap B = {\\mathopen{}\\left\\{x : x \\in A \\land x \\in B\\right\\}\\mathclose{}}\\).\n\\(A - B = {\\mathopen{}\\left\\{x : x \\in A \\land x \\notin B\\right\\}\\mathclose{}}\\).\n\\({\\mathcal{P}\\mathopen{}\\left(A\\right)\\mathclose{}}\\), the power set of \\(A\\), is the set of all subsets of \\(A\\).\n\\(A \\times B = {\\mathopen{}\\left\\{(a, b) : a \\in A \\land b \\in B\\right\\}\\mathclose{}}\\), the set of ordered pairs.",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html#induction",
+    "href": "chapters/note-sheets/midterm-1.html#induction",
+    "title": "Midterm 1 note sheet",
+    "section": "Induction",
+    "text": "Induction\n\\(\\sum_{i=1}^{n} a_i = a_1 + a_2 + \\cdots + a_n\\).\nInduction: if \\(P(b)\\) is true, and \\(P(k) \\Rightarrow P(k + 1)\\) for every integer \\(k \\ge b\\), then \\(P(n)\\) is true for every integer \\(n \\ge b\\). \\(P(b)\\) is the base case, and in the inductive step the assumption \\(P(k)\\) is the inductive hypothesis.",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
     ]
   },
   {
@@ -403,7 +474,7 @@
     "href": "chapters/syllabus.html#grading",
     "title": "WWU CSCI 201 Syllabus",
     "section": "Grading",
-    "text": "Grading\nCourse grades are letter grades, based on:\n\n\n\nCategory\nWeight\n\n\n\n\nHomework\n10%\n\n\nProgramming labs\n30%\n\n\nWorksheets\n15%\n\n\nMidterm 1\n10%\n\n\nMidterm 2\n10%\n\n\nFinal exam\n25%\n\n\n\nI will assign final letter grades based on the weighted average of the categories above, by the standard scale:\n\n\n\nCumulative score\nLetter grade\n\n\n\n\n90% or higher\nA range\n\n\n80% to just under 90%\nB range\n\n\n70% to just under 80%\nC range\n\n\n60% to just under 70%\nD range\n\n\nunder 60%\nF\n\n\n\nThresholds for plus and minus grades are at my discretion. The overall grade Canvas displays may be inaccurate; the weights above are the ones that count.\n\nHomework and Worksheets\nHomework assignments combine written work and programming. Homework and worksheets are graded on completion, meaning whether you made a solid effort to solve each problem:\n\nComplete: 100%\nSubstantial effort: 80%\nMinimal effort: 40%\nMissing: 0%\n\nThe lowest worksheet score is dropped.\nQuiz 0 is a short quiz in the first week that checks the CSCI 145 and precalculus material this course assumes. It is graded on completion and counts as one worksheet, and its main purpose is to show you (and me) what to review.\nWhen writing up your work:\n\nType all written work, in any tool you like. I recommend Markdown with LaTeX math ($x^2$ for \\(x^2\\)), for example in a Quarto document or a Jupyter notebook, which you can then render to PDF. A full LaTeX document also works.\nHand-drawn diagrams are welcome when they help illustrate a concept, as long as they are legible.\nFormat code and pseudocode in a fixed-width font. Do not submit screenshots of your editor or terminal.\nShow your work. An answer alone will not get full credit, on homework or on exams.\n\n\n\nLabs\nWeekly labs give hands-on programming practice, with a TA available to answer questions during the lab period. To get full credit, you must both attend lab and submit the deliverable by its deadline, which will typically be 10pm on the Monday after the lab (or the next class day, when that Monday is a holiday).\n\nIf you do not attend lab but submit the deliverable on time, your score is multiplied by 0.5. This penalty is waived automatically for one lab; if you have a legitimate reason to miss more, contact me and the TA ahead of time.\nAttending a lab section other than your own requires permission from both me and the TA(s).\nLate lab submissions are not accepted.\n\n\n\nExams\nThe course has two in-class midterm exams, tentatively on Wednesday, January 27 (week 4) and Wednesday, February 17 (week 7), and a cumulative final exam during finals week, in our classroom at the time WWU’s finals schedule assigns, which is set by the lecture time: Tuesday, March 16 for the 11:00 sections (CRNs 13745 and 13746) and Thursday, March 18 for the 9:00 sections (CRNs 13747 and 13748), both 10:30am–12:30pm.\n\nEach midterm lasts 50 minutes, and you may bring one page of notes (front and back).\nThe final exam lasts 120 minutes, and you may bring two pages of notes (front and back).\n\nIf you know in advance that you will be unable to take an exam at the scheduled time, let me know at least one week before the exam, and we may be able to reschedule it.\n\n\nGrading Questions\nIf you have a question about a grade, send it to me in writing, as a Canvas message (see Communication), within 48 hours of the graded work being returned. You will never lose points for asking.",
+    "text": "Grading\nCourse grades are letter grades, based on:\n\n\n\nCategory\nWeight\n\n\n\n\nHomework\n10%\n\n\nProgramming labs\n30%\n\n\nWorksheets\n15%\n\n\nMidterm 1\n10%\n\n\nMidterm 2\n10%\n\n\nFinal exam\n25%\n\n\n\nI will assign final letter grades based on the weighted average of the categories above, by the standard scale:\n\n\n\nCumulative score\nLetter grade\n\n\n\n\n90% or higher\nA range\n\n\n80% to just under 90%\nB range\n\n\n70% to just under 80%\nC range\n\n\n60% to just under 70%\nD range\n\n\nunder 60%\nF\n\n\n\nThresholds for plus and minus grades are at my discretion. The overall grade Canvas displays may be inaccurate; the weights above are the ones that count.\n\nHomework and Worksheets\nHomework assignments combine written work and programming. Homework and worksheets are graded on completion, meaning whether you made a solid effort to solve each problem:\n\nComplete: 100%\nSubstantial effort: 80%\nMinimal effort: 40%\nMissing: 0%\n\nThe lowest worksheet score is dropped.\nQuiz 0 is a short quiz in the first week that checks the CSCI 145 and precalculus material this course assumes. It is graded on completion and counts as one worksheet, and its main purpose is to show you (and me) what to review.\nWhen writing up your work:\n\nType all written work, in any tool you like. I recommend Markdown with LaTeX math ($x^2$ for \\(x^2\\)), for example in a Quarto document or a Jupyter notebook, which you can then render to PDF. A full LaTeX document also works.\nHand-drawn diagrams are welcome when they help illustrate a concept, as long as they are legible.\nFormat code and pseudocode in a fixed-width font. Do not submit screenshots of your editor or terminal.\nShow your work. An answer alone will not get full credit, on homework or on exams.\n\n\n\nLabs\nWeekly labs give hands-on programming practice, with a TA available to answer questions during the lab period. To get full credit, you must both attend lab and submit the deliverable by its deadline, which will typically be 10pm on the Monday after the lab (or the next class day, when that Monday is a holiday).\n\nIf you do not attend lab but submit the deliverable on time, your score is multiplied by 0.5. This penalty is waived automatically for one lab; if you have a legitimate reason to miss more, contact me and the TA ahead of time.\nAttending a lab section other than your own requires permission from both me and the TA(s).\nLate lab submissions are not accepted.\n\n\n\nExams\nThe course has two in-class midterm exams, tentatively on Wednesday, January 27 (week 4) and Wednesday, February 17 (week 7), and a cumulative final exam during finals week, in our classroom at the time WWU’s finals schedule assigns, which is set by the lecture time: Tuesday, March 16 for the 11:00 sections (CRNs 13745 and 13746) and Thursday, March 18 for the 9:00 sections (CRNs 13747 and 13748), both 10:30am–12:30pm.\n\nEach midterm lasts 50 minutes.\nThe final exam lasts 120 minutes.\n\nYou do not bring your own notes to an exam. Instead, I hand out a printed note sheet with each exam, which gives the definitions, laws and notation that the exam uses. The same sheets are on this site ahead of time, on the exam note sheets page, so you can study with the sheet you will have in the exam.\nIf you know in advance that you will be unable to take an exam at the scheduled time, let me know at least one week before the exam, and we may be able to reschedule it.\n\n\nGrading Questions\nIf you have a question about a grade, send it to me in writing, as a Canvas message (see Communication), within 48 hours of the graded work being returned. You will never lose points for asking.",
     "crumbs": [
       "Home",
       "WWU CSCI 201 Syllabus"
@@ -425,7 +496,7 @@
     "href": "chapters/syllabus.html#collaboration-and-ai-tools",
     "title": "WWU CSCI 201 Syllabus",
     "section": "Collaboration and AI Tools",
-    "text": "Collaboration and AI Tools\nCollaboration. You may work together on homework and worksheets unless an assignment or problem says it is individual. A group of about three works best, since it is hard for everyone to contribute in a large group. You may discuss the steps of an algorithm or proof on a whiteboard, but write your own math and code, and submit your own answers. Do not copy from classmates, the internet, a chatbot, or a forum.\nAI tools. AI tools such as large language model chatbots are allowed on homework and worksheets only. Use them like a collaborator, not as a source of answers: you must still write your answer in your own words, and you are responsible for understanding it. Say whether you used an AI tool, and name it, on each assignment. Students who rely heavily on AI tools often struggle on exams, where the tools are not available. AI tools are not allowed on lab work, including lab work you finish after the lab period.\nExams are solo: work alone, without help from anyone else and without AI tools; the only aid allowed is your page(s) of notes, as described under Exams.",
+    "text": "Collaboration and AI Tools\nCollaboration. You may work together on homework and worksheets unless an assignment or problem says it is individual. A group of about three works best, since it is hard for everyone to contribute in a large group. You may discuss the steps of an algorithm or proof on a whiteboard, but write your own math and code, and submit your own answers. Do not copy from classmates, the internet, a chatbot, or a forum.\nAI tools. AI tools such as large language model chatbots are allowed on homework and worksheets only. Use them like a collaborator, not as a source of answers: you must still write your answer in your own words, and you are responsible for understanding it. Say whether you used an AI tool, and name it, on each assignment. Students who rely heavily on AI tools often struggle on exams, where the tools are not available. AI tools are not allowed on lab work, including lab work you finish after the lab period.\nExams are solo: work alone, without help from anyone else and without AI tools; the only aid allowed is the note sheet handed out with the exam, as described under Exams.",
     "crumbs": [
       "Home",
       "WWU CSCI 201 Syllabus"
