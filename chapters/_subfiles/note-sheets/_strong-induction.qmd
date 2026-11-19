@@ -1,0 +1,9 @@
+::: {.content-visible when-format="html"}
+## Strong induction
+:::
+
+| | |
+| --- | --- |
+| [Strong induction](https://morrison-lab.github.io/mcs/chapters/induction.html#def-strong-induction) ($b, c, k, n \in \bbZ$) | $(P(b) \land \cdots \land P(c) \land (\forall k \ge c, ((P(b) \land \cdots \land P(k)) \Rightarrow P(k + 1)))) \Rightarrow (\forall n \ge b, P(n))$ |
+
+: Strong induction. {#tbl-ns-strong-induction tbl-colwidths="[42,58]"}

@@ -1,0 +1,12 @@
+::: {.content-visible when-format="html"}
+## Loop invariants
+:::
+
+| | |
+| --- | --- |
+| [Loop invariant](https://morrison-lab.github.io/mcs/chapters/loop-invariants.html#def-loop-invariant) $I$, [guard](https://morrison-lab.github.io/mcs/chapters/loop-invariants.html#def-loop-guard) $G$ | $I$ is true each time $G$ is tested |
+| Initialization | $I$ holds when $G$ is first tested |
+| Maintenance | $(I \land G)$ before a pass through the body $\Rightarrow$ $I$ after it |
+| Termination | the loop stops, and $(I \land (\neg G)) \Rightarrow$ the result |
+
+: Loop invariants. {#tbl-ns-loop-invariants tbl-colwidths="[42,58]"}
