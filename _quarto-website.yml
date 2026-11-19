@@ -4,7 +4,8 @@ project:
   render:
     - "*.qmd"
     - "chapters/*.qmd"
-    - "chapters/note-sheets/midterm-1.qmd"
+    # "chapters/*.qmd" does not recurse, so the exam note sheets need their own glob.
+    - "chapters/note-sheets/*.qmd"
     - "!README.md"
     - "!appendix-document-metadata.qmd"
     - "!references.qmd"
