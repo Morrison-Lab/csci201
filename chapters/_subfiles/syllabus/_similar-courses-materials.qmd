@@ -1,4 +1,4 @@
-## Similar Courses {.unnumbered #similar-courses}
+### Similar Courses {.unnumbered #similar-courses}
 
 Other universities teach courses much like this one,
 and many post their materials at no cost.
@@ -24,7 +24,7 @@ Functional programming:
 - Stanford's [CS 99 *Functional Programming and Theorem Proving in Lean 4*](https://web.stanford.edu/class/cs99/),
   which carries functional programming over to writing proofs.
 
-## Materials {.unnumbered}
+### Materials {.unnumbered}
 
 I will distribute worksheets, homework, and lab materials on Canvas.
 The lecture notes are on the [course notes site](https://morrison-lab.github.io/mcs/), listed in its menu bar.

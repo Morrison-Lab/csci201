@@ -1,4 +1,4 @@
-## Active Learning {.unnumbered}
+### Active Learning {.unnumbered}
 
 Class time is for working on problems, not only for listening.
 You will be asked to think about questions on your own, write down answers,
@@ -7,7 +7,7 @@ Sometimes you may be asked to write on the board.
 I will give you time to think things through before you are put on the spot.
 Please give me feedback about the structure of the class, the activities, or group dynamics.
 
-### ABCD Cards {.unnumbered}
+#### ABCD Cards {.unnumbered}
 
 On the first day of class, I will give each student an ABCD card,
 which you will use to vote on answers to questions in class.
@@ -19,7 +19,7 @@ Please bring this card to class each day.
 If you lose your card,
 print a new, landscape-mode color copy of the [ABCD card](../images/abcd-card.pdf).
 
-### Worksheets {.unnumbered}
+#### Worksheets {.unnumbered}
 
 Most classes include a worksheet:
 guided practice that reinforces the day's concepts and prepares you for the exams.

@@ -1,15 +1,14 @@
-## Grading {.unnumbered}
+### Grading {.unnumbered}
 
 Course grades are letter grades, based on:
 
-| Category                | Weight |
-|:------------------------|:-------|
-| Homework                | 10%    |
-| Programming labs        | 30%    |
-| Worksheets              | 15%    |
-| Midterm 1               | 10%    |
-| Midterm 2               | 10%    |
-| Final exam              | 25%    |
+| Category                         | Weight                                  |
+|:---------------------------------|:----------------------------------------|
+| Homework                         | 10%                                     |
+| Programming labs                 | 30%                                     |
+| Worksheets                       | 15%                                     |
+| Three midterm exams (15% each)   | 45%                                     |
+| Final exam (optional)            | replaces the midterm average, if higher |
 
 I will assign final letter grades based on the weighted average of the categories above,
 by the standard scale:
@@ -26,7 +25,7 @@ Thresholds for plus and minus grades are at my discretion.
 The overall grade Canvas displays may be inaccurate;
 the weights above are the ones that count.
 
-### Homework and Worksheets {.unnumbered}
+#### Homework and Worksheets {.unnumbered}
 
 Homework assignments combine written work and programming.
 Homework and worksheets are graded on completion,
@@ -59,7 +58,7 @@ When writing up your work:
   An answer alone will not get full credit,
   on homework or on exams.
 
-### Labs {.unnumbered}
+#### Labs {.unnumbered}
 
 Weekly labs give hands-on programming practice,
 with a TA available to answer questions during the lab period.
@@ -75,11 +74,12 @@ which will typically be 10pm on the Monday after the lab
 - Attending a lab section other than your own requires permission from both me and the TA(s).
 - Late lab submissions are not accepted.
 
-### Exams {.unnumbered #exams}
+#### Exams {.unnumbered #exams}
 
-The course has two in-class midterm exams,
-tentatively on Wednesday, January 27 (week 4) and Wednesday, February 17 (week 7),
-and a cumulative final exam during finals week,
+The course has three in-class midterm exams,
+tentatively on Wednesday, January 27 (week 4), Wednesday, February 17 (week 7)
+and Friday, March 12 (week 10),
+and an optional final exam during finals week,
 in our classroom at the time WWU's
 [finals schedule](https://registrar.wwu.edu/calendars/finals) assigns,
 which is set by the lecture time:
@@ -87,8 +87,40 @@ Tuesday, March 16 for the 11:00 sections (CRNs 13745 and 13746)
 and Thursday, March 18 for the 9:00 sections (CRNs 13747 and 13748),
 both 10:30am--12:30pm.
 
-- Each midterm lasts 50 minutes.
+- Midterm 1 covers logic, proofs, sets and induction.
+- Midterm 2 covers loop invariants, strong induction, recursion, recurrence relations and growth rates.
+- Midterm 3 covers relations and functions, graphs, finite automata and trees.
+- The final exam covers the whole course.
+- Each midterm lasts 50 minutes and is worth 15% of the course grade,
+  unless your final exam grade replaces it.
 - The final exam lasts 120 minutes.
+
+The final exam is optional.
+If your grade on the final is higher than the average of your three midterm grades,
+I will use your final grade to replace all three of your midterm grades.
+The final can only improve your grade.
+If you are satisfied with your grade before the final,
+you are welcome to skip it;
+doing so will not affect your course grade.
+
+For example, suppose your midterm grades are 60%, 70% and 80%, an average of 70%.
+If you score 85% on the final,
+all three midterms count as 85%,
+so your exam grade, worth 45% of the course grade, is 85%.
+If you score 65% on the final, or skip it,
+your midterm grades stand.
+
+This rule borrows the main idea of standards-based grading
+[@buckmiller2017questioning; @elsinger2020standards]:
+your exam grade should measure how well you have mastered the course's skills
+by the end of the course,
+not how quickly you mastered them.
+Each midterm checks one part of the course soon after we cover it,
+so that you and I find out early what needs more work.
+The final exam is a second chance to show your mastery of the whole course,
+after you have had time to learn from your midterms.
+Unlike full standards-based grading,
+the final replaces your midterm grades together, not one topic at a time.
 
 You do not bring your own notes to an exam.
 Instead, I hand out a printed note sheet with each exam,
@@ -101,7 +133,7 @@ If you know in advance that you will be unable to take an exam at the scheduled 
 let me know at least one week before the exam,
 and we may be able to reschedule it.
 
-### Grading Questions {.unnumbered}
+#### Grading Questions {.unnumbered}
 
 If you have a question about a grade,
 send it to me in writing, as a Canvas message (see [Communication](#communication)),

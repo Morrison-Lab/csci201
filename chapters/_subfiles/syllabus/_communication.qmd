@@ -1,4 +1,4 @@
-## Communication {.unnumbered #communication}
+### Communication {.unnumbered #communication}
 
 **Outbound.**
 I will send official class announcements through Canvas Announcements.
@@ -17,7 +17,7 @@ goes in a Canvas message to me.
 Confidential matters, such as information about your health,
 also go in a Canvas message to me, not to my email.
 
-## Questions and Corrections {.unnumbered}
+### Questions and Corrections {.unnumbered}
 
 If something in the course materials seems wrong, ask.
 The course materials include the notes, worksheets, assignments,
@@ -30,17 +30,9 @@ and we can talk through your reasoning together.
 If you are right, we all learn something and I fix the material.
 If you are not, we can jointly find out where the confusion started.
 
-## Health Precautions {.unnumbered}
+### Health Precautions {.unnumbered}
 
 If you are sick with something that could be communicable,
 let me know ahead of time and I will try to arrange a way for you to keep up,
 so you can stay home and not expose others needlessly.
 Please contact me if you have questions, concerns, or suggestions.
-
-## Software {.unnumbered #software}
-
-The labs and the programming parts of homework use [Racket](https://racket-lang.org/),
-a functional programming language.
-Racket is free, and it comes with the DrRacket editor.
-For any software that comes pre-installed in the department labs,
-please use the default installed version.

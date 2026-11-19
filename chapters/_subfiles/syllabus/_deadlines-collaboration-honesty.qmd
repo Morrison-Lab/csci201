@@ -1,4 +1,4 @@
-## Deadlines and Late Work {.unnumbered}
+### Deadlines and Late Work {.unnumbered}
 
 Canvas lists every due date.
 
@@ -13,7 +13,7 @@ the day an assignment is due is too late.
 If you miss a deadline or an exam because of a medical emergency,
 contact me as soon as possible to discuss arrangements.
 
-## Collaboration and AI Tools {.unnumbered}
+### Collaboration and AI Tools {.unnumbered}
 
 **Collaboration.**
 You may work together on homework and worksheets
@@ -41,7 +41,7 @@ including lab work you finish after the lab period.
 work alone, without help from anyone else and without AI tools;
 the only aid allowed is the note sheet handed out with the exam, as described under [Exams](#exams).
 
-## Academic Honesty {.unnumbered}
+### Academic Honesty {.unnumbered}
 
 As a future professional, your integrity is crucial.
 It is your responsibility to read and be familiar with the university's academic honesty policy,
