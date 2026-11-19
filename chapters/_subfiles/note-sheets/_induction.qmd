@@ -5,8 +5,8 @@
 | | |
 | --- | --- |
 | Sum | $\sumto{i}{n} a_i = a_1 + a_2 + \cdots + a_n$ |
-| [Induction](https://morrison-lab.github.io/mcs/chapters/induction.html#def-proof-by-induction) ($k, n \in \bbZ$) | $(P(b) \land (\forall k \ge b, (P(k) \Rightarrow P(k + 1)))) \Rightarrow (\forall n \ge b, P(n))$ |
+| [Induction](https://morrison-lab.github.io/mcs/chapters/induction.html#def-proof-by-induction) ($b, k, n \in \bbZ$) | $(P(b) \land (\forall k \ge b, (P(k) \Rightarrow P(k + 1)))) \Rightarrow (\forall n \ge b, P(n))$ |
 | Base case | $P(b)$ |
-| Inductive step | assume $P(k)$ (the inductive hypothesis), show $P(k + 1)$ |
+| Inductive step | assume $P(k)$ (the induction hypothesis), show $P(k + 1)$ |
 
 : Induction. {#tbl-ns-induction tbl-colwidths="[42,58]"}

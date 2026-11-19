@@ -5,13 +5,13 @@
 | | |
 | --- | --- |
 | [Integers](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-integers), rationals, [reals](https://morrison-lab.github.io/mcs/chapters/sets.html#def-real-numbers) | $\bbZ$, $\bbQ$, $\bbR$ |
-| [Even](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-even-odd) | $\exists k \in \bbZ, n = 2 k$ |
-| [Odd](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-odd) | $\exists k \in \bbZ, n = 2 k + 1$ |
-| Parity | each $n \in \bbZ$ is even or odd, and not both |
+| [Even](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-even-odd) | $(n \text{ even}) \Leftrightarrow (\exists k \in \bbZ, n = 2 k)$ |
+| [Odd](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-odd) | $(n \text{ odd}) \Leftrightarrow (\exists k \in \bbZ, n = 2 k + 1)$ |
+| Parity | $\forall n \in \bbZ, (((n \text{ even}) \lor (n \text{ odd})) \land (\neg ((n \text{ even}) \land (n \text{ odd}))))$ |
 | Closure | $(a, b \in \bbZ) \Rightarrow ((a + b \in \bbZ) \land (a - b \in \bbZ) \land (a b \in \bbZ))$ |
-| [Divides](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-divides) | $(a \mid b) \Leftrightarrow (\exists k \in \bbZ, b = a k)$ |
-| [Congruence](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-congruence) ($n > 0$) | $(a \equiv b \pmod{n}) \Leftrightarrow (n \mid (a - b))$ |
-| Remainder $r$ of $a$ by $n > 0$ | the unique $r$ with $\exists q \in \bbZ, ((a = q n + r) \land (0 \le r < n))$ |
+| [Divides](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-divides) ($a, b \in \bbZ$) | $(a \mid b) \Leftrightarrow (\exists k \in \bbZ, b = a k)$ |
+| [Congruence](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-congruence) ($a, b, n \in \bbZ$, $n > 0$) | $(a \equiv b \pmod{n}) \Leftrightarrow (n \mid (a - b))$ |
+| Remainder $r$ of $a$ by $n$ ($a, n \in \bbZ$, $n > 0$) | the unique $r$ with $\exists q \in \bbZ, ((a = q n + r) \land (0 \le r < n))$ |
 | [Rational](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-rational-numbers) | $(x \in \bbQ) \Leftrightarrow (\exists a, b \in \bbZ, ((b \ne 0) \land (x = a / b)))$ |
 
 : Integers. {#tbl-ns-integers tbl-colwidths="[42,58]"}
