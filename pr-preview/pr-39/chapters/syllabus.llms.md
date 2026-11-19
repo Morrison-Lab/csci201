@@ -6,7 +6,7 @@ Winter 2027
 
 Published
 
-Last modified: 2026-11-18 21:28:29 (PST)
+Last modified: 2026-11-19 01:20:54 (PST)
 
 > **NOTE:**
 >
@@ -165,8 +165,8 @@ The topics and dates of future lectures may change. The [course calendar](../cha
 | 7 | Feb 15–19 | Relations; graphs: paths, cycles, and connectivity | **Midterm 2**, Wednesday, Feb 17 | 1.4, 8.1–8.3, 10.1 |
 | 8 | Feb 22–26 | Graphs: breadth-first and depth-first traversal | Lab 6; Homework 5 | 10.1, 10.3, class notes |
 | 9 | Mar 1–5 | State machines and finite automata | Lab 7; Homework 6 | 12.2 |
-| 10 | Mar 8–12 | Trees and their traversal | Lab 8 | 10.4–10.6 |
-| Finals | Mar 15–19 |  | **Final exam**: Tuesday, Mar 16 (CRNs 13745, 13746) or Thursday, Mar 18 (CRNs 13747, 13748), 10:30am–12:30pm |  |
+| 10 | Mar 8–12 | Trees and their traversal | Lab 8; **Midterm 3**, Friday, Mar 12 | 10.4–10.6 |
+| Finals | Mar 15–19 |  | **Final exam** (optional): Tuesday, Mar 16 (CRNs 13745, 13746) or Thursday, Mar 18 (CRNs 13747, 13748), 10:30am–12:30pm |  |
 
 The midterm dates are tentative. If a midterm’s date changes, I will announce the change at least two weeks before that exam is given.
 
@@ -226,14 +226,13 @@ Unlike the start-of-quarter survey, the [anonymous feedback form](https://docs.g
 
 Course grades are letter grades, based on:
 
-| Category         | Weight |
-|:-----------------|:-------|
-| Homework         | 10%    |
-| Programming labs | 30%    |
-| Worksheets       | 15%    |
-| Midterm 1        | 10%    |
-| Midterm 2        | 10%    |
-| Final exam       | 25%    |
+| Category                       | Weight                                  |
+|:-------------------------------|:----------------------------------------|
+| Homework                       | 10%                                     |
+| Programming labs               | 30%                                     |
+| Worksheets                     | 15%                                     |
+| Three midterm exams (15% each) | 45%                                     |
+| Final exam (optional)          | replaces the midterm average, if higher |
 
 I will assign final letter grades based on the weighted average of the categories above, by the standard scale:
 
@@ -277,10 +276,20 @@ Weekly labs give hands-on programming practice, with a TA available to answer qu
 
 #### Exams
 
-The course has two in-class midterm exams, tentatively on Wednesday, January 27 (week 4) and Wednesday, February 17 (week 7), and a cumulative final exam during finals week, in our classroom at the time WWU’s [finals schedule](https://registrar.wwu.edu/calendars/finals) assigns, which is set by the lecture time: Tuesday, March 16 for the 11:00 sections (CRNs 13745 and 13746) and Thursday, March 18 for the 9:00 sections (CRNs 13747 and 13748), both 10:30am–12:30pm.
+The course has three in-class midterm exams, tentatively on Wednesday, January 27 (week 4), Wednesday, February 17 (week 7) and Friday, March 12 (week 10), and an optional final exam during finals week, in our classroom at the time WWU’s [finals schedule](https://registrar.wwu.edu/calendars/finals) assigns, which is set by the lecture time: Tuesday, March 16 for the 11:00 sections (CRNs 13745 and 13746) and Thursday, March 18 for the 9:00 sections (CRNs 13747 and 13748), both 10:30am–12:30pm.
 
-- Each midterm lasts 50 minutes.
+- Midterm 1 covers logic, proofs, sets and induction.
+- Midterm 2 covers loop invariants, strong induction, recursion, recurrence relations and growth rates.
+- Midterm 3 covers relations and functions, graphs, finite automata and trees.
+- The final exam covers the whole course.
+- Each midterm lasts 50 minutes and is worth 15% of the course grade, unless your final exam grade replaces it.
 - The final exam lasts 120 minutes.
+
+The final exam is optional. If your grade on the final is higher than the average of your three midterm grades, I will use your final grade to replace all three of your midterm grades. The final can only improve your grade. If you are satisfied with your grade before the final, you are welcome to skip it; doing so will not affect your course grade.
+
+For example, suppose your midterm grades are 60%, 70% and 80%, an average of 70%. If you score 85% on the final, all three midterms count as 85%, so your exam grade, worth 45% of the course grade, is 85%. If you score 65% on the final, or skip it, your midterm grades stand.
+
+This rule borrows the main idea of standards-based grading ([Buckmiller et al. 2017](#ref-buckmiller2017questioning); [Elsinger and Lewis 2020](#ref-elsinger2020standards)): your exam grade should measure how well you have mastered the course’s skills by the end of the course, not how quickly you mastered them. Each midterm checks one part of the course soon after we cover it, so that you and I find out early what needs more work. The final exam is a second chance to show your mastery of the whole course, after you have had time to learn from your midterms. Unlike full standards-based grading, the final replaces your midterm grades together, not one topic at a time.
 
 You do not bring your own notes to an exam. Instead, I hand out a printed note sheet with each exam, which gives the definitions, laws and notation that the exam uses. The same sheets are on this site ahead of time, on the [exam note sheets](../chapters/note-sheets.llms.md) page, so you can study with the sheet you will have in the exam.
 
@@ -343,5 +352,9 @@ Please read [Syllabi@WWU](https://syllabi.wwu.edu/) for additional, important po
 Back to top
 
 ## References
+
+Buckmiller, Tom, Randal Peters, and Jerrid Kruse. 2017. “Questioning Points and Percentages: Standards-Based Grading (SBG) in Higher Education.” *College Teaching* 65 (4): 151–57. <https://doi.org/10.1080/87567555.2017.1302919>.
+
+Elsinger, Jason, and Drew Lewis. 2020. “Applying a Standards-Based Grading Framework Across Lower Level Mathematics Courses.” *PRIMUS* 30 (8–10): 885–907. <https://doi.org/10.1080/10511970.2019.1674430>.
 
 Lamport, Leslie. 2019. *Think and Write, with Leslie Lamport*. Interview by Edaena Salinas, 5 Minute Mentor podcast (Mentors.fm). <https://mentors.fm/2019/08/13/think-and-write-with-leslie-lamport/>.
