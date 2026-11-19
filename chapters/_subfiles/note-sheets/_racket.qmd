@@ -12,6 +12,7 @@
 | | `(first lst)`, `(second lst)`, `(third lst)`, `(rest lst)` all but the first |
 | Arithmetic | `(+ a b) (- a b) (* a b) (quotient n d) (remainder n d)` |
 | Comparison | `(= a b) (< a b) (<= a b) (> a b) (>= a b)` |
+| | `(equal? a b)` is `#t` if `a` and `b` are the same value, lists included |
 | Logic | `(and a b) (or a b) (not a)` |
 
 : Racket. {#tbl-ns-racket tbl-colwidths="[42,58]"}
