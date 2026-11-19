@@ -4,7 +4,7 @@ When you are stuck in this course, try putting your question into words in writi
 Write it in full sentences,
 with the definitions, proof steps or code you used and what you have already tried.
 
-The habit pays off in two ways.
+Writing the question down helps in two ways.
 A written question can be posted on Canvas Discussions (see [Communication](#communication)) so I and others can help.
 Writing your thoughts down also helps clarify your question,
 and that sometimes answers it.
