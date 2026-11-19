@@ -6,13 +6,15 @@ Winter 2027
 
 Published
 
-Last modified: 2026-11-18 20:57:36 (PST)
+Last modified: 2026-11-18 21:02:56 (PST)
 
 > **NOTE:**
 >
 > This is the Winter 2027 syllabus. Items marked **TBD** (to be determined) have not been set yet. The syllabus is subject to change; I will announce in class any change made after the first day of class.
 
-## Course Information
+## About the Course
+
+### Course Information
 
 Number  
 [CSCI 201](https://catalog.wwu.edu/search_advanced.php?cur_cat_oid=23&search_database=Search&search_db=Search&cpage=1&ecpage=1&ppage=1&spage=1&tpage=1&location=3&filter%5Bkeyword%5D=CSCI%20201)
@@ -41,7 +43,7 @@ Office hours
 Prerequisites  
 CSCI 145, and one of MATH 124, 125, 134, 135, or 138 (or a score of 3 or higher on the AP Calculus AB or BC exam), each with a grade of C- or better.
 
-### Sections
+#### Sections
 
 Each section pairs a lecture time with a lab time. Attend the lecture and the lab of the section you registered for.
 
@@ -54,7 +56,7 @@ Each section pairs a lecture time with a lab time. Attend the lecture and the la
 
 The times and rooms are from [WWU’s class schedule for CSCI 201 in Winter 2027](https://web4u.banner.wwu.edu/pls/wwis/bwckctlg.p_disp_listcrse?term_in=202710&subj_in=CSCI&crse_in=201&schd_in=C), read on 2026-10-23; check there for any change. The lab teaching assistants (TAs) and their office hours are **TBD**.
 
-## Contact Information
+### Contact Information
 
 Name  
 Ezra Morrison
@@ -67,11 +69,11 @@ Email
 
 All course-related correspondence goes through Canvas, including confidential matters; see [Communication](#communication).
 
-## Course Description
+### Course Description
 
 This course is a rigorous introduction to the mathematical structures and reasoning techniques underlying computer science. Topics include sets, functions, relations, graphs, trees, and finite automata, with an emphasis on formal definitions and logical precision. You will learn to write mathematical proofs using direct proof, contrapositive, contradiction, and induction. Functional programming is introduced as a way to express computation and recursion within a mathematically grounded framework.
 
-## Course Outcomes
+### Course Outcomes
 
 Homework, labs, and exams test and measure the outcomes below. On completion of CSCI 201, students will demonstrate:
 
@@ -83,7 +85,9 @@ Homework, labs, and exams test and measure the outcomes below. On completion of 
 - The ability to prove basic theorems involving these concepts using direct proof, contradiction, contrapositive, and mathematical induction.
 - The ability to use functional style effectively in a functional programming language.
 
-## Textbooks and Readings
+## Materials and Resources
+
+### Textbooks and Readings
 
 The course notes are this site, [*Math for Computer Science* (mcs)](https://morrison-lab.github.io/mcs/). Its definitions come from the lab’s [*Math for Data Science* (mds)](https://morrison-lab.github.io/mds/) notes, which also cover background mathematics this course builds on.
 
@@ -101,7 +105,7 @@ Other useful references for discrete mathematics:
 - *Discrete Mathematics and Its Applications*, by Kenneth Rosen; any recent edition.
 - *Building Blocks for Theoretical Computer Science*, by Margaret Fleck, which can be read at no cost on [the author’s webpage](https://mfleck.cs.illinois.edu/building-blocks/index-sp2020.html).
 
-## Similar Courses
+### Similar Courses
 
 Other universities teach courses much like this one, and many post their materials at no cost. They are a good place to see a topic explained a second way.
 
@@ -117,11 +121,36 @@ Functional programming:
 - Stanford’s [CS 242 *Programming Languages*](https://stanford-cs242.github.io/f19/) (Fall 2019), with lecture notes on the lambda calculus and functional programming.
 - Stanford’s [CS 99 *Functional Programming and Theorem Proving in Lean 4*](https://web.stanford.edu/class/cs99/), which carries functional programming over to writing proofs.
 
-## Materials
+### Materials
 
 I will distribute worksheets, homework, and lab materials on Canvas. The lecture notes are on the [course notes site](https://morrison-lab.github.io/mcs/), listed in its menu bar. Each chapter is also available as slides and as a PDF handout, linked under **Other Formats** on the chapter’s page.
 
-## Schedule
+### Course Materials
+
+Do not sell or distribute questions or answers to any assignment, quiz, or exam, or other course materials given out on Canvas. The lecture notes on this site are open, under the license on the [home page](../index.llms.md).
+
+### Software
+
+The labs and the programming parts of homework use [Racket](https://racket-lang.org/), a functional programming language. Racket is free, and it comes with the DrRacket editor. For any software that comes pre-installed in the department labs, please use the default installed version.
+
+### Computer Labs
+
+Each section’s weekly lab meets in a department computer lab (see [Sections](#sections)). Outside your lab time, you should be able to use any of the department’s open labs, most of which run the Linux operating system. Racket is free, so you can also install it on your own computer (see [Software](#software)).
+
+### Library Writing Resources
+
+The Hacherl Research & Writing Studio supports almost anything that involves words: group projects, essays, posters, podcasts, lab reports, applications, grad theses and more. You can work with them just like an open art studio or lab space, where you get work done with feedback along the way. Drop into the Studio on the second level of Haggard Hall or use their online chat to:
+
+- stay focused and get things done;
+- discuss ideas with someone;
+- share something you’re making;
+- ask for tips any time you have difficulty.
+
+See <https://library.wwu.edu/rws> for details.
+
+## How the Class Runs
+
+### Schedule
 
 The topics and dates of future lectures may change. The [course calendar](../chapters/calendar.llms.md) gives the day-by-day agenda, including every deadline; the table below gives the topics and readings week by week. Readings are sections of Epp’s *Discrete Mathematics with Applications* (5th ed.), which is recommended, not required. Classes begin on Tuesday, January 5, so the first lecture is on Wednesday, January 6. Monday, January 18 (Martin Luther King Jr. Day) and Monday, February 15 (Presidents’ Day) are university holidays, with no class.
 
@@ -141,7 +170,7 @@ The topics and dates of future lectures may change. The [course calendar](../cha
 
 The midterm dates are tentative. If a midterm’s date changes, I will announce the change at least two weeks before that exam is given.
 
-## Communication
+### Communication
 
 **Outbound.** I will send official class announcements through Canvas Announcements. Please set Canvas to notify you of them right away, so you do not miss important information: in the course’s Canvas notification settings, set the **Announcement** row’s **Email** column to **Notify immediately**.
 
@@ -149,33 +178,51 @@ The midterm dates are tentative. If a midterm’s date changes, I will announce 
 
 Confidential matters, such as information about your health, also go in a Canvas message to me, not to my email.
 
-## Questions and Corrections
+### Questions and Corrections
 
 If something in the course materials seems wrong, ask. The course materials include the notes, worksheets, assignments, and anything I say or show in class, including my slides. I will make mistakes, and so will the other authors of the materials.
 
 Do not assume that you are the confused one when the material might be wrong. Ask your question first, in class or outside it, and we can talk through your reasoning together. If you are right, we all learn something and I fix the material. If you are not, we can jointly find out where the confusion started.
 
-## Health Precautions
+### Health Precautions
 
 If you are sick with something that could be communicable, let me know ahead of time and I will try to arrange a way for you to keep up, so you can stay home and not expose others needlessly. Please contact me if you have questions, concerns, or suggestions.
 
-## Software
-
-The labs and the programming parts of homework use [Racket](https://racket-lang.org/), a functional programming language. Racket is free, and it comes with the DrRacket editor. For any software that comes pre-installed in the department labs, please use the default installed version.
-
-## Active Learning
+### Active Learning
 
 Class time is for working on problems, not only for listening. You will be asked to think about questions on your own, write down answers, discuss them in small groups, and share your answers with the class. Sometimes you may be asked to write on the board. I will give you time to think things through before you are put on the spot. Please give me feedback about the structure of the class, the activities, or group dynamics.
 
-### ABCD Cards
+#### ABCD Cards
 
 On the first day of class, I will give each student an ABCD card, which you will use to vote on answers to questions in class. They work like electronic clickers, but they are free and need no batteries. They let both you and me quickly see how well you understand the material, so that I can adjust what I emphasize in class and you can adjust what you study outside it. Please bring this card to class each day. If you lose your card, print a new, landscape-mode color copy of the [ABCD card](../images/abcd-card.pdf).
 
-### Worksheets
+#### Worksheets
 
 Most classes include a worksheet: guided practice that reinforces the day’s concepts and prepares you for the exams. Please keep your worksheets organized and bring them to later classes. You are encouraged to work on worksheet problems with classmates, but each student submits their own work and should be able to explain it. I will post selected worksheet solutions after the submission deadline, and review common mistakes at the start of the next class. Most midterm and final exam questions will be adapted from worksheet problems.
 
-## Grading
+### Writing to Think
+
+When you are stuck in this course, try putting your question into words in writing. Write it in full sentences, with the definitions, proof steps or code you used and what you have already tried.
+
+Writing the question down helps in two ways. A written question can be posted on Canvas Discussions (see [Communication](#communication)) so I and others can help. Writing your thoughts down also helps clarify your question, and that sometimes answers it. In an interview on the *5 Minute Mentor* podcast, [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport) says:
+
+> As someone said, “Writing is nature’s way of showing you how fuzzy your thinking is.” If you think you understand something, and don’t write down your ideas, you only think you’re thinking.
+>
+> — Leslie Lamport ([Lamport 2019](#ref-lamport2019think))
+
+The same holds for proofs, which are the writing this course asks of you most.
+
+### Start-of-Quarter Survey
+
+Please fill out the anonymous [start-of-quarter survey](https://docs.google.com/forms/d/e/1FAIpQLSeR4g368PE_HCeyF2IVcyVmSFBxhTfrTP69BX8ZCSfB6_R80A/viewform) before class on Friday, January 8. Every question is optional. A few more optional questions need your name, so they are not on the form; answer them in a Canvas message to me instead.
+
+### Anonymous Feedback
+
+Unlike the start-of-quarter survey, the [anonymous feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdGo-31iMGMyFMAMxgwGkPVa2mK4vK8lGEBN6fxCGwuZcfV-w/viewform) stays open all quarter, so you can use it at any time. Tell me what is working, what is not, and how I could improve the course. I read every response.
+
+## Grades and Assessment
+
+### Grading
 
 Course grades are letter grades, based on:
 
@@ -200,7 +247,7 @@ I will assign final letter grades based on the weighted average of the categorie
 
 Thresholds for plus and minus grades are at my discretion. The overall grade Canvas displays may be inaccurate; the weights above are the ones that count.
 
-### Homework and Worksheets
+#### Homework and Worksheets
 
 Homework assignments combine written work and programming. Homework and worksheets are graded on completion, meaning whether you made a solid effort to solve each problem:
 
@@ -220,7 +267,7 @@ When writing up your work:
 - Format code and pseudocode in a fixed-width font. Do not submit screenshots of your editor or terminal.
 - Show your work. An answer alone will not get full credit, on homework or on exams.
 
-### Labs
+#### Labs
 
 Weekly labs give hands-on programming practice, with a TA available to answer questions during the lab period. To get full credit, **you must both attend lab and submit the deliverable by its deadline**, which will typically be 10pm on the Monday after the lab (or the next class day, when that Monday is a holiday).
 
@@ -228,7 +275,7 @@ Weekly labs give hands-on programming practice, with a TA available to answer qu
 - Attending a lab section other than your own requires permission from both me and the TA(s).
 - Late lab submissions are not accepted.
 
-### Exams
+#### Exams
 
 The course has two in-class midterm exams, tentatively on Wednesday, January 27 (week 4) and Wednesday, February 17 (week 7), and a cumulative final exam during finals week, in our classroom at the time WWU’s [finals schedule](https://registrar.wwu.edu/calendars/finals) assigns, which is set by the lecture time: Tuesday, March 16 for the 11:00 sections (CRNs 13745 and 13746) and Thursday, March 18 for the 9:00 sections (CRNs 13747 and 13748), both 10:30am–12:30pm.
 
@@ -239,11 +286,11 @@ You do not bring your own notes to an exam. Instead, I hand out a printed note s
 
 If you know in advance that you will be unable to take an exam at the scheduled time, let me know at least one week before the exam, and we may be able to reschedule it.
 
-### Grading Questions
+#### Grading Questions
 
 If you have a question about a grade, send it to me in writing, as a Canvas message (see [Communication](#communication)), within 48 hours of the graded work being returned. You will never lose points for asking.
 
-## Deadlines and Late Work
+### Deadlines and Late Work
 
 Canvas lists every due date.
 
@@ -253,7 +300,7 @@ Canvas lists every due date.
 
 Please talk to me *in advance* if you need an accommodation or an extension; the day an assignment is due is too late. If you miss a deadline or an exam because of a medical emergency, contact me as soon as possible to discuss arrangements.
 
-## Collaboration and AI Tools
+### Collaboration and AI Tools
 
 **Collaboration.** You may work together on homework and worksheets unless an assignment or problem says it is individual. A group of about three works best, since it is hard for everyone to contribute in a large group. You may discuss the steps of an algorithm or proof on a whiteboard, but write your own math and code, and submit your own answers. Do not copy from classmates, the internet, a chatbot, or a forum.
 
@@ -261,50 +308,21 @@ Please talk to me *in advance* if you need an accommodation or an extension; the
 
 **Exams** are solo: work alone, without help from anyone else and without AI tools; the only aid allowed is the note sheet handed out with the exam, as described under [Exams](#exams).
 
-## Academic Honesty
+### Academic Honesty
 
 As a future professional, your integrity is crucial. It is your responsibility to read and be familiar with the university’s academic honesty policy, found in [Appendix D](https://catalog.wwu.edu/content.php?catoid=19&navoid=5073) of the Western Washington University Course Catalog; [Academic Honesty Resources for Students](https://academichonesty.wwu.edu/) explains the procedures and the appeal process. Cheating on an exam will result in failing the course (grade of F), and I will file documentation of the incident with the university. All cases of academic dishonesty will be reported. When in doubt, ask me.
 
-## Computer Labs
+## University Policies and Services
 
-Each section’s weekly lab meets in a department computer lab (see [Sections](#sections)). Outside your lab time, you should be able to use any of the department’s open labs, most of which run the Linux operating system. Racket is free, so you can also install it on your own computer (see [Software](#software)).
-
-## Writing to Think
-
-When you are stuck in this course, try putting your question into words in writing. Write it in full sentences, with the definitions, proof steps or code you used and what you have already tried.
-
-The habit pays off in two ways. A written question can be posted on Canvas Discussions (see [Communication](#communication)) so I and others can help. Writing your thoughts down also helps clarify your question, and that sometimes answers it. In an interview on the *5 Minute Mentor* podcast, [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport) says:
-
-> As someone said, “Writing is nature’s way of showing you how fuzzy your thinking is.” If you think you understand something, and don’t write down your ideas, you only think you’re thinking.
->
-> — Leslie Lamport ([Lamport 2019](#ref-lamport2019think))
-
-The same holds for proofs, which are the writing this course asks of you most.
-
-## Library Writing Resources
-
-The Hacherl Research & Writing Studio supports almost anything that involves words: group projects, essays, posters, podcasts, lab reports, applications, grad theses and more. You can work with them just like an open art studio or lab space, where you get work done with feedback along the way. Drop into the Studio on the second level of Haggard Hall or use their online chat to:
-
-- stay focused and get things done;
-- discuss ideas with someone;
-- share something you’re making;
-- ask for tips any time you have difficulty.
-
-See <https://library.wwu.edu/rws> for details.
-
-## Student Conduct
+### Student Conduct
 
 I am committed to maintaining an inclusive, supportive, and professional environment in all academic settings, including lectures, labs, and course-related online spaces. I expect students to live up to the [Association for Computing Machinery (ACM) Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics), the ethical code adopted by nearly every software professional. A pattern of failing to follow the ACM Code of Ethics and Professional Conduct can negatively affect course grades, up to and including a failing grade for the course. Conduct is also considered when determining admission to the major.
 
-## Course Materials
-
-Do not sell or distribute questions or answers to any assignment, quiz, or exam, or other course materials given out on Canvas. The lecture notes on this site are open, under the license on the [home page](../index.llms.md).
-
-## Disabilities
+### Disabilities
 
 Reasonable accommodation for persons with documented disabilities should be established within the first two weeks of class and arranged through the Disability Access Center: telephone 360-650-3083; email <drsfrontdesk@wwu.edu>; and on the web at [Disability Access Center](https://disability.wwu.edu/).
 
-## Student Services
+### Student Services
 
 Western encourages students to seek assistance and support at the onset of an illness, difficulty, or crisis.
 
@@ -314,21 +332,13 @@ Western encourages students to seek assistance and support at the onset of an il
 - In the case of a family or personal crisis or emergency, please contact the [Dean of Students](https://www.wwu.edu/dean-students).
 - To seek confidential support related to sexual violence, please contact CASAS (360-650-3700), the Student Health Center, and/or the Counseling and Wellness Center. To report sexual violence, please contact University Police, Bellingham Police, and/or the Title IX Coordinator in Western’s [Civil Rights and Title IX Compliance](https://crtc.wwu.edu/) office (360-650-3307). Faculty are responsible employees who are required to report sex discrimination, including sexual violence that they learn about, to the Title IX Coordinator.
 
-## Career Advising
+### Career Advising
 
 I am glad to meet with you to discuss your short-, medium-, and long-term career goals. [Academic Advising & Career Readiness](https://aacr.wwu.edu/) is also available for help with academic planning or your career, such as finding jobs and internships or getting feedback on your resume.
 
-## Other Policies
+### Other Policies
 
 Please read [Syllabi@WWU](https://syllabi.wwu.edu/) for additional, important policies, including accommodations, equal opportunity, the medical excuse policy, ethical use of WWU computing resources, and the student conduct code.
-
-## Start-of-Quarter Survey
-
-Please fill out the anonymous [start-of-quarter survey](https://docs.google.com/forms/d/e/1FAIpQLSeR4g368PE_HCeyF2IVcyVmSFBxhTfrTP69BX8ZCSfB6_R80A/viewform) before class on Friday, January 8. Every question is optional. A few more optional questions need your name, so they are not on the form; answer them in a Canvas message to me instead.
-
-## Anonymous Feedback
-
-Unlike the start-of-quarter survey, the [anonymous feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdGo-31iMGMyFMAMxgwGkPVa2mK4vK8lGEBN6fxCGwuZcfV-w/viewform) stays open all quarter, so you can use it at any time. Tell me what is working, what is not, and how I could improve the course. I read every response.
 
 Back to top
 
