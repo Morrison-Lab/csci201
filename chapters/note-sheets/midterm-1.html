@@ -84,9 +84,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-945790fbee74b2190a3a110e90abeebf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-e3d608924d8f07ebdc6daf50948dfd29.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-945790fbee74b2190a3a110e90abeebf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-1699165e9fb1725d309a04d83efd1a05.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-0d0f4db5a3ed3fc3e5b0eaf09fd9f9be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-1699165e9fb1725d309a04d83efd1a05.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/code-language-labels-1.0.2/code-language-labels.css" rel="stylesheet">
 <script src="../../site_libs/quarto-contrib/callouty-theorem-1.4.2/callouty-theorem.js"></script>
 <link href="../../site_libs/quarto-contrib/callouty-theorem-1.4.2/callouty-theorem.css" rel="stylesheet">
@@ -178,65 +178,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 })();
 </script>
 <style>
-div.callout-def.callout {
-  border-left-color: #1B5E20;
+div.callout-prp.callout {
+  border-left-color: #827717;
 }
-div.callout-def.callout-style-default .callout-header {
-  background-color: rgba(27, 94, 32, 0.13);
+div.callout-prp.callout-style-default .callout-header {
+  background-color: rgba(130, 119, 23, 0.13);
 }
-div.callout-def .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-def.callout-style-default .callout-icon::before, div.callout-def.callout-titled .callout-icon::before {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%231B5E20" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
-}
-div.callout-remark.callout {
-  border-left-color: #AD1457;
-}
-div.callout-remark.callout-style-default .callout-header {
-  background-color: rgba(173, 20, 87, 0.13);
-}
-div.callout-remark .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-remark.callout-style-default .callout-icon::before, div.callout-remark.callout-titled .callout-icon::before {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23AD1457" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
-}
-div.callout-solution.callout {
-  border-left-color: #4E342E;
-}
-div.callout-solution.callout-style-default .callout-header {
-  background-color: rgba(78, 52, 46, 0.13);
-}
-div.callout-solution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-solution.callout-style-default .callout-icon::before, div.callout-solution.callout-titled .callout-icon::before {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%234E342E" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
-}
-div.callout-cnj.callout {
-  border-left-color: #558B2F;
-}
-div.callout-cnj.callout-style-default .callout-header {
-  background-color: rgba(85, 139, 47, 0.13);
-}
-div.callout-cnj .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-cnj.callout-style-default .callout-icon::before, div.callout-cnj.callout-titled .callout-icon::before {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23558B2F" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
-}
-div.callout-exm.callout {
-  border-left-color: #6A1B9A;
-}
-div.callout-exm.callout-style-default .callout-header {
-  background-color: rgba(106, 27, 154, 0.13);
-}
-div.callout-exm .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-exm.callout-style-default .callout-icon::before, div.callout-exm.callout-titled .callout-icon::before {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%236A1B9A" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
-}
-div.callout-exr.callout {
-  border-left-color: #FFA500;
-}
-div.callout-exr.callout-style-default .callout-header {
-  background-color: rgba(255, 165, 0, 0.13);
-}
-div.callout-exr .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-exr.callout-style-default .callout-icon::before, div.callout-exr.callout-titled .callout-icon::before {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23FFA500" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
+div.callout-prp .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prp.callout-style-default .callout-icon::before, div.callout-prp.callout-titled .callout-icon::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23827717" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
 }
 div.callout-cor.callout {
   border-left-color: #00838F;
@@ -258,15 +208,55 @@ div.callout-lem .callout-toggle::before {  background-image: url('data:image/svg
 div.callout-lem.callout-style-default .callout-icon::before, div.callout-lem.callout-titled .callout-icon::before {
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%231565C0" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
 }
-div.callout-prp.callout {
-  border-left-color: #827717;
+div.callout-cnj.callout {
+  border-left-color: #558B2F;
 }
-div.callout-prp.callout-style-default .callout-header {
-  background-color: rgba(130, 119, 23, 0.13);
+div.callout-cnj.callout-style-default .callout-header {
+  background-color: rgba(85, 139, 47, 0.13);
 }
-div.callout-prp .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prp.callout-style-default .callout-icon::before, div.callout-prp.callout-titled .callout-icon::before {
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23827717" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
+div.callout-cnj .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-cnj.callout-style-default .callout-icon::before, div.callout-cnj.callout-titled .callout-icon::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23558B2F" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
+}
+div.callout-exr.callout {
+  border-left-color: #FFA500;
+}
+div.callout-exr.callout-style-default .callout-header {
+  background-color: rgba(255, 165, 0, 0.13);
+}
+div.callout-exr .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-exr.callout-style-default .callout-icon::before, div.callout-exr.callout-titled .callout-icon::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23FFA500" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
+}
+div.callout-exm.callout {
+  border-left-color: #6A1B9A;
+}
+div.callout-exm.callout-style-default .callout-header {
+  background-color: rgba(106, 27, 154, 0.13);
+}
+div.callout-exm .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-exm.callout-style-default .callout-icon::before, div.callout-exm.callout-titled .callout-icon::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%236A1B9A" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
+}
+div.callout-def.callout {
+  border-left-color: #1B5E20;
+}
+div.callout-def.callout-style-default .callout-header {
+  background-color: rgba(27, 94, 32, 0.13);
+}
+div.callout-def .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-def.callout-style-default .callout-icon::before, div.callout-def.callout-titled .callout-icon::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%231B5E20" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
+}
+div.callout-remark.callout {
+  border-left-color: #AD1457;
+}
+div.callout-remark.callout-style-default .callout-header {
+  background-color: rgba(173, 20, 87, 0.13);
+}
+div.callout-remark .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-remark.callout-style-default .callout-icon::before, div.callout-remark.callout-titled .callout-icon::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23AD1457" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
 }
 div.callout-proof.callout {
   border-left-color: #37474F;
@@ -277,6 +267,16 @@ div.callout-proof.callout-style-default .callout-header {
 div.callout-proof .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-proof.callout-style-default .callout-icon::before, div.callout-proof.callout-titled .callout-icon::before {
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%2337474F" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
+}
+div.callout-solution.callout {
+  border-left-color: #4E342E;
+}
+div.callout-solution.callout-style-default .callout-header {
+  background-color: rgba(78, 52, 46, 0.13);
+}
+div.callout-solution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-solution.callout-style-default .callout-icon::before, div.callout-solution.callout-titled .callout-icon::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%234E342E" class="bi bi-exclamation-triangle" viewBox="0 0 16 16"><path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/></svg>');
 }
 </style>
 
@@ -653,7 +653,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Last modified: 2026-11-19 01:19:58 (PST)</p>
+      <p class="date">Last modified: 2026-11-19 01:36:19 (PST)</p>
     </div>
   </div>
   
@@ -665,69 +665,324 @@ window.Quarto = {
 </header>
 
 
-<p>This is the note sheet that comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It summarizes the definitions, laws and notation that the exam uses. The full definitions, with examples, are in the <a href="https://morrison-lab.github.io/mcs/">notes</a>. The sheet leaves out some of the notes’ results.</p>
-<p>To print it, download the <a href="midterm-1.pdf">PDF</a>.</p>
+<p>This sheet comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the <a href="https://morrison-lab.github.io/mcs/">notes</a>. <a href="midterm-1.pdf">Download the PDF</a> to print it.</p>
 <section id="logic" class="level2">
 <h2 class="anchored" data-anchor-id="logic">Logic</h2>
-<p><span class="math inline">\(\neg P\)</span> is “not <span class="math inline">\(P\)</span>”, <span class="math inline">\(P \land Q\)</span> is “<span class="math inline">\(P\)</span> and <span class="math inline">\(Q\)</span>”, <span class="math inline">\(P \lor Q\)</span> is “<span class="math inline">\(P\)</span> or <span class="math inline">\(Q\)</span>” (or both), <span class="math inline">\(P \Rightarrow Q\)</span> is “if <span class="math inline">\(P\)</span>, then <span class="math inline">\(Q\)</span>”, and <span class="math inline">\(P \Leftrightarrow Q\)</span> is “<span class="math inline">\(P\)</span> if and only if <span class="math inline">\(Q\)</span>”.</p>
-<p><span class="math display">\[
-\begin{array}{cc|ccccc}
-P &amp; Q &amp; \neg P &amp; P \land Q &amp; P \lor Q &amp; P \Rightarrow Q &amp; P \Leftrightarrow Q \\
-\hline
-\text{T} &amp; \text{T} &amp; \text{F} &amp; \text{T} &amp; \text{T} &amp; \text{T} &amp; \text{T} \\
-\text{T} &amp; \text{F} &amp; \text{F} &amp; \text{F} &amp; \text{T} &amp; \text{F} &amp; \text{F} \\
-\text{F} &amp; \text{T} &amp; \text{T} &amp; \text{F} &amp; \text{T} &amp; \text{T} &amp; \text{F} \\
-\text{F} &amp; \text{F} &amp; \text{T} &amp; \text{F} &amp; \text{F} &amp; \text{T} &amp; \text{T}
-\end{array}
-\]</span></p>
-<p><span class="math inline">\(A \equiv B\)</span> (logically equivalent) means that <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> have the same truth value in every row of their truth table.</p>
-<ul>
-<li>Double negation: <span class="math inline">\(\neg \neg P \equiv P\)</span>.</li>
-<li>De Morgan: <span class="math inline">\(\neg (P \land Q) \equiv \neg P \lor \neg Q\)</span> and <span class="math inline">\(\neg (P \lor Q) \equiv \neg P \land \neg Q\)</span>.</li>
-<li>Conditional: <span class="math inline">\(P \Rightarrow Q \equiv \neg P \lor Q\)</span>.</li>
-<li>Biconditional: <span class="math inline">\(P \Leftrightarrow Q \equiv (P \Rightarrow Q) \land (Q \Rightarrow P)\)</span>.</li>
-<li>Distributive: <span class="math inline">\(P \land (Q \lor R) \equiv (P \land Q) \lor (P \land R)\)</span> and <span class="math inline">\(P \lor (Q \land R) \equiv (P \lor Q) \land (P \lor R)\)</span>.</li>
-</ul>
-<p>The <em>converse</em> of <span class="math inline">\(P \Rightarrow Q\)</span> is <span class="math inline">\(Q \Rightarrow P\)</span>, and its <em>contrapositive</em> is <span class="math inline">\(\neg Q \Rightarrow \neg P\)</span>, which is equivalent to it.</p>
-<p><span class="math inline">\(\forall x \in D, P(x)\)</span> is “for every <span class="math inline">\(x\)</span> in <span class="math inline">\(D\)</span>, <span class="math inline">\(P(x)\)</span>”, and <span class="math inline">\(\exists x \in D, P(x)\)</span> is “there is an <span class="math inline">\(x\)</span> in <span class="math inline">\(D\)</span> such that <span class="math inline">\(P(x)\)</span>”. Negating moves <span class="math inline">\(\neg\)</span> inward and swaps the quantifier:</p>
-<ul>
-<li><span class="math inline">\(\neg \forall x \in D, P(x) \equiv \exists x \in D, \neg P(x)\)</span>;</li>
-<li><span class="math inline">\(\neg \exists x \in D, P(x) \equiv \forall x \in D, \neg P(x)\)</span>.</li>
-</ul>
+<div id="tbl-ns-connectives" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ns-connectives-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: <a href="https://morrison-lab.github.io/mcs/chapters/propositional-logic.html#def-logical-connective">Connectives</a>.
+</figcaption>
+<div aria-describedby="tbl-ns-connectives-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><span class="math inline">\(P\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(Q\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\neg P\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(P \land Q\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(P \lor Q\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(P \Rightarrow Q\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(P \Leftrightarrow Q\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">F</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">F</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="tbl-ns-laws" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[42,58]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ns-laws-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Laws.
+</figcaption>
+<div aria-describedby="tbl-ns-laws-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#def-logically-equivalent">Logically equivalent</a></td>
+<td><span class="math inline">\(A \equiv B\)</span>: <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> have the same truth value in every row</td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-double-negation">Double negation</a></td>
+<td><span class="math inline">\((\neg \neg P) \equiv P\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-de-morgan-logic">De Morgan</a></td>
+<td><span class="math inline">\((\neg (P \land Q)) \equiv ((\neg P) \lor (\neg Q))\)</span></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\((\neg (P \lor Q)) \equiv ((\neg P) \land (\neg Q))\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#cor-conditional-as-or">Conditional</a></td>
+<td><span class="math inline">\((P \Rightarrow Q) \equiv ((\neg P) \lor Q)\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/iff-existence-disproof.html#thm-biconditional-split">Biconditional</a></td>
+<td><span class="math inline">\((P \Leftrightarrow Q) \equiv ((P \Rightarrow Q) \land (Q \Rightarrow P))\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-distributive">Distributive</a></td>
+<td><span class="math inline">\((P \land (Q \lor R)) \equiv ((P \land Q) \lor (P \land R))\)</span></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\((P \lor (Q \land R)) \equiv ((P \lor Q) \land (P \lor R))\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/propositional-logic.html#def-converse">Converse</a> of <span class="math inline">\(P \Rightarrow Q\)</span></td>
+<td><span class="math inline">\(Q \Rightarrow P\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-contrapositive">Contrapositive</a> of <span class="math inline">\(P \Rightarrow Q\)</span></td>
+<td><span class="math inline">\((\neg Q) \Rightarrow (\neg P)\)</span></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><span class="math inline">\(((\neg Q) \Rightarrow (\neg P)) \equiv (P \Rightarrow Q)\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="tbl-ns-quantifiers" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[42,58]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ns-quantifiers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Quantifiers.
+</figcaption>
+<div aria-describedby="tbl-ns-quantifiers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html#def-universal-quantifier">For all</a></td>
+<td><span class="math inline">\(\forall x \in D, P(x)\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html#def-existential-quantifier">There exists</a></td>
+<td><span class="math inline">\(\exists x \in D, P(x)\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-negate-quantifiers">Negating a quantifier</a></td>
+<td><span class="math inline">\((\neg (\forall x \in D, P(x))) \equiv (\exists x \in D, (\neg P(x)))\)</span></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\((\neg (\exists x \in D, P(x))) \equiv (\forall x \in D, (\neg P(x)))\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html#def-counterexample">Counterexample</a> to <span class="math inline">\(\forall x \in D, P(x)\)</span></td>
+<td>an <span class="math inline">\(x \in D\)</span> with <span class="math inline">\(\neg P(x)\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 </section>
 <section id="integers" class="level2">
 <h2 class="anchored" data-anchor-id="integers">Integers</h2>
-<p><span class="math inline">\(\mathbb{Z}\)</span> is the set of integers, <span class="math inline">\(\mathbb{Q}\)</span> the set of rational numbers, and <span class="math inline">\(\mathbb{R}\)</span> the set of real numbers. For integers <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, <span class="math inline">\(k\)</span> and <span class="math inline">\(n\)</span>:</p>
-<ul>
-<li><span class="math inline">\(n\)</span> is <em>even</em> if <span class="math inline">\(n = 2 k\)</span> for some integer <span class="math inline">\(k\)</span>.</li>
-<li><span class="math inline">\(n\)</span> is <em>odd</em> if <span class="math inline">\(n = 2 k + 1\)</span> for some integer <span class="math inline">\(k\)</span>.</li>
-<li>Every integer is even or odd.</li>
-<li>No integer is both even and odd.</li>
-<li>The sum, difference and product of two integers are integers.</li>
-<li><span class="math inline">\(a \mid b\)</span> (<span class="math inline">\(a\)</span> <em>divides</em> <span class="math inline">\(b\)</span>) if <span class="math inline">\(b = a k\)</span> for some integer <span class="math inline">\(k\)</span>.</li>
-<li>For a positive integer <span class="math inline">\(n\)</span>, <span class="math inline">\(a \equiv b \pmod{n}\)</span> if <span class="math inline">\(n \mid (a - b)\)</span>.</li>
-<li>For a positive integer <span class="math inline">\(n\)</span>, there are unique integers <span class="math inline">\(q\)</span> and <span class="math inline">\(r\)</span> with <span class="math inline">\(a = q n + r\)</span> and <span class="math inline">\(0 \le r &lt; n\)</span>; <span class="math inline">\(r\)</span> is the <em>remainder</em> of <span class="math inline">\(a\)</span> on division by <span class="math inline">\(n\)</span>.</li>
-<li>A real number <span class="math inline">\(x\)</span> is <em>rational</em> if <span class="math inline">\(x = a / b\)</span> for some integers <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> with <span class="math inline">\(b \ne 0\)</span>.</li>
-</ul>
-<p>A <em>counterexample</em> to <span class="math inline">\(\forall x \in D, P(x)\)</span> is an <span class="math inline">\(x \in D\)</span> for which <span class="math inline">\(P(x)\)</span> is false.</p>
+<div id="tbl-ns-integers" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[42,58]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ns-integers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;4: Integers.
+</figcaption>
+<div aria-describedby="tbl-ns-integers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-integers">Integers</a>, rationals, <a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-real-numbers">reals</a></td>
+<td><span class="math inline">\(\mathbb{Z}\)</span>, <span class="math inline">\(\mathbb{Q}\)</span>, <span class="math inline">\(\mathbb{R}\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-even-odd">Even</a></td>
+<td><span class="math inline">\((n \text{ even}) \Leftrightarrow (\exists k \in \mathbb{Z}, n = 2 k)\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-odd">Odd</a></td>
+<td><span class="math inline">\((n \text{ odd}) \Leftrightarrow (\exists k \in \mathbb{Z}, n = 2 k + 1)\)</span></td>
+</tr>
+<tr class="even">
+<td>Parity</td>
+<td><span class="math inline">\(\forall n \in \mathbb{Z}, (((n \text{ even}) \lor (n \text{ odd})) \land (\neg ((n \text{ even}) \land (n \text{ odd}))))\)</span></td>
+</tr>
+<tr class="odd">
+<td>Closure</td>
+<td><span class="math inline">\((a, b \in \mathbb{Z}) \Rightarrow ((a + b \in \mathbb{Z}) \land (a - b \in \mathbb{Z}) \land (a b \in \mathbb{Z}))\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-divides">Divides</a> (<span class="math inline">\(a, b \in \mathbb{Z}\)</span>)</td>
+<td><span class="math inline">\((a \mid b) \Leftrightarrow (\exists k \in \mathbb{Z}, b = a k)\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-congruence">Congruence</a> (<span class="math inline">\(a, b, n \in \mathbb{Z}\)</span>, <span class="math inline">\(n &gt; 0\)</span>)</td>
+<td><span class="math inline">\((a \equiv b \pmod{n}) \Leftrightarrow (n \mid (a - b))\)</span></td>
+</tr>
+<tr class="even">
+<td>Remainder <span class="math inline">\(r\)</span> of <span class="math inline">\(a\)</span> by <span class="math inline">\(n\)</span> (<span class="math inline">\(a, n \in \mathbb{Z}\)</span>, <span class="math inline">\(n &gt; 0\)</span>)</td>
+<td>the unique <span class="math inline">\(r\)</span> with <span class="math inline">\(\exists q \in \mathbb{Z}, ((a = q n + r) \land (0 \le r &lt; n))\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-rational-numbers">Rational</a></td>
+<td><span class="math inline">\((x \in \mathbb{Q}) \Leftrightarrow (\exists a, b \in \mathbb{Z}, ((b \ne 0) \land (x = a / b)))\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 </section>
 <section id="sets" class="level2">
 <h2 class="anchored" data-anchor-id="sets">Sets</h2>
-<ul>
-<li><span class="math inline">\(x \in A\)</span>: <span class="math inline">\(x\)</span> is an element of <span class="math inline">\(A\)</span>.</li>
-<li><span class="math inline">\(\emptyset\)</span> is the empty set, and <span class="math inline">\({\mathopen{}\left|A\right|\mathclose{}}\)</span> is the number of elements of a finite set <span class="math inline">\(A\)</span>.</li>
-<li><span class="math inline">\(A \subseteq B\)</span> if every element of <span class="math inline">\(A\)</span> is an element of <span class="math inline">\(B\)</span>.</li>
-<li><span class="math inline">\(A = B\)</span> if <span class="math inline">\(A \subseteq B\)</span> and <span class="math inline">\(B \subseteq A\)</span>.</li>
-<li><span class="math inline">\(A \cup B = {\mathopen{}\left\{x : x \in A \lor x \in B\right\}\mathclose{}}\)</span> and <span class="math inline">\(A \cap B = {\mathopen{}\left\{x : x \in A \land x \in B\right\}\mathclose{}}\)</span>.</li>
-<li><span class="math inline">\(A - B = {\mathopen{}\left\{x : x \in A \land x \notin B\right\}\mathclose{}}\)</span>.</li>
-<li><span class="math inline">\({\mathcal{P}\mathopen{}\left(A\right)\mathclose{}}\)</span>, the <em>power set</em> of <span class="math inline">\(A\)</span>, is the set of all subsets of <span class="math inline">\(A\)</span>.</li>
-<li><span class="math inline">\(A \times B = {\mathopen{}\left\{(a, b) : a \in A \land b \in B\right\}\mathclose{}}\)</span>, the set of ordered pairs.</li>
-</ul>
+<div id="tbl-ns-sets" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[42,58]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ns-sets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5: Sets.
+</figcaption>
+<div aria-describedby="tbl-ns-sets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-set">Element</a></td>
+<td><span class="math inline">\(x \in A\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-empty-set">Empty set</a>, <a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-cardinality">cardinality</a></td>
+<td><span class="math inline">\(\emptyset\)</span>, <span class="math inline">\({\mathopen{}\left|A\right|\mathclose{}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-subset">Subset</a></td>
+<td><span class="math inline">\((A \subseteq B) \Leftrightarrow (\forall x, ((x \in A) \Rightarrow (x \in B)))\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/set-proofs.html#thm-double-inclusion">Set equality</a></td>
+<td><span class="math inline">\((A = B) \Leftrightarrow ((A \subseteq B) \land (B \subseteq A))\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-union">Union</a></td>
+<td><span class="math inline">\(A \cup B = {\mathopen{}\left\{x : (x \in A) \lor (x \in B)\right\}\mathclose{}}\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-intersection">Intersection</a></td>
+<td><span class="math inline">\(A \cap B = {\mathopen{}\left\{x : (x \in A) \land (x \in B)\right\}\mathclose{}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-set-difference">Difference</a></td>
+<td><span class="math inline">\(A - B = {\mathopen{}\left\{x : (x \in A) \land (x \notin B)\right\}\mathclose{}}\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-power-set">Power set</a></td>
+<td><span class="math inline">\({\mathcal{P}\mathopen{}\left(A\right)\mathclose{}} = {\mathopen{}\left\{S : S \subseteq A\right\}\mathclose{}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/sets.html#def-cartesian-product">Cartesian product</a></td>
+<td><span class="math inline">\(A \times B = {\mathopen{}\left\{(a, b) : (a \in A) \land (b \in B)\right\}\mathclose{}}\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 </section>
 <section id="induction" class="level2">
 <h2 class="anchored" data-anchor-id="induction">Induction</h2>
-<p><span class="math inline">\(\sum_{i=1}^{n} a_i = a_1 + a_2 + \cdots + a_n\)</span>.</p>
-<p><em>Induction</em>: if <span class="math inline">\(P(b)\)</span> is true, and <span class="math inline">\(P(k) \Rightarrow P(k + 1)\)</span> for every integer <span class="math inline">\(k \ge b\)</span>, then <span class="math inline">\(P(n)\)</span> is true for every integer <span class="math inline">\(n \ge b\)</span>. <span class="math inline">\(P(b)\)</span> is the <em>base case</em>, and in the <em>inductive step</em> the assumption <span class="math inline">\(P(k)\)</span> is the <em>inductive hypothesis</em>.</p>
+<div id="tbl-ns-induction" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[42,58]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ns-induction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6: Induction.
+</figcaption>
+<div aria-describedby="tbl-ns-induction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Sum</td>
+<td><span class="math inline">\(\sum_{i=1}^{n} a_i = a_1 + a_2 + \cdots + a_n\)</span></td>
+</tr>
+<tr class="even">
+<td><a href="https://morrison-lab.github.io/mcs/chapters/induction.html#def-proof-by-induction">Induction</a> (<span class="math inline">\(b, k, n \in \mathbb{Z}\)</span>)</td>
+<td><span class="math inline">\((P(b) \land (\forall k \ge b, (P(k) \Rightarrow P(k + 1)))) \Rightarrow (\forall n \ge b, P(n))\)</span></td>
+</tr>
+<tr class="odd">
+<td>Base case</td>
+<td><span class="math inline">\(P(b)\)</span></td>
+</tr>
+<tr class="even">
+<td>Inductive step</td>
+<td>assume <span class="math inline">\(P(k)\)</span> (the induction hypothesis), show <span class="math inline">\(P(k + 1)\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 
 
 <!-- -->
@@ -1843,24 +2098,34 @@ document.addEventListener("DOMContentLoaded", function () {
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../../latex-macros/macros.qmd &gt;}}</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>This is the note sheet that comes printed with Midterm 1.</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>You may not bring your own notes,</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>so study with this sheet.</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>It summarizes the definitions, laws and notation that the exam uses.</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>The full definitions, with examples, are in the <span class="co">[</span><span class="ot">notes</span><span class="co">](https://morrison-lab.github.io/mcs/)</span>.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>The sheet leaves out some of the notes' results.</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>::: {.content-visible when-format="html"}</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>To print it, download the <span class="co">[</span><span class="ot">PDF</span><span class="co">](midterm-1.pdf)</span>.</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>::: {.content-visible when-format="html"}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>This sheet comes printed with Midterm 1.</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>You may not bring your own notes,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>so study with this sheet.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>It leaves out some results;</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>the full definitions are in the <span class="co">[</span><span class="ot">notes</span><span class="co">](https://morrison-lab.github.io/mcs/)</span>.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Download the PDF</span><span class="co">](midterm-1.pdf)</span> to print it.</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../_subfiles/note-sheets/_logic.qmd &gt;}}</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../_subfiles/note-sheets/_logic.qmd &gt;}}</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../_subfiles/note-sheets/_integers.qmd &gt;}}</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="in">```{=latex}</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="in">\needspace{3\baselineskip}</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../_subfiles/note-sheets/_sets.qmd &gt;}}</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../_subfiles/note-sheets/_integers.qmd &gt;}}</span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../_subfiles/note-sheets/_induction.qmd &gt;}}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="in">```{=latex}</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="in">\needspace{3\baselineskip}</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../_subfiles/note-sheets/_sets.qmd &gt;}}</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="in">```{=latex}</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="in">\needspace{3\baselineskip}</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>{{&lt; include ../_subfiles/note-sheets/_induction.qmd &gt;}}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

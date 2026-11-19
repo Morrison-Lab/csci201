@@ -6,71 +6,88 @@ Logic, integers, sets and induction
 
 Published
 
-Last modified: 2026-11-19 01:19:58 (PST)
+Last modified: 2026-11-19 01:36:19 (PST)
 
-This is the note sheet that comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It summarizes the definitions, laws and notation that the exam uses. The full definitions, with examples, are in the [notes](https://morrison-lab.github.io/mcs/). The sheet leaves out some of the notes’ results.
-
-To print it, download the [PDF](midterm-1.pdf).
+This sheet comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the [notes](https://morrison-lab.github.io/mcs/). [Download the PDF](midterm-1.pdf) to print it.
 
 ## Logic
 
-$\neg P$ is “not $P$”, $P \land Q$ is “$P$ and $Q$”, $P \lor Q$ is “$P$ or $Q$” (or both), $P \Rightarrow Q$ is “if $P$, then $Q$”, and $P \Leftrightarrow Q$ is “$P$ if and only if $Q$”.
+| $P$ | $Q$ | $\neg P$ | $P \land Q$ | $P \lor Q$ | $P \Rightarrow Q$ | $P \Leftrightarrow Q$ |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| T | T | F | T | T | T | T |
+| T | F | F | F | T | F | F |
+| F | T | T | F | T | T | F |
+| F | F | T | F | F | T | T |
 
-$$\begin{array}{cc|ccccc}
-P & Q & \neg P & P \land Q & P \lor Q & P \Rightarrow Q & P \Leftrightarrow Q \\
-\hline
-\text{T} & \text{T} & \text{F} & \text{T} & \text{T} & \text{T} & \text{T} \\
-\text{T} & \text{F} & \text{F} & \text{F} & \text{T} & \text{F} & \text{F} \\
-\text{F} & \text{T} & \text{T} & \text{F} & \text{T} & \text{T} & \text{F} \\
-\text{F} & \text{F} & \text{T} & \text{F} & \text{F} & \text{T} & \text{T}
-\end{array}$$
+Table 1: [Connectives](https://morrison-lab.github.io/mcs/chapters/propositional-logic.html#def-logical-connective).
 
-$A \equiv B$ (logically equivalent) means that $A$ and $B$ have the same truth value in every row of their truth table.
+|  |  |
+|----|----|
+| [Logically equivalent](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#def-logically-equivalent) | $A \equiv B$: $A$ and $B$ have the same truth value in every row |
+| [Double negation](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-double-negation) | $(\neg \neg P) \equiv P$ |
+| [De Morgan](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-de-morgan-logic) | $(\neg (P \land Q)) \equiv ((\neg P) \lor (\neg Q))$ |
+|  | $(\neg (P \lor Q)) \equiv ((\neg P) \land (\neg Q))$ |
+| [Conditional](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#cor-conditional-as-or) | $(P \Rightarrow Q) \equiv ((\neg P) \lor Q)$ |
+| [Biconditional](https://morrison-lab.github.io/mcs/chapters/iff-existence-disproof.html#thm-biconditional-split) | $(P \Leftrightarrow Q) \equiv ((P \Rightarrow Q) \land (Q \Rightarrow P))$ |
+| [Distributive](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-distributive) | $(P \land (Q \lor R)) \equiv ((P \land Q) \lor (P \land R))$ |
+|  | $(P \lor (Q \land R)) \equiv ((P \lor Q) \land (P \lor R))$ |
+| [Converse](https://morrison-lab.github.io/mcs/chapters/propositional-logic.html#def-converse) of $P \Rightarrow Q$ | $Q \Rightarrow P$ |
+| [Contrapositive](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-contrapositive) of $P \Rightarrow Q$ | $(\neg Q) \Rightarrow (\neg P)$ |
+|  | $((\neg Q) \Rightarrow (\neg P)) \equiv (P \Rightarrow Q)$ |
 
-- Double negation: $\neg \neg P \equiv P$.
-- De Morgan: $\neg (P \land Q) \equiv \neg P \lor \neg Q$ and $\neg (P \lor Q) \equiv \neg P \land \neg Q$.
-- Conditional: $P \Rightarrow Q \equiv \neg P \lor Q$.
-- Biconditional: $P \Leftrightarrow Q \equiv (P \Rightarrow Q) \land (Q \Rightarrow P)$.
-- Distributive: $P \land (Q \lor R) \equiv (P \land Q) \lor (P \land R)$ and $P \lor (Q \land R) \equiv (P \lor Q) \land (P \lor R)$.
+Table 2: Laws.
 
-The *converse* of $P \Rightarrow Q$ is $Q \Rightarrow P$, and its *contrapositive* is $\neg Q \Rightarrow \neg P$, which is equivalent to it.
+|  |  |
+|----|----|
+| [For all](https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html#def-universal-quantifier) | $\forall x \in D, P(x)$ |
+| [There exists](https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html#def-existential-quantifier) | $\exists x \in D, P(x)$ |
+| [Negating a quantifier](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-negate-quantifiers) | $(\neg (\forall x \in D, P(x))) \equiv (\exists x \in D, (\neg P(x)))$ |
+|  | $(\neg (\exists x \in D, P(x))) \equiv (\forall x \in D, (\neg P(x)))$ |
+| [Counterexample](https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html#def-counterexample) to $\forall x \in D, P(x)$ | an $x \in D$ with $\neg P(x)$ |
 
-$\forall x \in D, P(x)$ is “for every $x$ in $D$, $P(x)$”, and $\exists x \in D, P(x)$ is “there is an $x$ in $D$ such that $P(x)$”. Negating moves $\neg$ inward and swaps the quantifier:
-
-- $\neg \forall x \in D, P(x) \equiv \exists x \in D, \neg P(x)$;
-- $\neg \exists x \in D, P(x) \equiv \forall x \in D, \neg P(x)$.
+Table 3: Quantifiers.
 
 ## Integers
 
-$\mathbb{Z}$ is the set of integers, $\mathbb{Q}$ the set of rational numbers, and $\mathbb{R}$ the set of real numbers. For integers $a$, $b$, $k$ and $n$:
+|  |  |
+|----|----|
+| [Integers](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-integers), rationals, [reals](https://morrison-lab.github.io/mcs/chapters/sets.html#def-real-numbers) | $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$ |
+| [Even](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-even-odd) | $(n \text{ even}) \Leftrightarrow (\exists k \in \mathbb{Z}, n = 2 k)$ |
+| [Odd](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-odd) | $(n \text{ odd}) \Leftrightarrow (\exists k \in \mathbb{Z}, n = 2 k + 1)$ |
+| Parity | $\forall n \in \mathbb{Z}, (((n \text{ even}) \lor (n \text{ odd})) \land (\neg ((n \text{ even}) \land (n \text{ odd}))))$ |
+| Closure | $(a, b \in \mathbb{Z}) \Rightarrow ((a + b \in \mathbb{Z}) \land (a - b \in \mathbb{Z}) \land (a b \in \mathbb{Z}))$ |
+| [Divides](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-divides) ($a, b \in \mathbb{Z}$) | $(a \mid b) \Leftrightarrow (\exists k \in \mathbb{Z}, b = a k)$ |
+| [Congruence](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-congruence) ($a, b, n \in \mathbb{Z}$, $n > 0$) | $(a \equiv b \pmod{n}) \Leftrightarrow (n \mid (a - b))$ |
+| Remainder $r$ of $a$ by $n$ ($a, n \in \mathbb{Z}$, $n > 0$) | the unique $r$ with $\exists q \in \mathbb{Z}, ((a = q n + r) \land (0 \le r < n))$ |
+| [Rational](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-rational-numbers) | $(x \in \mathbb{Q}) \Leftrightarrow (\exists a, b \in \mathbb{Z}, ((b \ne 0) \land (x = a / b)))$ |
 
-- $n$ is *even* if $n = 2 k$ for some integer $k$.
-- $n$ is *odd* if $n = 2 k + 1$ for some integer $k$.
-- Every integer is even or odd.
-- No integer is both even and odd.
-- The sum, difference and product of two integers are integers.
-- $a \mid b$ ($a$ *divides* $b$) if $b = a k$ for some integer $k$.
-- For a positive integer $n$, $a \equiv b \pmod{n}$ if $n \mid (a - b)$.
-- For a positive integer $n$, there are unique integers $q$ and $r$ with $a = q n + r$ and $0 \le r < n$; $r$ is the *remainder* of $a$ on division by $n$.
-- A real number $x$ is *rational* if $x = a / b$ for some integers $a$ and $b$ with $b \ne 0$.
-
-A *counterexample* to $\forall x \in D, P(x)$ is an $x \in D$ for which $P(x)$ is false.
+Table 4: Integers.
 
 ## Sets
 
-- $x \in A$: $x$ is an element of $A$.
-- $\emptyset$ is the empty set, and ${\mathopen{}\left|A\right|\mathclose{}}$ is the number of elements of a finite set $A$.
-- $A \subseteq B$ if every element of $A$ is an element of $B$.
-- $A = B$ if $A \subseteq B$ and $B \subseteq A$.
-- $A \cup B = {\mathopen{}\left\{x : x \in A \lor x \in B\right\}\mathclose{}}$ and $A \cap B = {\mathopen{}\left\{x : x \in A \land x \in B\right\}\mathclose{}}$.
-- $A - B = {\mathopen{}\left\{x : x \in A \land x \notin B\right\}\mathclose{}}$.
-- ${\mathcal{P}\mathopen{}\left(A\right)\mathclose{}}$, the *power set* of $A$, is the set of all subsets of $A$.
-- $A \times B = {\mathopen{}\left\{(a, b) : a \in A \land b \in B\right\}\mathclose{}}$, the set of ordered pairs.
+|  |  |
+|----|----|
+| [Element](https://morrison-lab.github.io/mcs/chapters/sets.html#def-set) | $x \in A$ |
+| [Empty set](https://morrison-lab.github.io/mcs/chapters/sets.html#def-empty-set), [cardinality](https://morrison-lab.github.io/mcs/chapters/sets.html#def-cardinality) | $\emptyset$, ${\mathopen{}\left|A\right|\mathclose{}}$ |
+| [Subset](https://morrison-lab.github.io/mcs/chapters/sets.html#def-subset) | $(A \subseteq B) \Leftrightarrow (\forall x, ((x \in A) \Rightarrow (x \in B)))$ |
+| [Set equality](https://morrison-lab.github.io/mcs/chapters/set-proofs.html#thm-double-inclusion) | $(A = B) \Leftrightarrow ((A \subseteq B) \land (B \subseteq A))$ |
+| [Union](https://morrison-lab.github.io/mcs/chapters/sets.html#def-union) | $A \cup B = {\mathopen{}\left\{x : (x \in A) \lor (x \in B)\right\}\mathclose{}}$ |
+| [Intersection](https://morrison-lab.github.io/mcs/chapters/sets.html#def-intersection) | $A \cap B = {\mathopen{}\left\{x : (x \in A) \land (x \in B)\right\}\mathclose{}}$ |
+| [Difference](https://morrison-lab.github.io/mcs/chapters/sets.html#def-set-difference) | $A - B = {\mathopen{}\left\{x : (x \in A) \land (x \notin B)\right\}\mathclose{}}$ |
+| [Power set](https://morrison-lab.github.io/mcs/chapters/sets.html#def-power-set) | ${\mathcal{P}\mathopen{}\left(A\right)\mathclose{}} = {\mathopen{}\left\{S : S \subseteq A\right\}\mathclose{}}$ |
+| [Cartesian product](https://morrison-lab.github.io/mcs/chapters/sets.html#def-cartesian-product) | $A \times B = {\mathopen{}\left\{(a, b) : (a \in A) \land (b \in B)\right\}\mathclose{}}$ |
+
+Table 5: Sets.
 
 ## Induction
 
-$\sum_{i=1}^{n} a_i = a_1 + a_2 + \cdots + a_n$.
+|  |  |
+|----|----|
+| Sum | $\sum_{i=1}^{n} a_i = a_1 + a_2 + \cdots + a_n$ |
+| [Induction](https://morrison-lab.github.io/mcs/chapters/induction.html#def-proof-by-induction) ($b, k, n \in \mathbb{Z}$) | $(P(b) \land (\forall k \ge b, (P(k) \Rightarrow P(k + 1)))) \Rightarrow (\forall n \ge b, P(n))$ |
+| Base case | $P(b)$ |
+| Inductive step | assume $P(k)$ (the induction hypothesis), show $P(k + 1)$ |
 
-*Induction*: if $P(b)$ is true, and $P(k) \Rightarrow P(k + 1)$ for every integer $k \ge b$, then $P(n)$ is true for every integer $n \ge b$. $P(b)$ is the *base case*, and in the *inductive step* the assumption $P(k)$ is the *inductive hypothesis*.
+Table 6: Induction.
 
 Back to top
