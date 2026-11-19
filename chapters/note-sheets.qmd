@@ -17,5 +17,7 @@ so study the notes too.
   logic, integers, sets and induction.
 - [Midterm 2](note-sheets/midterm-2.qmd) ([PDF](note-sheets/midterm-2.pdf)):
   induction, loop invariants, recursion, recurrences and growth.
+- [Midterm 3](note-sheets/midterm-3.qmd) ([PDF](note-sheets/midterm-3.pdf)):
+  relations and functions, graphs, finite automata and trees.
 - [Final exam](note-sheets/final.qmd) ([PDF](note-sheets/final.pdf)):
-  the whole course.
+  the whole course, made of the three midterm sheets.

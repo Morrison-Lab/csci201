@@ -1,6 +1,6 @@
 ---
 title: "Final exam note sheet"
-subtitle: "The whole course"
+subtitle: "The whole course: the tables of the three midterm sheets"
 ---
 
 {{< include ../../latex-macros/macros.qmd >}}
