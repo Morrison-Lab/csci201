@@ -1,36 +1,41 @@
-## Logic
+| $P$ | $Q$ | $\neg P$ | $P \land Q$ | $P \lor Q$ | $P \Rightarrow Q$ | $P \Leftrightarrow Q$ |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| T | T | F | T | T | T | T |
+| T | F | F | F | T | F | F |
+| F | T | T | F | T | T | F |
+| F | F | T | F | F | T | T |
 
-$\neg P$ is "not $P$",
-$P \land Q$ is "$P$ and $Q$",
-$P \lor Q$ is "$P$ or $Q$" (or both),
-$P \Rightarrow Q$ is "if $P$, then $Q$",
-and $P \Leftrightarrow Q$ is "$P$ if and only if $Q$".
+: [Connectives](https://morrison-lab.github.io/mcs/chapters/propositional-logic.html#def-logical-connective). {#tbl-ns-connectives}
 
-$$
-\begin{array}{cc|ccccc}
-P & Q & \neg P & P \land Q & P \lor Q & P \Rightarrow Q & P \Leftrightarrow Q \\
-\hline
-\text{T} & \text{T} & \text{F} & \text{T} & \text{T} & \text{T} & \text{T} \\
-\text{T} & \text{F} & \text{F} & \text{F} & \text{T} & \text{F} & \text{F} \\
-\text{F} & \text{T} & \text{T} & \text{F} & \text{T} & \text{T} & \text{F} \\
-\text{F} & \text{F} & \text{T} & \text{F} & \text{F} & \text{T} & \text{T}
-\end{array}
-$$
+```{=latex}
+\needspace{3\baselineskip}
+```
 
-$A \equiv B$ (logically equivalent) means that $A$ and $B$ have the same truth value in every row of their truth table.
+| | |
+| --- | --- |
+| [Logically equivalent](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#def-logically-equivalent) | $A \equiv B$: same truth value in every row |
+| [Double negation](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-double-negation) | $\neg \neg P \equiv P$ |
+| [De Morgan](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-de-morgan-logic) | $\neg (P \land Q) \equiv \neg P \lor \neg Q$ |
+| | $\neg (P \lor Q) \equiv \neg P \land \neg Q$ |
+| [Conditional](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#cor-conditional-as-or) | $P \Rightarrow Q \equiv \neg P \lor Q$ |
+| Biconditional | $P \Leftrightarrow Q \equiv (P \Rightarrow Q) \land (Q \Rightarrow P)$ |
+| [Distributive](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-distributive) | $P \land (Q \lor R) \equiv (P \land Q) \lor (P \land R)$ |
+| | $P \lor (Q \land R) \equiv (P \lor Q) \land (P \lor R)$ |
+| [Converse](https://morrison-lab.github.io/mcs/chapters/propositional-logic.html#def-converse) of $P \Rightarrow Q$ | $Q \Rightarrow P$ |
+| [Contrapositive](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-contrapositive) of $P \Rightarrow Q$ | $\neg Q \Rightarrow \neg P \equiv P \Rightarrow Q$ |
 
-- Double negation: $\neg \neg P \equiv P$.
-- De Morgan: $\neg (P \land Q) \equiv \neg P \lor \neg Q$ and $\neg (P \lor Q) \equiv \neg P \land \neg Q$.
-- Conditional: $P \Rightarrow Q \equiv \neg P \lor Q$.
-- Biconditional: $P \Leftrightarrow Q \equiv (P \Rightarrow Q) \land (Q \Rightarrow P)$.
-- Distributive: $P \land (Q \lor R) \equiv (P \land Q) \lor (P \land R)$ and $P \lor (Q \land R) \equiv (P \lor Q) \land (P \lor R)$.
+: Laws. {#tbl-ns-laws tbl-colwidths="[42,58]"}
 
-The *converse* of $P \Rightarrow Q$ is $Q \Rightarrow P$,
-and its *contrapositive* is $\neg Q \Rightarrow \neg P$, which is equivalent to it.
+```{=latex}
+\needspace{3\baselineskip}
+```
 
-$\forall x \in D, P(x)$ is "for every $x$ in $D$, $P(x)$",
-and $\exists x \in D, P(x)$ is "there is an $x$ in $D$ such that $P(x)$".
-Negating moves $\neg$ inward and swaps the quantifier:
+| | |
+| --- | --- |
+| [For all](https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html#def-universal-quantifier) | $\forall x \in D, P(x)$ |
+| [There exists](https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html#def-existential-quantifier) | $\exists x \in D, P(x)$ |
+| [Negating a quantifier](https://morrison-lab.github.io/mcs/chapters/equivalence-negation.html#thm-negate-quantifiers) | $\neg \forall x \in D, P(x) \equiv \exists x \in D, \neg P(x)$ |
+| | $\neg \exists x \in D, P(x) \equiv \forall x \in D, \neg P(x)$ |
+| [Counterexample](https://morrison-lab.github.io/mcs/chapters/predicates-quantifiers.html#def-counterexample) to $\forall x \in D, P(x)$ | an $x \in D$ with $P(x)$ false |
 
-- $\neg \forall x \in D, P(x) \equiv \exists x \in D, \neg P(x)$;
-- $\neg \exists x \in D, P(x) \equiv \forall x \in D, \neg P(x)$.
+: Quantifiers. {#tbl-ns-quantifiers tbl-colwidths="[42,58]"}

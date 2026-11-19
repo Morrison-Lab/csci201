@@ -1,20 +1,13 @@
-## Integers
+| | |
+| --- | --- |
+| [Integers](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-integers), [rationals](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-rational-numbers), [reals](https://morrison-lab.github.io/mcs/chapters/sets.html#def-real-numbers) | $\bbZ$, $\bbQ$, $\bbR$ |
+| [Even](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-even-odd) | $n = 2 k$ for some $k \in \bbZ$ |
+| [Odd](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-odd) | $n = 2 k + 1$ for some $k \in \bbZ$ |
+| Parity | every integer is even or odd, and none is both |
+| Closure | $a + b$, $a - b$ and $a b$ are integers |
+| [Divides](https://morrison-lab.github.io/mcs/chapters/direct-proof.html#def-divides) | $a \mid b$ if $b = a k$ for some $k \in \bbZ$ |
+| [Congruence](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-congruence) ($n > 0$) | $a \equiv b \pmod{n}$ if $n \mid (a - b)$ |
+| Remainder $r$ of $a$ by $n > 0$ | unique $q, r \in \bbZ$ with $a = q n + r$, $0 \le r < n$ |
+| [Rational](https://morrison-lab.github.io/mcs/chapters/contrapositive-contradiction.html#def-rational-numbers) | $x = a / b$ for some $a, b \in \bbZ$, $b \ne 0$ |
 
-$\bbZ$ is the set of integers,
-$\bbQ$ the set of rational numbers,
-and $\bbR$ the set of real numbers.
-For integers $a$, $b$, $k$ and $n$:
-
-- $n$ is *even* if $n = 2 k$ for some integer $k$.
-- $n$ is *odd* if $n = 2 k + 1$ for some integer $k$.
-- Every integer is even or odd.
-- No integer is both even and odd.
-- The sum, difference and product of two integers are integers.
-- $a \mid b$ ($a$ *divides* $b$) if $b = a k$ for some integer $k$.
-- For a positive integer $n$, $a \equiv b \pmod{n}$ if $n \mid (a - b)$.
-- For a positive integer $n$, there are unique integers $q$ and $r$
-  with $a = q n + r$ and $0 \le r < n$;
-  $r$ is the *remainder* of $a$ on division by $n$.
-- A real number $x$ is *rational* if $x = a / b$ for some integers $a$ and $b$ with $b \ne 0$.
-
-A *counterexample* to $\forall x \in D, P(x)$ is an $x \in D$ for which $P(x)$ is false.
+: Integers. {#tbl-ns-integers tbl-colwidths="[42,58]"}
