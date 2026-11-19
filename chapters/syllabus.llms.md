@@ -6,7 +6,7 @@ Winter 2027
 
 Published
 
-Last modified: 2026-11-17 11:22:20 (PST)
+Last modified: 2026-11-18 19:50:38 (PST)
 
 > **NOTE:**
 >
@@ -215,7 +215,7 @@ The lowest worksheet score is dropped.
 
 When writing up your work:
 
-- Type all written work. You do not need to use LaTeX, but I recommend it.
+- Type all written work, in any tool you like. I recommend Markdown with LaTeX math (`$x^2$` for $x^2$), for example in a Quarto document or a Jupyter notebook, which you can then render to PDF. A full LaTeX document also works.
 - Hand-drawn diagrams are welcome when they help illustrate a concept, as long as they are legible.
 - Format code and pseudocode in a fixed-width font. Do not submit screenshots of your editor or terminal.
 - Show your work. An answer alone will not get full credit, on homework or on exams.
