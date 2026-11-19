@@ -31,88 +31,6 @@
     ]
   },
   {
-    "objectID": "chapters/note-sheets/midterm-1.html",
-    "href": "chapters/note-sheets/midterm-1.html",
-    "title": "Midterm 1 note sheet",
-    "section": "",
-    "text": "This sheet comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the notes. Download the PDF to print it.",
-    "crumbs": [
-      "Home",
-      "Exam Note Sheets",
-      "Midterm 1 note sheet"
-    ]
-  },
-  {
-    "objectID": "chapters/note-sheets/midterm-1.html#logic",
-    "href": "chapters/note-sheets/midterm-1.html#logic",
-    "title": "Midterm 1 note sheet",
-    "section": "Logic",
-    "text": "Logic\n\n\n\nTable 1: Connectives.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(P\\)\n\\(Q\\)\n\\(\\neg P\\)\n\\(P \\land Q\\)\n\\(P \\lor Q\\)\n\\(P \\Rightarrow Q\\)\n\\(P \\Leftrightarrow Q\\)\n\n\n\n\nT\nT\nF\nT\nT\nT\nT\n\n\nT\nF\nF\nF\nT\nF\nF\n\n\nF\nT\nT\nF\nT\nT\nF\n\n\nF\nF\nT\nF\nF\nT\nT\n\n\n\n\n\n\n\n\n\nTable 2: Laws.\n\n\n\n\n\n\n\n\n\nLogically equivalent\n\\(A \\equiv B\\): \\(A\\) and \\(B\\) have the same truth value in every row\n\n\nDouble negation\n\\((\\neg \\neg P) \\equiv P\\)\n\n\nDe Morgan\n\\((\\neg (P \\land Q)) \\equiv ((\\neg P) \\lor (\\neg Q))\\)\n\n\n\n\\((\\neg (P \\lor Q)) \\equiv ((\\neg P) \\land (\\neg Q))\\)\n\n\nConditional\n\\((P \\Rightarrow Q) \\equiv ((\\neg P) \\lor Q)\\)\n\n\nBiconditional\n\\((P \\Leftrightarrow Q) \\equiv ((P \\Rightarrow Q) \\land (Q \\Rightarrow P))\\)\n\n\nDistributive\n\\((P \\land (Q \\lor R)) \\equiv ((P \\land Q) \\lor (P \\land R))\\)\n\n\n\n\\((P \\lor (Q \\land R)) \\equiv ((P \\lor Q) \\land (P \\lor R))\\)\n\n\nConverse of \\(P \\Rightarrow Q\\)\n\\(Q \\Rightarrow P\\)\n\n\nContrapositive of \\(P \\Rightarrow Q\\)\n\\((\\neg Q) \\Rightarrow (\\neg P)\\)\n\n\n\n\\(((\\neg Q) \\Rightarrow (\\neg P)) \\equiv (P \\Rightarrow Q)\\)\n\n\n\n\n\n\n\n\n\nTable 3: Quantifiers.\n\n\n\n\n\n\n\n\n\nFor all\n\\(\\forall x \\in D, P(x)\\)\n\n\nThere exists\n\\(\\exists x \\in D, P(x)\\)\n\n\nNegating a quantifier\n\\((\\neg (\\forall x \\in D, P(x))) \\equiv (\\exists x \\in D, (\\neg P(x)))\\)\n\n\n\n\\((\\neg (\\exists x \\in D, P(x))) \\equiv (\\forall x \\in D, (\\neg P(x)))\\)\n\n\nCounterexample to \\(\\forall x \\in D, P(x)\\)\nan \\(x \\in D\\) with \\(\\neg P(x)\\)",
-    "crumbs": [
-      "Home",
-      "Exam Note Sheets",
-      "Midterm 1 note sheet"
-    ]
-  },
-  {
-    "objectID": "chapters/note-sheets/midterm-1.html#integers",
-    "href": "chapters/note-sheets/midterm-1.html#integers",
-    "title": "Midterm 1 note sheet",
-    "section": "Integers",
-    "text": "Integers\n\n\n\nTable 4: Integers.\n\n\n\n\n\n\n\n\n\nIntegers, rationals, reals\n\\(\\mathbb{Z}\\), \\(\\mathbb{Q}\\), \\(\\mathbb{R}\\)\n\n\nEven\n\\((n \\text{ even}) \\Leftrightarrow (\\exists k \\in \\mathbb{Z}, n = 2 k)\\)\n\n\nOdd\n\\((n \\text{ odd}) \\Leftrightarrow (\\exists k \\in \\mathbb{Z}, n = 2 k + 1)\\)\n\n\nParity\n\\(\\forall n \\in \\mathbb{Z}, (((n \\text{ even}) \\lor (n \\text{ odd})) \\land (\\neg ((n \\text{ even}) \\land (n \\text{ odd}))))\\)\n\n\nClosure\n\\((a, b \\in \\mathbb{Z}) \\Rightarrow ((a + b \\in \\mathbb{Z}) \\land (a - b \\in \\mathbb{Z}) \\land (a b \\in \\mathbb{Z}))\\)\n\n\nDivides (\\(a, b \\in \\mathbb{Z}\\))\n\\((a \\mid b) \\Leftrightarrow (\\exists k \\in \\mathbb{Z}, b = a k)\\)\n\n\nCongruence (\\(a, b, n \\in \\mathbb{Z}\\), \\(n &gt; 0\\))\n\\((a \\equiv b \\pmod{n}) \\Leftrightarrow (n \\mid (a - b))\\)\n\n\nRemainder \\(r\\) of \\(a\\) by \\(n\\) (\\(a, n \\in \\mathbb{Z}\\), \\(n &gt; 0\\))\nthe unique \\(r\\) with \\(\\exists q \\in \\mathbb{Z}, ((a = q n + r) \\land (0 \\le r &lt; n))\\)\n\n\nRational\n\\((x \\in \\mathbb{Q}) \\Leftrightarrow (\\exists a, b \\in \\mathbb{Z}, ((b \\ne 0) \\land (x = a / b)))\\)",
-    "crumbs": [
-      "Home",
-      "Exam Note Sheets",
-      "Midterm 1 note sheet"
-    ]
-  },
-  {
-    "objectID": "chapters/note-sheets/midterm-1.html#sets",
-    "href": "chapters/note-sheets/midterm-1.html#sets",
-    "title": "Midterm 1 note sheet",
-    "section": "Sets",
-    "text": "Sets\n\n\n\nTable 5: Sets.\n\n\n\n\n\n\n\n\n\nElement\n\\(x \\in A\\)\n\n\nEmpty set, cardinality\n\\(\\emptyset\\), \\({\\mathopen{}\\left|A\\right|\\mathclose{}}\\)\n\n\nSubset\n\\((A \\subseteq B) \\Leftrightarrow (\\forall x, ((x \\in A) \\Rightarrow (x \\in B)))\\)\n\n\nSet equality\n\\((A = B) \\Leftrightarrow ((A \\subseteq B) \\land (B \\subseteq A))\\)\n\n\nUnion\n\\(A \\cup B = {\\mathopen{}\\left\\{x : (x \\in A) \\lor (x \\in B)\\right\\}\\mathclose{}}\\)\n\n\nIntersection\n\\(A \\cap B = {\\mathopen{}\\left\\{x : (x \\in A) \\land (x \\in B)\\right\\}\\mathclose{}}\\)\n\n\nDifference\n\\(A - B = {\\mathopen{}\\left\\{x : (x \\in A) \\land (x \\notin B)\\right\\}\\mathclose{}}\\)\n\n\nPower set\n\\({\\mathcal{P}\\mathopen{}\\left(A\\right)\\mathclose{}} = {\\mathopen{}\\left\\{S : S \\subseteq A\\right\\}\\mathclose{}}\\)\n\n\nCartesian product\n\\(A \\times B = {\\mathopen{}\\left\\{(a, b) : (a \\in A) \\land (b \\in B)\\right\\}\\mathclose{}}\\)",
-    "crumbs": [
-      "Home",
-      "Exam Note Sheets",
-      "Midterm 1 note sheet"
-    ]
-  },
-  {
-    "objectID": "chapters/note-sheets/midterm-1.html#induction",
-    "href": "chapters/note-sheets/midterm-1.html#induction",
-    "title": "Midterm 1 note sheet",
-    "section": "Induction",
-    "text": "Induction\n\n\n\nTable 6: Induction.\n\n\n\n\n\n\n\n\n\nSum\n\\(\\sum_{i=1}^{n} a_i = a_1 + a_2 + \\cdots + a_n\\)\n\n\nInduction (\\(b, k, n \\in \\mathbb{Z}\\))\n\\((P(b) \\land (\\forall k \\ge b, (P(k) \\Rightarrow P(k + 1)))) \\Rightarrow (\\forall n \\ge b, P(n))\\)\n\n\nBase case\n\\(P(b)\\)\n\n\nInductive step\nassume \\(P(k)\\) (the induction hypothesis), show \\(P(k + 1)\\)",
-    "crumbs": [
-      "Home",
-      "Exam Note Sheets",
-      "Midterm 1 note sheet"
-    ]
-  },
-  {
-    "objectID": "chapters/calendar.html",
-    "href": "chapters/calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "The topics and dates of future lectures may change. The syllabus gives the topics and readings week by week; this calendar gives them day by day, so where the two differ, this calendar is the more recent plan.\nWinter quarter runs from Tuesday, January 5 to Friday, March 19, 2027, and the last week, March 15 to 19, is finals week. Lectures meet on Mondays, Wednesdays and Fridays. Each section’s two-hour lab meets once a week, on Thursday or Friday; the syllabus lists the times and rooms. There is no class on Monday, January 18 (Martin Luther King Jr. Day) or Monday, February 15 (Presidents’ Day). Both are Washington state holidays, set as the third Mondays of January and February (WAC 357-31-005).\nCanvas lists every due date and is the place to submit work.\n\nHomework is due on Friday at 10pm, with no penalty until 10pm that Sunday. Homework 6 has no extension.\nEach lab is due at 10pm on the Monday after the lab, or on the next class day when that Monday is a holiday.\nQuiz 0 is given in week 1.\n\nMidterms 1, 2 and 3 are in class, tentatively on Wednesday, January 27, Wednesday, February 17 and Friday, March 12. If a midterm’s date changes, I will announce the change at least two weeks before that exam.\nThe final exam is optional (see Exams in the syllabus). It is 10:30am to 12:30pm in finals week, in your lecture classroom, on a day set by your section’s lecture time. WWU’s finals schedule sets the slot for classes that meet on neither Tuesday nor Thursday:\n\nLectures starting between 10:30 and 11:29am (our 11:00 sections) take their final on Tuesday, March 16.\nLectures starting between 8:30 and 9:29am (our 9:00 sections) take their final on Thursday, March 18.\nA class’s lab does not change its exam slot.\n\n\n\n\n\n\n\n\n\n\n\n\nMonday\nWednesday\nFriday\nLab (Thursday or Friday)\n\n\n\n\nWeek 1\nJan 3 – Jan 9\nQuiz 0 this week\nClasses begin Tuesday, Jan 5\nSyllabus\nFunctional programming\nPropositional logic\nPredicates and quantifiers\nLab 1\n\n\nWeek 2\nJan 10 – Jan 16\nLogical equivalence and negation\nLab 1 due\nInference and direct proof\nContrapositive and contradiction\nProving non-conditional statements\nHomework 1 due\nLab 2\n\n\nWeek 3\nJan 17 – Jan 23\nNo class: Martin Luther King Jr. Day\nSets\nLab 2 due\nSets: subsets, power sets, Cartesian products; proofs with sets\nHomework 2 due\nLab 3\n\n\nWeek 4\nJan 24 – Jan 30\nMathematical induction\nLab 3 due\nMidterm 1\nLoop invariants\nNo lab assignment\n\n\nWeek 5\nJan 31 – Feb 6\nMathematical induction, continued\nRecursive functions\nRecurrence relations\nHomework 3 due\nLab 4\n\n\nWeek 6\nFeb 7 – Feb 13\nRecurrence relations, continued\nLab 4 due\nGrowth rates of functions: big-O\nAsymptotic notation\nHomework 4 due\nLab 5\n\n\nWeek 7\nFeb 14 – Feb 20\nNo class: Presidents’ Day\nMidterm 2\nLab 5 due\nRelations\nNo lab assignment\n\n\nWeek 8\nFeb 21 – Feb 27\nEquivalence relations; functions\nGraphs: paths, cycles, connectivity\nGraphs: breadth-first and depth-first traversal\nHomework 5 due\nLab 6\n\n\nWeek 9\nFeb 28 – Mar 6\nGraph traversal, continued\nLab 6 due\nState machines\nFinite automata\nHomework 6 due (no extension)\nLab 7\n\n\nWeek 10\nMar 7 – Mar 13\nTrees\nLab 7 due\nTree traversal\nMidterm 3\nLab 8\n\n\nFinals week\nMar 14 – Mar 20\nFinal exam (optional), 10:30am – 12:30pm, in your lecture classroom, per the WWU finals schedule:\nSections 13745 and 13746 (11:00 lecture): Tuesday, Mar 16\nSections 13747 and 13748 (9:00 lecture): Thursday, Mar 18\nLab 8 due Monday, Mar 15\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Home",
-      "Calendar"
-    ]
-  },
-  {
-    "objectID": "chapters/note-sheets.html",
-    "href": "chapters/note-sheets.html",
-    "title": "Exam Note Sheets",
-    "section": "",
-    "text": "You do not bring your own notes to an exam. Instead, each exam comes with a printed note sheet, and the same sheets are here, so you can study with the sheet you will have in the exam. Each sheet gives the definitions, laws and notation that its exam uses. It leaves out some results from the notes, so study the notes too.\n\nMidterm 1 (PDF): logic, integers, sets and induction.\nMidterm 2 (PDF): induction, loop invariants, recursion, recurrences and growth.\n\n\n\n\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Home",
-      "Exam Note Sheets"
-    ]
-  },
-  {
     "objectID": "chapters/note-sheets/midterm-2.html",
     "href": "chapters/note-sheets/midterm-2.html",
     "title": "Midterm 2 note sheet",
@@ -206,6 +124,316 @@
       "Home",
       "Exam Note Sheets",
       "Midterm 2 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html",
+    "href": "chapters/note-sheets/final.html",
+    "title": "Final exam note sheet",
+    "section": "",
+    "text": "This sheet comes printed with the final exam. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the notes. Download the PDF to print it.",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#logic",
+    "href": "chapters/note-sheets/final.html#logic",
+    "title": "Final exam note sheet",
+    "section": "Logic",
+    "text": "Logic\n\n\n\nTable 1: Connectives.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(P\\)\n\\(Q\\)\n\\(\\neg P\\)\n\\(P \\land Q\\)\n\\(P \\lor Q\\)\n\\(P \\Rightarrow Q\\)\n\\(P \\Leftrightarrow Q\\)\n\n\n\n\nT\nT\nF\nT\nT\nT\nT\n\n\nT\nF\nF\nF\nT\nF\nF\n\n\nF\nT\nT\nF\nT\nT\nF\n\n\nF\nF\nT\nF\nF\nT\nT\n\n\n\n\n\n\n\n\n\nTable 2: Laws.\n\n\n\n\n\n\n\n\n\nLogically equivalent\n\\(A \\equiv B\\): \\(A\\) and \\(B\\) have the same truth value in every row\n\n\nDouble negation\n\\((\\neg \\neg P) \\equiv P\\)\n\n\nDe Morgan\n\\((\\neg (P \\land Q)) \\equiv ((\\neg P) \\lor (\\neg Q))\\)\n\n\n\n\\((\\neg (P \\lor Q)) \\equiv ((\\neg P) \\land (\\neg Q))\\)\n\n\nConditional\n\\((P \\Rightarrow Q) \\equiv ((\\neg P) \\lor Q)\\)\n\n\nBiconditional\n\\((P \\Leftrightarrow Q) \\equiv ((P \\Rightarrow Q) \\land (Q \\Rightarrow P))\\)\n\n\nDistributive\n\\((P \\land (Q \\lor R)) \\equiv ((P \\land Q) \\lor (P \\land R))\\)\n\n\n\n\\((P \\lor (Q \\land R)) \\equiv ((P \\lor Q) \\land (P \\lor R))\\)\n\n\nConverse of \\(P \\Rightarrow Q\\)\n\\(Q \\Rightarrow P\\)\n\n\nContrapositive of \\(P \\Rightarrow Q\\)\n\\((\\neg Q) \\Rightarrow (\\neg P)\\)\n\n\n\n\\(((\\neg Q) \\Rightarrow (\\neg P)) \\equiv (P \\Rightarrow Q)\\)\n\n\n\n\n\n\n\n\n\nTable 3: Quantifiers.\n\n\n\n\n\n\n\n\n\nFor all\n\\(\\forall x \\in D, P(x)\\)\n\n\nThere exists\n\\(\\exists x \\in D, P(x)\\)\n\n\nNegating a quantifier\n\\((\\neg (\\forall x \\in D, P(x))) \\equiv (\\exists x \\in D, (\\neg P(x)))\\)\n\n\n\n\\((\\neg (\\exists x \\in D, P(x))) \\equiv (\\forall x \\in D, (\\neg P(x)))\\)\n\n\nCounterexample to \\(\\forall x \\in D, P(x)\\)\nan \\(x \\in D\\) with \\(\\neg P(x)\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#integers",
+    "href": "chapters/note-sheets/final.html#integers",
+    "title": "Final exam note sheet",
+    "section": "Integers",
+    "text": "Integers\n\n\n\nTable 4: Integers.\n\n\n\n\n\n\n\n\n\nIntegers, rationals, reals\n\\(\\mathbb{Z}\\), \\(\\mathbb{Q}\\), \\(\\mathbb{R}\\)\n\n\nEven\n\\((n \\text{ even}) \\Leftrightarrow (\\exists k \\in \\mathbb{Z}, n = 2 k)\\)\n\n\nOdd\n\\((n \\text{ odd}) \\Leftrightarrow (\\exists k \\in \\mathbb{Z}, n = 2 k + 1)\\)\n\n\nParity\n\\(\\forall n \\in \\mathbb{Z}, (((n \\text{ even}) \\lor (n \\text{ odd})) \\land (\\neg ((n \\text{ even}) \\land (n \\text{ odd}))))\\)\n\n\nClosure\n\\((a, b \\in \\mathbb{Z}) \\Rightarrow ((a + b \\in \\mathbb{Z}) \\land (a - b \\in \\mathbb{Z}) \\land (a b \\in \\mathbb{Z}))\\)\n\n\nDivides (\\(a, b \\in \\mathbb{Z}\\))\n\\((a \\mid b) \\Leftrightarrow (\\exists k \\in \\mathbb{Z}, b = a k)\\)\n\n\nCongruence (\\(a, b, n \\in \\mathbb{Z}\\), \\(n &gt; 0\\))\n\\((a \\equiv b \\pmod{n}) \\Leftrightarrow (n \\mid (a - b))\\)\n\n\nRemainder \\(r\\) of \\(a\\) by \\(n\\) (\\(a, n \\in \\mathbb{Z}\\), \\(n &gt; 0\\))\nthe unique \\(r\\) with \\(\\exists q \\in \\mathbb{Z}, ((a = q n + r) \\land (0 \\le r &lt; n))\\)\n\n\nRational\n\\((x \\in \\mathbb{Q}) \\Leftrightarrow (\\exists a, b \\in \\mathbb{Z}, ((b \\ne 0) \\land (x = a / b)))\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#sets",
+    "href": "chapters/note-sheets/final.html#sets",
+    "title": "Final exam note sheet",
+    "section": "Sets",
+    "text": "Sets\n\n\n\nTable 5: Sets.\n\n\n\n\n\n\n\n\n\nElement\n\\(x \\in A\\)\n\n\nEmpty set, cardinality\n\\(\\emptyset\\), \\({\\mathopen{}\\left|A\\right|\\mathclose{}}\\)\n\n\nSubset\n\\((A \\subseteq B) \\Leftrightarrow (\\forall x, ((x \\in A) \\Rightarrow (x \\in B)))\\)\n\n\nSet equality\n\\((A = B) \\Leftrightarrow ((A \\subseteq B) \\land (B \\subseteq A))\\)\n\n\nUnion\n\\(A \\cup B = {\\mathopen{}\\left\\{x : (x \\in A) \\lor (x \\in B)\\right\\}\\mathclose{}}\\)\n\n\nIntersection\n\\(A \\cap B = {\\mathopen{}\\left\\{x : (x \\in A) \\land (x \\in B)\\right\\}\\mathclose{}}\\)\n\n\nDifference\n\\(A - B = {\\mathopen{}\\left\\{x : (x \\in A) \\land (x \\notin B)\\right\\}\\mathclose{}}\\)\n\n\nPower set\n\\({\\mathcal{P}\\mathopen{}\\left(A\\right)\\mathclose{}} = {\\mathopen{}\\left\\{S : S \\subseteq A\\right\\}\\mathclose{}}\\)\n\n\nCartesian product\n\\(A \\times B = {\\mathopen{}\\left\\{(a, b) : (a \\in A) \\land (b \\in B)\\right\\}\\mathclose{}}\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#induction",
+    "href": "chapters/note-sheets/final.html#induction",
+    "title": "Final exam note sheet",
+    "section": "Induction",
+    "text": "Induction\n\n\n\nTable 6: Induction.\n\n\n\n\n\n\n\n\n\nSum\n\\(\\sum_{i=1}^{n} a_i = a_1 + a_2 + \\cdots + a_n\\)\n\n\nInduction (\\(b, k, n \\in \\mathbb{Z}\\))\n\\((P(b) \\land (\\forall k \\ge b, (P(k) \\Rightarrow P(k + 1)))) \\Rightarrow (\\forall n \\ge b, P(n))\\)\n\n\nBase case\n\\(P(b)\\)\n\n\nInductive step\nassume \\(P(k)\\) (the induction hypothesis), show \\(P(k + 1)\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#strong-induction",
+    "href": "chapters/note-sheets/final.html#strong-induction",
+    "title": "Final exam note sheet",
+    "section": "Strong induction",
+    "text": "Strong induction\n\n\n\nTable 7: Strong induction.\n\n\n\n\n\n\n\n\n\nStrong induction (\\(b, c, k, n \\in \\mathbb{Z}\\))\n\\((P(b) \\land \\cdots \\land P(c) \\land (\\forall k \\ge c, ((P(b) \\land \\cdots \\land P(k)) \\Rightarrow P(k + 1)))) \\Rightarrow (\\forall n \\ge b, P(n))\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#loop-invariants",
+    "href": "chapters/note-sheets/final.html#loop-invariants",
+    "title": "Final exam note sheet",
+    "section": "Loop invariants",
+    "text": "Loop invariants\n\n\n\nTable 8: Loop invariants.\n\n\n\n\n\n\n\n\n\nLoop invariant \\(I\\), guard \\(G\\)\n\\(I\\) is true each time \\(G\\) is tested\n\n\nInitialization\n\\(I\\) holds when \\(G\\) is first tested\n\n\nMaintenance\n\\((I \\land G)\\) before a pass through the body \\(\\Rightarrow\\) \\(I\\) after it\n\n\nTermination\nthe loop stops, and \\((I \\land (\\neg G)) \\Rightarrow\\) the result",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#racket",
+    "href": "chapters/note-sheets/final.html#racket",
+    "title": "Final exam note sheet",
+    "section": "Racket",
+    "text": "Racket\n\n\n\nTable 9: Racket.\n\n\n\n\n\n\n\n\n\nDefine a function\n(define (f x y) body)\n\n\nConditionals\n(if test then-expr else-expr)\n\n\n\n(cond [test1 expr1] [test2 expr2] [else expr3])\n\n\nLists\n'() empty, (list 1 2 3) gives '(1 2 3)\n\n\n\n(cons x lst) puts x in front, (empty? lst) is #t if lst is '()\n\n\n\n(first lst), (second lst), (third lst), (rest lst) all but the first\n\n\nArithmetic\n(+ a b) (- a b) (* a b) (quotient n d) (remainder n d)\n\n\nComparison\n(= a b) (&lt; a b) (&lt;= a b) (&gt; a b) (&gt;= a b)\n\n\n\n(equal? a b) is #t if a and b are the same value, lists included\n\n\nLogic\n(and a b) (or a b) (not a)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#recurrences",
+    "href": "chapters/note-sheets/final.html#recurrences",
+    "title": "Final exam note sheet",
+    "section": "Recurrences",
+    "text": "Recurrences\n\n\n\nTable 10: Recurrences.\n\n\n\n\n\n\n\n\n\nRecurrence relation\neach term from earlier terms, starting from initial terms\n\n\nIteration\nsubstitute repeatedly, write the result after \\(j\\) steps, choose \\(j\\) to reach an initial term\n\n\nGeometric sum (\\(r \\ne 1\\))\n\\(1 + r + \\cdots + r^k = \\dfrac{r^{k + 1} - 1}{r - 1}\\)\n\n\nArithmetic sum\n\\(1 + 2 + \\cdots + n = \\dfrac{n (n + 1)}{2}\\)\n\n\nLogarithms\n\\(2^{\\log_2 n} = n\\)\n\n\n\n\\(\\log_2 (x y) = \\log_2 x + \\log_2 y\\)\n\n\n\n\\(\\log_2 (x^k) = k \\log_2 x\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#growth-of-functions",
+    "href": "chapters/note-sheets/final.html#growth-of-functions",
+    "title": "Final exam note sheet",
+    "section": "Growth of functions",
+    "text": "Growth of functions\n\n\n\nTable 11: Growth of functions.\n\n\n\n\n\n\n\n\n\nBig-O (\\(c \\in \\mathbb{R}\\); \\(N, n \\in \\mathbb{Z}\\))\n\\((f(n) = O(g(n))) \\Leftrightarrow (\\exists c &gt; 0, \\exists N, \\forall n \\ge N, \\mathopen{}\\left|f(n)\\right|\\mathclose{} \\le c \\mathopen{}\\left|g(n)\\right|\\mathclose{})\\)\n\n\nBig-Omega\n\\((f(n) = \\Omega(g(n))) \\Leftrightarrow (\\exists c &gt; 0, \\exists N, \\forall n \\ge N, \\mathopen{}\\left|f(n)\\right|\\mathclose{} \\ge c \\mathopen{}\\left|g(n)\\right|\\mathclose{})\\)\n\n\nBig-Theta\n\\((f(n) = \\Theta(g(n))) \\Leftrightarrow ((f(n) = O(g(n))) \\land (f(n) = \\Omega(g(n))))\\)\n\n\nWitnesses\nthe numbers \\(c\\) and \\(N\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#relations-and-functions",
+    "href": "chapters/note-sheets/final.html#relations-and-functions",
+    "title": "Final exam note sheet",
+    "section": "Relations and functions",
+    "text": "Relations and functions\n\n\n\nTable 12: Relations and functions.\n\n\n\n\n\n\n\n\n\nRelation on \\(A\\)\n\\(R \\subseteq A \\times A\\), and \\((a \\mathrel{R} b) \\Leftrightarrow ((a, b) \\in R)\\)\n\n\nReflexive\n\\(\\forall a \\in A, a \\mathrel{R} a\\)\n\n\nSymmetric\n\\(\\forall a, b \\in A, ((a \\mathrel{R} b) \\Rightarrow (b \\mathrel{R} a))\\)\n\n\nTransitive\n\\(\\forall a, b, c \\in A, (((a \\mathrel{R} b) \\land (b \\mathrel{R} c)) \\Rightarrow (a \\mathrel{R} c))\\)\n\n\nAntisymmetric\n\\(\\forall a, b \\in A, (((a \\mathrel{R} b) \\land (b \\mathrel{R} a)) \\Rightarrow (a = b))\\)\n\n\nEquivalence relation\nreflexive, symmetric and transitive\n\n\nEquivalence class\n\\([a] = {\\mathopen{}\\left\\{b \\in A : b \\mathrel{R} a\\right\\}\\mathclose{}}\\)\n\n\nInjective \\(f : A \\to B\\)\n\\(\\forall a_1, a_2 \\in A, ((f(a_1) = f(a_2)) \\Rightarrow (a_1 = a_2))\\)\n\n\nSurjective\n\\(\\forall b \\in B, \\exists a \\in A, f(a) = b\\)\n\n\nBijective\ninjective and surjective\n\n\nInverse of a bijection\n\\(f^{-1} : B \\to A\\) with \\((f^{-1}(b) = a) \\Leftrightarrow (f(a) = b)\\)\n\n\nFloor\n\\(\\mathopen{}\\left\\lfloor x\\right\\rfloor\\mathclose{} = \\max {\\mathopen{}\\left\\{n \\in \\mathbb{Z}: n \\le x\\right\\}\\mathclose{}}\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#graphs",
+    "href": "chapters/note-sheets/final.html#graphs",
+    "title": "Final exam note sheet",
+    "section": "Graphs",
+    "text": "Graphs\n\n\n\nTable 13: Graphs.\n\n\n\n\n\n\n\n\n\nDegree\n\\(\\deg(v)\\): edges with endpoint \\(v\\), a loop counting twice\n\n\nWalk from \\(u\\) to \\(v\\)\n\\(v_0, e_1, v_1, \\ldots, e_n, v_n\\), \\(v_0 = u\\), \\(v_n = v\\), \\(e_i\\) joins \\(v_{i - 1}\\) and \\(v_i\\); length \\(n\\)\n\n\nTrail, path\na walk with no repeated edge; with no repeated vertex\n\n\nCircuit\na trail of length \\(\\ge 1\\) from a vertex to itself\n\n\nConnected\na walk between every two vertices\n\n\nEuler circuit\na circuit that contains every edge\n\n\nEuler trail\na trail from \\(u\\) to \\(v \\ne u\\) that contains every edge\n\n\nHamiltonian cycle\na circuit that visits every vertex once, then returns to its start\n\n\nBipartite\n\\(V = V_1 \\cup V_2\\) with \\(V_1 \\cap V_2 = \\emptyset\\), and every edge has one endpoint in \\(V_1\\) and one in \\(V_2\\)\n\n\n\n\n\n\nprocedure bfs(G, s)                       procedure dfs(G, v)   // start: dfs(G, s)\n    mark s, and set dist[s] := 0              mark v\n    Q := a queue containing only s            for each vertex u in the list of v, in order\n    while Q is not empty                          if u is not marked\n        v := remove the front of Q                    dfs(G, u)\n        for each vertex u in the list of v, in order\n            if u is not marked\n                mark u, and set dist[u] := dist[v] + 1\n                add u to the back of Q",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#finite-automata",
+    "href": "chapters/note-sheets/final.html#finite-automata",
+    "title": "Final exam note sheet",
+    "section": "Finite automata",
+    "text": "Finite automata\n\n\n\nTable 14: Finite automata.\n\n\n\n\n\n\n\n\n\nDFA\n\\(M = (S, \\Sigma, \\delta, s_0, F)\\): states, alphabet, \\(\\delta : S \\times \\Sigma \\to S\\), initial state, accepting states\n\n\nTransition table\n\\(\\to\\) marks the initial state, \\(*\\) each accepting state\n\n\nEmpty string\n\\(\\lambda\\)\n\n\nRun on \\(w = x_1 \\cdots x_n\\)\n\\(r_0, \\ldots, r_n\\) with \\(r_0 = s_0\\) and \\(r_i = \\delta(r_{i - 1}, x_i)\\)\n\n\nAccepts \\(w\\)\n\\(r_n \\in F\\)\n\n\nLanguage\n\\(L(M) = {\\mathopen{}\\left\\{w : M \\text{ accepts } w\\right\\}\\mathclose{}}\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/final.html#trees",
+    "href": "chapters/note-sheets/final.html#trees",
+    "title": "Final exam note sheet",
+    "section": "Trees",
+    "text": "Trees\n\n\n\nTable 15: Trees.\n\n\n\n\n\n\n\n\n\nTree\na connected graph with no cycles\n\n\nEdges of a tree\na tree with \\(n\\) vertices has \\(n - 1\\) edges\n\n\nBinary tree\n\\(\\mathtt{nil}\\), or \\(\\operatorname{node}(x, L, R)\\): root label \\(x\\), subtrees \\(L\\) and \\(R\\)\n\n\nIn Racket\n\\(\\mathtt{nil}\\) is '(), \\(\\operatorname{node}(x, L, R)\\) is (list x L R)\n\n\nPreorder\nroot, preorder of \\(L\\), preorder of \\(R\\)\n\n\nInorder\ninorder of \\(L\\), root, inorder of \\(R\\)\n\n\nPostorder\npostorder of \\(L\\), postorder of \\(R\\), root\n\n\nLevel, height\nthe root is at level 0, a child one below its parent; height is the largest level\n\n\nLeaf\na vertex with no children\n\n\nLeaf of a tree with no root\na vertex of degree 1",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Final exam note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/calendar.html",
+    "href": "chapters/calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "The topics and dates of future lectures may change. The syllabus gives the topics and readings week by week; this calendar gives them day by day, so where the two differ, this calendar is the more recent plan.\nWinter quarter runs from Tuesday, January 5 to Friday, March 19, 2027, and the last week, March 15 to 19, is finals week. Lectures meet on Mondays, Wednesdays and Fridays. Each section’s two-hour lab meets once a week, on Thursday or Friday; the syllabus lists the times and rooms. There is no class on Monday, January 18 (Martin Luther King Jr. Day) or Monday, February 15 (Presidents’ Day). Both are Washington state holidays, set as the third Mondays of January and February (WAC 357-31-005).\nCanvas lists every due date and is the place to submit work.\n\nHomework is due on Friday at 10pm, with no penalty until 10pm that Sunday. Homework 6 has no extension.\nEach lab is due at 10pm on the Monday after the lab, or on the next class day when that Monday is a holiday.\nQuiz 0 is given in week 1.\n\nMidterms 1, 2 and 3 are in class, tentatively on Wednesday, January 27, Wednesday, February 17 and Friday, March 12. If a midterm’s date changes, I will announce the change at least two weeks before that exam.\nThe final exam is optional (see Exams in the syllabus). It is 10:30am to 12:30pm in finals week, in your lecture classroom, on a day set by your section’s lecture time. WWU’s finals schedule sets the slot for classes that meet on neither Tuesday nor Thursday:\n\nLectures starting between 10:30 and 11:29am (our 11:00 sections) take their final on Tuesday, March 16.\nLectures starting between 8:30 and 9:29am (our 9:00 sections) take their final on Thursday, March 18.\nA class’s lab does not change its exam slot.\n\n\n\n\n\n\n\n\n\n\n\n\nMonday\nWednesday\nFriday\nLab (Thursday or Friday)\n\n\n\n\nWeek 1\nJan 3 – Jan 9\nQuiz 0 this week\nClasses begin Tuesday, Jan 5\nSyllabus\nFunctional programming\nPropositional logic\nPredicates and quantifiers\nLab 1\n\n\nWeek 2\nJan 10 – Jan 16\nLogical equivalence and negation\nLab 1 due\nInference and direct proof\nContrapositive and contradiction\nProving non-conditional statements\nHomework 1 due\nLab 2\n\n\nWeek 3\nJan 17 – Jan 23\nNo class: Martin Luther King Jr. Day\nSets\nLab 2 due\nSets: subsets, power sets, Cartesian products; proofs with sets\nHomework 2 due\nLab 3\n\n\nWeek 4\nJan 24 – Jan 30\nMathematical induction\nLab 3 due\nMidterm 1\nLoop invariants\nNo lab assignment\n\n\nWeek 5\nJan 31 – Feb 6\nMathematical induction, continued\nRecursive functions\nRecurrence relations\nHomework 3 due\nLab 4\n\n\nWeek 6\nFeb 7 – Feb 13\nRecurrence relations, continued\nLab 4 due\nGrowth rates of functions: big-O\nAsymptotic notation\nHomework 4 due\nLab 5\n\n\nWeek 7\nFeb 14 – Feb 20\nNo class: Presidents’ Day\nMidterm 2\nLab 5 due\nRelations\nNo lab assignment\n\n\nWeek 8\nFeb 21 – Feb 27\nEquivalence relations; functions\nGraphs: paths, cycles, connectivity\nGraphs: breadth-first and depth-first traversal\nHomework 5 due\nLab 6\n\n\nWeek 9\nFeb 28 – Mar 6\nGraph traversal, continued\nLab 6 due\nState machines\nFinite automata\nHomework 6 due (no extension)\nLab 7\n\n\nWeek 10\nMar 7 – Mar 13\nTrees\nLab 7 due\nTree traversal\nMidterm 3\nLab 8\n\n\nFinals week\nMar 14 – Mar 20\nFinal exam (optional), 10:30am – 12:30pm, in your lecture classroom, per the WWU finals schedule:\nSections 13745 and 13746 (11:00 lecture): Tuesday, Mar 16\nSections 13747 and 13748 (9:00 lecture): Thursday, Mar 18\nLab 8 due Monday, Mar 15\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Calendar"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets.html",
+    "href": "chapters/note-sheets.html",
+    "title": "Exam Note Sheets",
+    "section": "",
+    "text": "You do not bring your own notes to an exam. Instead, each exam comes with a printed note sheet, and the same sheets are here, so you can study with the sheet you will have in the exam. Each sheet gives the definitions, laws and notation that its exam uses. It leaves out some results from the notes, so study the notes too.\n\nMidterm 1 (PDF): logic, integers, sets and induction.\nMidterm 2 (PDF): induction, loop invariants, recursion, recurrences and growth.\nMidterm 3 (PDF): relations and functions, graphs, finite automata and trees.\nFinal exam (PDF): the whole course, made of the three midterm sheets.\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html",
+    "href": "chapters/note-sheets/midterm-1.html",
+    "title": "Midterm 1 note sheet",
+    "section": "",
+    "text": "This sheet comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the notes. Download the PDF to print it.",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html#logic",
+    "href": "chapters/note-sheets/midterm-1.html#logic",
+    "title": "Midterm 1 note sheet",
+    "section": "Logic",
+    "text": "Logic\n\n\n\nTable 1: Connectives.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(P\\)\n\\(Q\\)\n\\(\\neg P\\)\n\\(P \\land Q\\)\n\\(P \\lor Q\\)\n\\(P \\Rightarrow Q\\)\n\\(P \\Leftrightarrow Q\\)\n\n\n\n\nT\nT\nF\nT\nT\nT\nT\n\n\nT\nF\nF\nF\nT\nF\nF\n\n\nF\nT\nT\nF\nT\nT\nF\n\n\nF\nF\nT\nF\nF\nT\nT\n\n\n\n\n\n\n\n\n\nTable 2: Laws.\n\n\n\n\n\n\n\n\n\nLogically equivalent\n\\(A \\equiv B\\): \\(A\\) and \\(B\\) have the same truth value in every row\n\n\nDouble negation\n\\((\\neg \\neg P) \\equiv P\\)\n\n\nDe Morgan\n\\((\\neg (P \\land Q)) \\equiv ((\\neg P) \\lor (\\neg Q))\\)\n\n\n\n\\((\\neg (P \\lor Q)) \\equiv ((\\neg P) \\land (\\neg Q))\\)\n\n\nConditional\n\\((P \\Rightarrow Q) \\equiv ((\\neg P) \\lor Q)\\)\n\n\nBiconditional\n\\((P \\Leftrightarrow Q) \\equiv ((P \\Rightarrow Q) \\land (Q \\Rightarrow P))\\)\n\n\nDistributive\n\\((P \\land (Q \\lor R)) \\equiv ((P \\land Q) \\lor (P \\land R))\\)\n\n\n\n\\((P \\lor (Q \\land R)) \\equiv ((P \\lor Q) \\land (P \\lor R))\\)\n\n\nConverse of \\(P \\Rightarrow Q\\)\n\\(Q \\Rightarrow P\\)\n\n\nContrapositive of \\(P \\Rightarrow Q\\)\n\\((\\neg Q) \\Rightarrow (\\neg P)\\)\n\n\n\n\\(((\\neg Q) \\Rightarrow (\\neg P)) \\equiv (P \\Rightarrow Q)\\)\n\n\n\n\n\n\n\n\n\nTable 3: Quantifiers.\n\n\n\n\n\n\n\n\n\nFor all\n\\(\\forall x \\in D, P(x)\\)\n\n\nThere exists\n\\(\\exists x \\in D, P(x)\\)\n\n\nNegating a quantifier\n\\((\\neg (\\forall x \\in D, P(x))) \\equiv (\\exists x \\in D, (\\neg P(x)))\\)\n\n\n\n\\((\\neg (\\exists x \\in D, P(x))) \\equiv (\\forall x \\in D, (\\neg P(x)))\\)\n\n\nCounterexample to \\(\\forall x \\in D, P(x)\\)\nan \\(x \\in D\\) with \\(\\neg P(x)\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html#integers",
+    "href": "chapters/note-sheets/midterm-1.html#integers",
+    "title": "Midterm 1 note sheet",
+    "section": "Integers",
+    "text": "Integers\n\n\n\nTable 4: Integers.\n\n\n\n\n\n\n\n\n\nIntegers, rationals, reals\n\\(\\mathbb{Z}\\), \\(\\mathbb{Q}\\), \\(\\mathbb{R}\\)\n\n\nEven\n\\((n \\text{ even}) \\Leftrightarrow (\\exists k \\in \\mathbb{Z}, n = 2 k)\\)\n\n\nOdd\n\\((n \\text{ odd}) \\Leftrightarrow (\\exists k \\in \\mathbb{Z}, n = 2 k + 1)\\)\n\n\nParity\n\\(\\forall n \\in \\mathbb{Z}, (((n \\text{ even}) \\lor (n \\text{ odd})) \\land (\\neg ((n \\text{ even}) \\land (n \\text{ odd}))))\\)\n\n\nClosure\n\\((a, b \\in \\mathbb{Z}) \\Rightarrow ((a + b \\in \\mathbb{Z}) \\land (a - b \\in \\mathbb{Z}) \\land (a b \\in \\mathbb{Z}))\\)\n\n\nDivides (\\(a, b \\in \\mathbb{Z}\\))\n\\((a \\mid b) \\Leftrightarrow (\\exists k \\in \\mathbb{Z}, b = a k)\\)\n\n\nCongruence (\\(a, b, n \\in \\mathbb{Z}\\), \\(n &gt; 0\\))\n\\((a \\equiv b \\pmod{n}) \\Leftrightarrow (n \\mid (a - b))\\)\n\n\nRemainder \\(r\\) of \\(a\\) by \\(n\\) (\\(a, n \\in \\mathbb{Z}\\), \\(n &gt; 0\\))\nthe unique \\(r\\) with \\(\\exists q \\in \\mathbb{Z}, ((a = q n + r) \\land (0 \\le r &lt; n))\\)\n\n\nRational\n\\((x \\in \\mathbb{Q}) \\Leftrightarrow (\\exists a, b \\in \\mathbb{Z}, ((b \\ne 0) \\land (x = a / b)))\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html#sets",
+    "href": "chapters/note-sheets/midterm-1.html#sets",
+    "title": "Midterm 1 note sheet",
+    "section": "Sets",
+    "text": "Sets\n\n\n\nTable 5: Sets.\n\n\n\n\n\n\n\n\n\nElement\n\\(x \\in A\\)\n\n\nEmpty set, cardinality\n\\(\\emptyset\\), \\({\\mathopen{}\\left|A\\right|\\mathclose{}}\\)\n\n\nSubset\n\\((A \\subseteq B) \\Leftrightarrow (\\forall x, ((x \\in A) \\Rightarrow (x \\in B)))\\)\n\n\nSet equality\n\\((A = B) \\Leftrightarrow ((A \\subseteq B) \\land (B \\subseteq A))\\)\n\n\nUnion\n\\(A \\cup B = {\\mathopen{}\\left\\{x : (x \\in A) \\lor (x \\in B)\\right\\}\\mathclose{}}\\)\n\n\nIntersection\n\\(A \\cap B = {\\mathopen{}\\left\\{x : (x \\in A) \\land (x \\in B)\\right\\}\\mathclose{}}\\)\n\n\nDifference\n\\(A - B = {\\mathopen{}\\left\\{x : (x \\in A) \\land (x \\notin B)\\right\\}\\mathclose{}}\\)\n\n\nPower set\n\\({\\mathcal{P}\\mathopen{}\\left(A\\right)\\mathclose{}} = {\\mathopen{}\\left\\{S : S \\subseteq A\\right\\}\\mathclose{}}\\)\n\n\nCartesian product\n\\(A \\times B = {\\mathopen{}\\left\\{(a, b) : (a \\in A) \\land (b \\in B)\\right\\}\\mathclose{}}\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-1.html#induction",
+    "href": "chapters/note-sheets/midterm-1.html#induction",
+    "title": "Midterm 1 note sheet",
+    "section": "Induction",
+    "text": "Induction\n\n\n\nTable 6: Induction.\n\n\n\n\n\n\n\n\n\nSum\n\\(\\sum_{i=1}^{n} a_i = a_1 + a_2 + \\cdots + a_n\\)\n\n\nInduction (\\(b, k, n \\in \\mathbb{Z}\\))\n\\((P(b) \\land (\\forall k \\ge b, (P(k) \\Rightarrow P(k + 1)))) \\Rightarrow (\\forall n \\ge b, P(n))\\)\n\n\nBase case\n\\(P(b)\\)\n\n\nInductive step\nassume \\(P(k)\\) (the induction hypothesis), show \\(P(k + 1)\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 1 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-3.html",
+    "href": "chapters/note-sheets/midterm-3.html",
+    "title": "Midterm 3 note sheet",
+    "section": "",
+    "text": "This sheet comes printed with Midterm 3. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the notes. Download the PDF to print it.",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 3 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-3.html#relations-and-functions",
+    "href": "chapters/note-sheets/midterm-3.html#relations-and-functions",
+    "title": "Midterm 3 note sheet",
+    "section": "Relations and functions",
+    "text": "Relations and functions\n\n\n\nTable 1: Relations and functions.\n\n\n\n\n\n\n\n\n\nRelation on \\(A\\)\n\\(R \\subseteq A \\times A\\), and \\((a \\mathrel{R} b) \\Leftrightarrow ((a, b) \\in R)\\)\n\n\nReflexive\n\\(\\forall a \\in A, a \\mathrel{R} a\\)\n\n\nSymmetric\n\\(\\forall a, b \\in A, ((a \\mathrel{R} b) \\Rightarrow (b \\mathrel{R} a))\\)\n\n\nTransitive\n\\(\\forall a, b, c \\in A, (((a \\mathrel{R} b) \\land (b \\mathrel{R} c)) \\Rightarrow (a \\mathrel{R} c))\\)\n\n\nAntisymmetric\n\\(\\forall a, b \\in A, (((a \\mathrel{R} b) \\land (b \\mathrel{R} a)) \\Rightarrow (a = b))\\)\n\n\nEquivalence relation\nreflexive, symmetric and transitive\n\n\nEquivalence class\n\\([a] = {\\mathopen{}\\left\\{b \\in A : b \\mathrel{R} a\\right\\}\\mathclose{}}\\)\n\n\nInjective \\(f : A \\to B\\)\n\\(\\forall a_1, a_2 \\in A, ((f(a_1) = f(a_2)) \\Rightarrow (a_1 = a_2))\\)\n\n\nSurjective\n\\(\\forall b \\in B, \\exists a \\in A, f(a) = b\\)\n\n\nBijective\ninjective and surjective\n\n\nInverse of a bijection\n\\(f^{-1} : B \\to A\\) with \\((f^{-1}(b) = a) \\Leftrightarrow (f(a) = b)\\)\n\n\nFloor\n\\(\\mathopen{}\\left\\lfloor x\\right\\rfloor\\mathclose{} = \\max {\\mathopen{}\\left\\{n \\in \\mathbb{Z}: n \\le x\\right\\}\\mathclose{}}\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 3 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-3.html#graphs",
+    "href": "chapters/note-sheets/midterm-3.html#graphs",
+    "title": "Midterm 3 note sheet",
+    "section": "Graphs",
+    "text": "Graphs\n\n\n\nTable 2: Graphs.\n\n\n\n\n\n\n\n\n\nDegree\n\\(\\deg(v)\\): edges with endpoint \\(v\\), a loop counting twice\n\n\nWalk from \\(u\\) to \\(v\\)\n\\(v_0, e_1, v_1, \\ldots, e_n, v_n\\), \\(v_0 = u\\), \\(v_n = v\\), \\(e_i\\) joins \\(v_{i - 1}\\) and \\(v_i\\); length \\(n\\)\n\n\nTrail, path\na walk with no repeated edge; with no repeated vertex\n\n\nCircuit\na trail of length \\(\\ge 1\\) from a vertex to itself\n\n\nConnected\na walk between every two vertices\n\n\nEuler circuit\na circuit that contains every edge\n\n\nEuler trail\na trail from \\(u\\) to \\(v \\ne u\\) that contains every edge\n\n\nHamiltonian cycle\na circuit that visits every vertex once, then returns to its start\n\n\nBipartite\n\\(V = V_1 \\cup V_2\\) with \\(V_1 \\cap V_2 = \\emptyset\\), and every edge has one endpoint in \\(V_1\\) and one in \\(V_2\\)\n\n\n\n\n\n\nprocedure bfs(G, s)                       procedure dfs(G, v)   // start: dfs(G, s)\n    mark s, and set dist[s] := 0              mark v\n    Q := a queue containing only s            for each vertex u in the list of v, in order\n    while Q is not empty                          if u is not marked\n        v := remove the front of Q                    dfs(G, u)\n        for each vertex u in the list of v, in order\n            if u is not marked\n                mark u, and set dist[u] := dist[v] + 1\n                add u to the back of Q",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 3 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-3.html#finite-automata",
+    "href": "chapters/note-sheets/midterm-3.html#finite-automata",
+    "title": "Midterm 3 note sheet",
+    "section": "Finite automata",
+    "text": "Finite automata\n\n\n\nTable 3: Finite automata.\n\n\n\n\n\n\n\n\n\nDFA\n\\(M = (S, \\Sigma, \\delta, s_0, F)\\): states, alphabet, \\(\\delta : S \\times \\Sigma \\to S\\), initial state, accepting states\n\n\nTransition table\n\\(\\to\\) marks the initial state, \\(*\\) each accepting state\n\n\nEmpty string\n\\(\\lambda\\)\n\n\nRun on \\(w = x_1 \\cdots x_n\\)\n\\(r_0, \\ldots, r_n\\) with \\(r_0 = s_0\\) and \\(r_i = \\delta(r_{i - 1}, x_i)\\)\n\n\nAccepts \\(w\\)\n\\(r_n \\in F\\)\n\n\nLanguage\n\\(L(M) = {\\mathopen{}\\left\\{w : M \\text{ accepts } w\\right\\}\\mathclose{}}\\)",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 3 note sheet"
+    ]
+  },
+  {
+    "objectID": "chapters/note-sheets/midterm-3.html#trees",
+    "href": "chapters/note-sheets/midterm-3.html#trees",
+    "title": "Midterm 3 note sheet",
+    "section": "Trees",
+    "text": "Trees\n\n\n\nTable 4: Trees.\n\n\n\n\n\n\n\n\n\nTree\na connected graph with no cycles\n\n\nEdges of a tree\na tree with \\(n\\) vertices has \\(n - 1\\) edges\n\n\nBinary tree\n\\(\\mathtt{nil}\\), or \\(\\operatorname{node}(x, L, R)\\): root label \\(x\\), subtrees \\(L\\) and \\(R\\)\n\n\nIn Racket\n\\(\\mathtt{nil}\\) is '(), \\(\\operatorname{node}(x, L, R)\\) is (list x L R)\n\n\nPreorder\nroot, preorder of \\(L\\), preorder of \\(R\\)\n\n\nInorder\ninorder of \\(L\\), root, inorder of \\(R\\)\n\n\nPostorder\npostorder of \\(L\\), postorder of \\(R\\), root\n\n\nLevel, height\nthe root is at level 0, a child one below its parent; height is the largest level\n\n\nLeaf\na vertex with no children\n\n\nLeaf of a tree with no root\na vertex of degree 1",
+    "crumbs": [
+      "Home",
+      "Exam Note Sheets",
+      "Midterm 3 note sheet"
     ]
   },
   {
