@@ -1,0 +1,10 @@
+### Student Conduct {.unnumbered}
+
+I am committed to maintaining an inclusive, supportive, and professional environment
+in all academic settings, including lectures, labs, and course-related online spaces.
+I expect students to live up to the
+[Association for Computing Machinery (ACM) Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics),
+the ethical code adopted by nearly every software professional.
+A pattern of failing to follow the ACM Code of Ethics and Professional Conduct
+can negatively affect course grades, up to and including a failing grade for the course.
+Conduct is also considered when determining admission to the major.

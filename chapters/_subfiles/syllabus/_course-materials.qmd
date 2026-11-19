@@ -1,0 +1,6 @@
+### Course Materials {.unnumbered}
+
+Do not sell or distribute questions or answers to any assignment, quiz, or exam,
+or other course materials given out on Canvas.
+The lecture notes on this site are open,
+under the license on the [home page](../index.qmd).

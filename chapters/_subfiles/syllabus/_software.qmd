@@ -1,0 +1,7 @@
+### Software {.unnumbered #software}
+
+The labs and the programming parts of homework use [Racket](https://racket-lang.org/),
+a functional programming language.
+Racket is free, and it comes with the DrRacket editor.
+For any software that comes pre-installed in the department labs,
+please use the default installed version.

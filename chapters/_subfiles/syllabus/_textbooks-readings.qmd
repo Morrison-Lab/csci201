@@ -1,29 +1,4 @@
-## Course Description {.unnumbered}
-
-This course is a rigorous introduction to the mathematical structures and reasoning techniques underlying computer science.
-Topics include sets, functions, relations, graphs, trees, and finite automata,
-with an emphasis on formal definitions and logical precision.
-You will learn to write mathematical proofs
-using direct proof, contrapositive, contradiction, and induction.
-Functional programming is introduced as a way to express computation and recursion
-within a mathematically grounded framework.
-
-## Course Outcomes {.unnumbered}
-
-Homework, labs, and exams test and measure the outcomes below.
-On completion of CSCI 201, students will demonstrate:
-
-- A thorough understanding of the mathematical definitions of concepts important to computer science,
-  including sets, tuples, functions, and relations.
-- A basic understanding of graphs, trees, and their traversals.
-- A basic understanding of the mathematical definition of finite automata.
-- A basic understanding of asymptotic notation.
-- A basic understanding of recurrence relations and loop invariants.
-- The ability to prove basic theorems involving these concepts
-  using direct proof, contradiction, contrapositive, and mathematical induction.
-- The ability to use functional style effectively in a functional programming language.
-
-## Textbooks and Readings {.unnumbered}
+### Textbooks and Readings {.unnumbered}
 
 The course notes are this site,
 [*Math for Computer Science* (mcs)](https://morrison-lab.github.io/mcs/).

@@ -1,4 +1,4 @@
-## Grading {.unnumbered}
+### Grading {.unnumbered}
 
 Course grades are letter grades, based on:
 
@@ -26,7 +26,7 @@ Thresholds for plus and minus grades are at my discretion.
 The overall grade Canvas displays may be inaccurate;
 the weights above are the ones that count.
 
-### Homework and Worksheets {.unnumbered}
+#### Homework and Worksheets {.unnumbered}
 
 Homework assignments combine written work and programming.
 Homework and worksheets are graded on completion,
@@ -59,7 +59,7 @@ When writing up your work:
   An answer alone will not get full credit,
   on homework or on exams.
 
-### Labs {.unnumbered}
+#### Labs {.unnumbered}
 
 Weekly labs give hands-on programming practice,
 with a TA available to answer questions during the lab period.
@@ -75,7 +75,7 @@ which will typically be 10pm on the Monday after the lab
 - Attending a lab section other than your own requires permission from both me and the TA(s).
 - Late lab submissions are not accepted.
 
-### Exams {.unnumbered #exams}
+#### Exams {.unnumbered #exams}
 
 The course has two in-class midterm exams,
 tentatively on Wednesday, January 27 (week 4) and Wednesday, February 17 (week 7),
@@ -96,7 +96,7 @@ If you know in advance that you will be unable to take an exam at the scheduled 
 let me know at least one week before the exam,
 and we may be able to reschedule it.
 
-### Grading Questions {.unnumbered}
+#### Grading Questions {.unnumbered}
 
 If you have a question about a grade,
 send it to me in writing, as a Canvas message (see [Communication](#communication)),

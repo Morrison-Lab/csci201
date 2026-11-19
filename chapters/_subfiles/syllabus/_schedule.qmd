@@ -1,4 +1,4 @@
-## Schedule {.unnumbered #schedule}
+### Schedule {.unnumbered #schedule}
 
 The topics and dates of future lectures may change.
 The [course calendar](calendar.qmd) gives the day-by-day agenda,
