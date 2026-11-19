@@ -99,10 +99,19 @@ The final exam is optional.
 If your grade on the final is higher than the average of your three midterm grades,
 I will use your final grade to replace all three of your midterm grades.
 The final can only improve your grade.
-If you are satisfied with your grade before the final, you are welcome to skip it;
+If you are satisfied with your grade before the final,
+you are welcome to skip it;
 doing so will not affect your course grade.
 
-This rule borrows the main idea of standards-based grading:
+For example, suppose your midterm grades are 60%, 70% and 80%, an average of 70%.
+If you score 85% on the final,
+all three midterms count as 85%,
+so your exam grade, worth 45% of the course grade, is 85%.
+If you score 65% on the final, or skip it,
+your midterm grades stand.
+
+This rule borrows the main idea of standards-based grading
+[@buckmiller2017questioning; @elsinger2020standards]:
 your exam grade should measure how well you have mastered the course's skills
 by the end of the course,
 not how quickly you mastered them.
