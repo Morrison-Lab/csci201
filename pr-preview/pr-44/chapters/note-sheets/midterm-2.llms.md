@@ -6,7 +6,7 @@ Induction, loop invariants, recursion, recurrences and growth
 
 Published
 
-Last modified: 2026-11-19 01:52:19 (PST)
+Last modified: 2026-11-19 02:07:12 (PST)
 
 This sheet comes printed with Midterm 2. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the [notes](https://morrison-lab.github.io/mcs/). [Download the PDF](midterm-2.pdf) to print it.
 
@@ -63,7 +63,7 @@ Table 4: Loop invariants.
 | [Define a function](https://morrison-lab.github.io/mcs/chapters/functional-programming.html#def-racket-define) | `(define (f x y) body)` |
 | [Conditionals](https://morrison-lab.github.io/mcs/chapters/functional-programming.html#def-if-cond) | `(if test then-expr else-expr)` |
 |  | `(cond [test1 expr1] [test2 expr2] [else expr3])` |
-| [Lists](https://morrison-lab.github.io/mcs/chapters/recursion.html#def-list) | `'()` empty, `(list a b c)` gives `'(a b c)` |
+| [Lists](https://morrison-lab.github.io/mcs/chapters/recursion.html#def-list) | `'()` empty, `(list 1 2 3)` gives `'(1 2 3)` |
 |  | `(cons x lst)` puts `x` in front, `(empty? lst)` is `#t` if `lst` is `'()` |
 |  | `(first lst)`, `(second lst)`, `(third lst)`, `(rest lst)` all but the first |
 | Arithmetic | `(+ a b) (- a b) (* a b) (quotient n d) (remainder n d)` |

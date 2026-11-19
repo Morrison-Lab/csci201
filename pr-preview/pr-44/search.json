@@ -177,7 +177,7 @@
     "href": "chapters/note-sheets/midterm-2.html#racket",
     "title": "Midterm 2 note sheet",
     "section": "Racket",
-    "text": "Racket\n\n\n\nTable 5: Racket.\n\n\n\n\n\n\n\n\n\nDefine a function\n(define (f x y) body)\n\n\nConditionals\n(if test then-expr else-expr)\n\n\n\n(cond [test1 expr1] [test2 expr2] [else expr3])\n\n\nLists\n'() empty, (list a b c) gives '(a b c)\n\n\n\n(cons x lst) puts x in front, (empty? lst) is #t if lst is '()\n\n\n\n(first lst), (second lst), (third lst), (rest lst) all but the first\n\n\nArithmetic\n(+ a b) (- a b) (* a b) (quotient n d) (remainder n d)\n\n\nComparison\n(= a b) (&lt; a b) (&lt;= a b) (&gt; a b) (&gt;= a b)\n\n\n\n(equal? a b) is #t if a and b are the same value, lists included\n\n\nLogic\n(and a b) (or a b) (not a)",
+    "text": "Racket\n\n\n\nTable 5: Racket.\n\n\n\n\n\n\n\n\n\nDefine a function\n(define (f x y) body)\n\n\nConditionals\n(if test then-expr else-expr)\n\n\n\n(cond [test1 expr1] [test2 expr2] [else expr3])\n\n\nLists\n'() empty, (list 1 2 3) gives '(1 2 3)\n\n\n\n(cons x lst) puts x in front, (empty? lst) is #t if lst is '()\n\n\n\n(first lst), (second lst), (third lst), (rest lst) all but the first\n\n\nArithmetic\n(+ a b) (- a b) (* a b) (quotient n d) (remainder n d)\n\n\nComparison\n(= a b) (&lt; a b) (&lt;= a b) (&gt; a b) (&gt;= a b)\n\n\n\n(equal? a b) is #t if a and b are the same value, lists included\n\n\nLogic\n(and a b) (or a b) (not a)",
     "crumbs": [
       "Home",
       "Exam Note Sheets",
