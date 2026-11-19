@@ -1,0 +1,17 @@
+---
+title: "Exam Note Sheets"
+subtitle: "The note sheet printed with each exam, to study with ahead of time"
+format:
+  html: default
+---
+
+You do not bring your own notes to an exam.
+Instead, each exam comes with a printed note sheet,
+and the same sheets are here,
+so you can study with the sheet you will have in the exam.
+Each sheet gives the definitions, laws and notation that its exam uses.
+It leaves out some results from the notes,
+so study the notes too.
+
+- [Midterm 1](note-sheets/midterm-1.qmd) ([PDF](note-sheets/midterm-1.pdf)):
+  logic, integers, sets and induction.

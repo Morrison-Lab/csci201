@@ -1,0 +1,24 @@
+# Shared settings for the exam note sheets.
+# Each sheet renders as a web page and as a compact PDF to print:
+# two columns and small type, so a midterm sheet fits on one page, front and back.
+number-sections: false
+format:
+  html: default
+  pdf:
+    toc: false
+    # A printed sheet needs no last-modified stamp.
+    date: ""
+    fontsize: 9pt
+    documentclass: extarticle
+    classoption: [twocolumn]
+    geometry: [margin=0.5in, columnsep=0.3in]
+    include-in-header:
+      text: |
+        \usepackage{titlesec}
+        \titleformat*{\section}{\normalsize\bfseries}
+        \titlespacing*{\section}{0pt}{1.2ex}{0.6ex}
+        \pagestyle{empty}
+        % Keep each pseudocode block in one column.
+        \usepackage{etoolbox}
+        \BeforeBeginEnvironment{Shaded}{\par\noindent\begin{minipage}{\linewidth}}
+        \AfterEndEnvironment{Shaded}{\end{minipage}\par}

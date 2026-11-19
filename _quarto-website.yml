@@ -4,6 +4,8 @@ project:
   render:
     - "*.qmd"
     - "chapters/*.qmd"
+    # "chapters/*.qmd" does not recurse, so the exam note sheets need their own glob.
+    - "chapters/note-sheets/*.qmd"
     - "!README.md"
     - "!appendix-document-metadata.qmd"
     - "!references.qmd"
@@ -47,6 +49,12 @@ website:
         href: chapters/prerequisite-self-test.qmd
       - text: "Calendar"
         href: chapters/calendar.qmd
+      - text: "Exam Note Sheets"
+        menu:
+          - text: "All note sheets"
+            href: chapters/note-sheets.qmd
+          - text: "Midterm 1"
+            href: chapters/note-sheets/midterm-1.qmd
       - text: "Lecture Notes"
         href: https://morrison-lab.github.io/mcs/
     right:
@@ -73,6 +81,10 @@ website:
       - chapters/syllabus.qmd
       - chapters/prerequisite-self-test.qmd
       - chapters/calendar.qmd
+      - section: "Exam Note Sheets"
+        href: chapters/note-sheets.qmd
+        contents:
+          - chapters/note-sheets/midterm-1.qmd
       - text: "Lecture Notes"
         href: https://morrison-lab.github.io/mcs/
 
