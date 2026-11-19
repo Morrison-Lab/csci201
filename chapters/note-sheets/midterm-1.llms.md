@@ -6,7 +6,7 @@ Logic, integers, sets and induction
 
 Published
 
-Last modified: 2026-11-18 23:00:01 (PST)
+Last modified: 2026-11-19 01:19:58 (PST)
 
 This is the note sheet that comes printed with Midterm 1. You may not bring your own notes, so study with this sheet. It summarizes the definitions, laws and notation that the exam uses. The full definitions, with examples, are in the [notes](https://morrison-lab.github.io/mcs/). The sheet leaves out some of the notes’ results.
 
