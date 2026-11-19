@@ -27,9 +27,11 @@ Authoritative style guides:
   render (`!references.qmd` in `_quarto-website.yml`), so it isn't part of the
   normal site build
 - `_quarto.yml`, `_quarto-website.yml` --- Quarto project + website config
-- `_extensions/` --- vendored Quarto extensions (including `code-language-labels`, which labels each code block with its language in HTML and revealjs output; vendored from [`d-morrison/code-language-labels`](https://github.com/d-morrison/code-language-labels)),
-  and `Morrison-Lab/rainbow-parens`, which colours matching brackets by nesting depth in HTML math and code
-  (from [`Morrison-Lab/rainbow-parens`](https://github.com/Morrison-Lab/rainbow-parens); update it with `quarto add Morrison-Lab/rainbow-parens`, not by hand)
+- `_extensions/` --- vendored Quarto extensions (including `code-language-labels`, which labels each code block with its language in HTML and revealjs output;
+  vendored from [`d-morrison/code-language-labels`](https://github.com/d-morrison/code-language-labels)),
+  and `Morrison-Lab/rainbow-parens`, which colors matching brackets by nesting depth in HTML math and code
+  (from [`Morrison-Lab/rainbow-parens`](https://github.com/Morrison-Lab/rainbow-parens);
+  update it with `quarto add Morrison-Lab/rainbow-parens`, not by hand)
 - `latex-macros/` --- git submodule for shortcode/macro definitions (see `.gitmodules`)
 - `R/`, `man/`, `DESCRIPTION`, `NAMESPACE` --- the project is also a small R package
 - `references.bib` --- BibTeX bibliography
