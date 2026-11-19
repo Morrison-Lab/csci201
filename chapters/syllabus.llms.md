@@ -6,7 +6,7 @@ Winter 2027
 
 Published
 
-Last modified: 2026-11-18 21:46:23 (PST)
+Last modified: 2026-11-18 23:00:01 (PST)
 
 > **NOTE:**
 >
@@ -287,7 +287,9 @@ The course has three in-class midterm exams, tentatively on Wednesday, January 2
 
 The final exam is optional. If your grade on the final is higher than the average of your three midterm grades, I will use your final grade to replace all three of your midterm grades. The final can only improve your grade. If you are satisfied with your grade before the final, you are welcome to skip it; doing so will not affect your course grade.
 
-This rule borrows the main idea of standards-based grading: your exam grade should measure how well you have mastered the course’s skills by the end of the course, not how quickly you mastered them. Each midterm checks one part of the course soon after we cover it, so that you and I find out early what needs more work. The final exam is a second chance to show your mastery of the whole course, after you have had time to learn from your midterms. Unlike full standards-based grading, the final replaces your midterm grades together, not one topic at a time.
+For example, suppose your midterm grades are 60%, 70% and 80%, an average of 70%. If you score 85% on the final, all three midterms count as 85%, so your exam grade, worth 45% of the course grade, is 85%. If you score 65% on the final, or skip it, your midterm grades stand.
+
+This rule borrows the main idea of standards-based grading ([Buckmiller et al. 2017](#ref-buckmiller2017questioning); [Elsinger and Lewis 2020](#ref-elsinger2020standards)): your exam grade should measure how well you have mastered the course’s skills by the end of the course, not how quickly you mastered them. Each midterm checks one part of the course soon after we cover it, so that you and I find out early what needs more work. The final exam is a second chance to show your mastery of the whole course, after you have had time to learn from your midterms. Unlike full standards-based grading, the final replaces your midterm grades together, not one topic at a time.
 
 You do not bring your own notes to an exam. Instead, I hand out a printed note sheet with each exam, which gives the definitions, laws and notation that the exam uses. The same sheets are on this site ahead of time, on the [exam note sheets](../chapters/note-sheets.llms.md) page, so you can study with the sheet you will have in the exam.
 
@@ -350,5 +352,9 @@ Please read [Syllabi@WWU](https://syllabi.wwu.edu/) for additional, important po
 Back to top
 
 ## References
+
+Buckmiller, Tom, Randal Peters, and Jerrid Kruse. 2017. “Questioning Points and Percentages: Standards-Based Grading (SBG) in Higher Education.” *College Teaching* 65 (4): 151–57. <https://doi.org/10.1080/87567555.2017.1302919>.
+
+Elsinger, Jason, and Drew Lewis. 2020. “Applying a Standards-Based Grading Framework Across Lower Level Mathematics Courses.” *PRIMUS* 30 (8–10): 885–907. <https://doi.org/10.1080/10511970.2019.1674430>.
 
 Lamport, Leslie. 2019. *Think and Write, with Leslie Lamport*. Interview by Edaena Salinas, 5 Minute Mentor podcast (Mentors.fm). <https://mentors.fm/2019/08/13/think-and-write-with-leslie-lamport/>.
