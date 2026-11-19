@@ -3,9 +3,11 @@ title: "WWU CSCI 201 Syllabus"
 subtitle: "Winter 2027"
 number-sections: false
 format:
-  html: default
+  html:
+    toc-depth: 4
   revealjs:
     output-file: syllabus-slides.html
+    slide-level: 3
   pdf:
     output-file: syllabus-handout.pdf
     toc: false
@@ -20,22 +22,46 @@ The syllabus is subject to change;
 I will announce in class any change made after the first day of class.
 :::
 
+## About the Course {.unnumbered}
+
 {{< include _subfiles/syllabus/_course-information.qmd >}}
 
-{{< include _subfiles/syllabus/_description-outcomes-readings.qmd >}}
+{{< include _subfiles/syllabus/_description-outcomes.qmd >}}
+
+## Materials and Resources {.unnumbered}
+
+{{< include _subfiles/syllabus/_textbooks-readings.qmd >}}
 
 {{< include _subfiles/syllabus/_similar-courses-materials.qmd >}}
 
+{{< include _subfiles/syllabus/_course-materials.qmd >}}
+
+{{< include _subfiles/syllabus/_software.qmd >}}
+
+{{< include _subfiles/syllabus/_computer-labs.qmd >}}
+
+{{< include _subfiles/syllabus/_library-writing-resources.qmd >}}
+
+## How the Class Runs {.unnumbered}
+
 {{< include _subfiles/syllabus/_schedule.qmd >}}
 
-{{< include _subfiles/syllabus/_communication-software.qmd >}}
+{{< include _subfiles/syllabus/_communication.qmd >}}
 
 {{< include _subfiles/syllabus/_active-learning.qmd >}}
+
+{{< include _subfiles/syllabus/_writing-to-think.qmd >}}
+
+{{< include _subfiles/syllabus/_feedback.qmd >}}
+
+## Grades and Assessment {.unnumbered}
 
 {{< include _subfiles/syllabus/_grading.qmd >}}
 
 {{< include _subfiles/syllabus/_deadlines-collaboration-honesty.qmd >}}
 
-{{< include _subfiles/syllabus/_labs-writing-conduct.qmd >}}
+## University Policies and Services {.unnumbered}
 
-{{< include _subfiles/syllabus/_services-policies-feedback.qmd >}}
+{{< include _subfiles/syllabus/_student-conduct.qmd >}}
+
+{{< include _subfiles/syllabus/_services-policies.qmd >}}

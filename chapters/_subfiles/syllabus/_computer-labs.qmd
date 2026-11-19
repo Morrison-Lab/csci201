@@ -1,0 +1,8 @@
+### Computer Labs {.unnumbered}
+
+Each section's weekly lab meets in a department computer lab
+(see [Sections](#sections)).
+Outside your lab time, you should be able to use any of the department's open labs,
+most of which run the Linux operating system.
+Racket is free, so you can also install it on your own computer
+(see [Software](#software)).
