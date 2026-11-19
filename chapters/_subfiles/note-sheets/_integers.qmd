@@ -7,7 +7,8 @@ For integers $a$, $b$, $k$ and $n$:
 
 - $n$ is *even* if $n = 2 k$ for some integer $k$.
 - $n$ is *odd* if $n = 2 k + 1$ for some integer $k$.
-- Every integer is even or odd, and none is both.
+- Every integer is even or odd.
+- No integer is both even and odd.
 - The sum, difference and product of two integers are integers.
 - $a \mid b$ ($a$ *divides* $b$) if $b = a k$ for some integer $k$.
 - For a positive integer $n$, $a \equiv b \pmod{n}$ if $n \mid (a - b)$.
