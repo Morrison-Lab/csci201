@@ -2,14 +2,13 @@
 
 Course grades are letter grades, based on:
 
-| Category                | Weight |
-|:------------------------|:-------|
-| Homework                | 10%    |
-| Programming labs        | 30%    |
-| Worksheets              | 15%    |
-| Midterm 1               | 10%    |
-| Midterm 2               | 10%    |
-| Final exam              | 25%    |
+| Category                         | Weight                                  |
+|:---------------------------------|:----------------------------------------|
+| Homework                         | 10%                                     |
+| Programming labs                 | 30%                                     |
+| Worksheets                       | 15%                                     |
+| Three midterm exams (15% each)   | 45%                                     |
+| Final exam (optional)            | replaces the midterm average, if higher |
 
 I will assign final letter grades based on the weighted average of the categories above,
 by the standard scale:
@@ -77,9 +76,10 @@ which will typically be 10pm on the Monday after the lab
 
 ### Exams {.unnumbered #exams}
 
-The course has two in-class midterm exams,
-tentatively on Wednesday, January 27 (week 4) and Wednesday, February 17 (week 7),
-and a cumulative final exam during finals week,
+The course has three in-class midterm exams,
+tentatively on Wednesday, January 27 (week 4), Wednesday, February 17 (week 7)
+and Friday, March 12 (week 10),
+and an optional final exam during finals week,
 in our classroom at the time WWU's
 [finals schedule](https://registrar.wwu.edu/calendars/finals) assigns,
 which is set by the lecture time:
@@ -87,8 +87,28 @@ Tuesday, March 16 for the 11:00 sections (CRNs 13745 and 13746)
 and Thursday, March 18 for the 9:00 sections (CRNs 13747 and 13748),
 both 10:30am--12:30pm.
 
-- Each midterm lasts 50 minutes.
+- Midterm 1 covers logic, proofs, sets and induction.
+- Midterm 2 covers loop invariants, strong induction, recursion, recurrence relations and growth rates.
+- Midterm 3 covers relations and functions, graphs, finite automata and trees.
+- The final exam covers the whole course.
+- Each midterm lasts 50 minutes and is worth 15% of the course grade.
 - The final exam lasts 120 minutes.
+
+Exams in this course follow the idea behind standards-based grading:
+your exam grade should measure how well you have mastered the course's skills
+by the end of the course,
+not how quickly you mastered them.
+Each midterm checks your mastery of one part of the course soon after we cover it,
+so that you and I find out early what needs more work.
+The final exam is a second chance to show your mastery of every part,
+after you have had time to learn from your midterms.
+
+The final exam is therefore optional.
+If your grade on the final is higher than the average of your three midterm grades,
+I will use your final grade to replace all three of your midterm grades.
+The final can only improve your grade.
+If you are satisfied with your grade before the final, you are welcome to skip it;
+doing so will not affect your course grade.
 
 You do not bring your own notes to an exam.
 Instead, I hand out a printed note sheet with each exam,

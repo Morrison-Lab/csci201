@@ -31,12 +31,14 @@ Canvas lists every due date and is the place to submit work.
   or on the next class day when that Monday is a holiday.
 - Quiz 0 is given in week 1.
 
-Midterms 1 and 2 are in class,
-tentatively on Wednesday, January 27 and Wednesday, February 17.
+Midterms 1, 2 and 3 are in class,
+tentatively on Wednesday, January 27, Wednesday, February 17 and Friday, March 12.
 If a midterm's date changes,
 I will announce the change at least two weeks before that exam.
 
-The final exam is 10:30am to 12:30pm in finals week,
+The final exam is optional
+(see [Exams](syllabus.qmd#exams) in the syllabus).
+It is 10:30am to 12:30pm in finals week,
 in your lecture classroom,
 on a day set by your section's lecture time.
 WWU's [finals schedule](https://registrar.wwu.edu/calendars/finals)
@@ -99,11 +101,11 @@ sets the slot for classes that meet on neither Tuesday nor Thursday:
 | Feb 28 -- Mar 6          |                              |                              | **Homework 6 due** (no       |                              |
 |                          | **Lab 6 due**                |                              | extension)                   |                              |
 +--------------------------+------------------------------+------------------------------+------------------------------+------------------------------+
-| **Week 10**              | [Trees][tr]                  | [Tree traversal][tr]         | [Tree traversal][tr],        | Lab 8                        |
-|                          |                              |                              | continued                    |                              |
+| **Week 10**              | [Trees][tr]                  | [Tree traversal][tr]         | **Midterm 3**                | Lab 8                        |
+|                          |                              |                              |                              |                              |
 | Mar 7 -- Mar 13          | **Lab 7 due**                |                              |                              |                              |
 +--------------------------+------------------------------+------------------------------+------------------------------+------------------------------+
-| **Finals week**          | **Final exam**, 10:30am -- 12:30pm, in your lecture classroom, per the [WWU finals                                        |
+| **Finals week**          | **Final exam** (optional), 10:30am -- 12:30pm, in your lecture classroom, per the [WWU finals                             |
 |                          | schedule](https://registrar.wwu.edu/calendars/finals):                                                                    |
 | Mar 14 -- Mar 20         |                                                                                                                           |
 |                          | Sections 13745 and 13746 (11:00 lecture): **Tuesday, Mar 16**                                                             |

@@ -22,8 +22,8 @@ are university holidays, with no class.
 | 7 | Feb 15--19 | Relations; graphs: paths, cycles, and connectivity | **Midterm 2**, Wednesday, Feb 17 | 1.4, 8.1--8.3, 10.1 |
 | 8 | Feb 22--26 | Graphs: breadth-first and depth-first traversal | Lab 6; Homework 5 | 10.1, 10.3, class notes |
 | 9 | Mar 1--5 | State machines and finite automata | Lab 7; Homework 6 | 12.2 |
-| 10 | Mar 8--12 | Trees and their traversal | Lab 8 | 10.4--10.6 |
-| Finals | Mar 15--19 | | **Final exam**: Tuesday, Mar 16 (CRNs 13745, 13746) or Thursday, Mar 18 (CRNs 13747, 13748), 10:30am--12:30pm | |
+| 10 | Mar 8--12 | Trees and their traversal | Lab 8; **Midterm 3**, Friday, Mar 12 | 10.4--10.6 |
+| Finals | Mar 15--19 | | **Final exam** (optional): Tuesday, Mar 16 (CRNs 13745, 13746) or Thursday, Mar 18 (CRNs 13747, 13748), 10:30am--12:30pm | |
 
 The midterm dates are tentative.
 If a midterm's date changes, I will announce the change
