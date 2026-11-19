@@ -1,0 +1,15 @@
+::: {.content-visible when-format="html"}
+## Recurrences
+:::
+
+| | |
+| --- | --- |
+| [Recurrence relation](https://morrison-lab.github.io/mcs/chapters/recurrences-growth.html#def-recurrence-relation) | each term from earlier terms, starting from initial terms |
+| [Iteration](https://morrison-lab.github.io/mcs/chapters/recurrences-growth.html#def-iteration) | substitute repeatedly, write the result after $j$ steps, choose $j$ to reach an initial term |
+| Geometric sum ($r \ne 1$) | $1 + r + \cdots + r^k = \dfrac{r^{k + 1} - 1}{r - 1}$ |
+| Arithmetic sum | $1 + 2 + \cdots + n = \dfrac{n (n + 1)}{2}$ |
+| [Logarithms](https://morrison-lab.github.io/mcs/chapters/recurrences-growth.html#def-logarithm) | $2^{\log_2 n} = n$ |
+| | $\log_2 (x y) = \log_2 x + \log_2 y$ |
+| | $\log_2 (x^k) = k \log_2 x$ |
+
+: Recurrences. {#tbl-ns-recurrences tbl-colwidths="[42,58]"}

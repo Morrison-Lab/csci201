@@ -55,6 +55,8 @@ website:
             href: chapters/note-sheets.qmd
           - text: "Midterm 1"
             href: chapters/note-sheets/midterm-1.qmd
+          - text: "Midterm 2"
+            href: chapters/note-sheets/midterm-2.qmd
       - text: "Lecture Notes"
         href: https://morrison-lab.github.io/mcs/
     right:
@@ -85,6 +87,7 @@ website:
         href: chapters/note-sheets.qmd
         contents:
           - chapters/note-sheets/midterm-1.qmd
+          - chapters/note-sheets/midterm-2.qmd
       - text: "Lecture Notes"
         href: https://morrison-lab.github.io/mcs/
 

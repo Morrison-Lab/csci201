@@ -1,0 +1,18 @@
+::: {.content-visible when-format="html"}
+## Racket
+:::
+
+| | |
+| --- | --- |
+| [Define a function](https://morrison-lab.github.io/mcs/chapters/functional-programming.html#def-racket-define) | `(define (f x y) body)` |
+| [Conditionals](https://morrison-lab.github.io/mcs/chapters/functional-programming.html#def-if-cond) | `(if test then-expr else-expr)` |
+| | `(cond [test1 expr1] [test2 expr2] [else expr3])` |
+| [Lists](https://morrison-lab.github.io/mcs/chapters/recursion.html#def-list) | `'()` empty, `(list 1 2 3)` gives `'(1 2 3)` |
+| | `(cons x lst)` puts `x` in front, `(empty? lst)` is `#t` if `lst` is `'()` |
+| | `(first lst)`, `(second lst)`, `(third lst)`, `(rest lst)` all but the first |
+| Arithmetic | `(+ a b) (- a b) (* a b) (quotient n d) (remainder n d)` |
+| Comparison | `(= a b) (< a b) (<= a b) (> a b) (>= a b)` |
+| | `(equal? a b)` is `#t` if `a` and `b` are the same value, lists included |
+| Logic | `(and a b) (or a b) (not a)` |
+
+: Racket. {#tbl-ns-racket tbl-colwidths="[42,58]"}

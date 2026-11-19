@@ -15,3 +15,5 @@ so study the notes too.
 
 - [Midterm 1](note-sheets/midterm-1.qmd) ([PDF](note-sheets/midterm-1.pdf)):
   logic, integers, sets and induction.
+- [Midterm 2](note-sheets/midterm-2.qmd) ([PDF](note-sheets/midterm-2.pdf)):
+  induction, loop invariants, recursion, recurrences and growth.

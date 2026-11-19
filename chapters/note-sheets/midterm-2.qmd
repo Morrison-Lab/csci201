@@ -1,0 +1,53 @@
+---
+title: "Midterm 2 note sheet"
+subtitle: "Induction, loop invariants, recursion, recurrences and growth"
+---
+
+{{< include ../../latex-macros/macros.qmd >}}
+
+::: {.content-visible when-format="html"}
+This sheet comes printed with Midterm 2.
+You may not bring your own notes,
+so study with this sheet.
+It leaves out some results;
+the full definitions are in the [notes](https://morrison-lab.github.io/mcs/).
+[Download the PDF](midterm-2.pdf) to print it.
+:::
+
+{{< include ../_subfiles/note-sheets/_integers.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_induction.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_strong-induction.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_loop-invariants.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_racket.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_recurrences.qmd >}}
+
+```{=latex}
+\needspace{3\baselineskip}
+```
+
+{{< include ../_subfiles/note-sheets/_growth.qmd >}}
