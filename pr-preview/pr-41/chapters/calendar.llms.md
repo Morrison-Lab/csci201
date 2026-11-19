@@ -6,7 +6,7 @@ Winter 2027
 
 Published
 
-Last modified: 2026-11-18 21:42:38 (PST)
+Last modified: 2026-11-18 21:58:19 (PST)
 
 The topics and dates of future lectures may change. The [syllabus](../chapters/syllabus.llms.md#schedule) gives the topics and readings week by week; this calendar gives them day by day, so where the two differ, this calendar is the more recent plan.
 
@@ -18,9 +18,9 @@ Canvas lists every due date and is the place to submit work.
 - Each lab is due at 10pm on the Monday after the lab, or on the next class day when that Monday is a holiday.
 - Quiz 0 is given in week 1.
 
-Midterms 1 and 2 are in class, tentatively on Wednesday, January 27 and Wednesday, February 17. If a midterm’s date changes, I will announce the change at least two weeks before that exam.
+Midterms 1, 2 and 3 are in class, tentatively on Wednesday, January 27, Wednesday, February 17 and Friday, March 12. If a midterm’s date changes, I will announce the change at least two weeks before that exam.
 
-The final exam is 10:30am to 12:30pm in finals week, in your lecture classroom, on a day set by your section’s lecture time. WWU’s [finals schedule](https://registrar.wwu.edu/calendars/finals) sets the slot for classes that meet on neither Tuesday nor Thursday:
+The final exam is optional (see [Exams](../chapters/syllabus.llms.md#exams) in the syllabus). It is 10:30am to 12:30pm in finals week, in your lecture classroom, on a day set by your section’s lecture time. WWU’s [finals schedule](https://registrar.wwu.edu/calendars/finals) sets the slot for classes that meet on neither Tuesday nor Thursday:
 
 - Lectures starting between 10:30 and 11:29am (our 11:00 sections) take their final on Tuesday, March 16.
 - Lectures starting between 8:30 and 9:29am (our 9:00 sections) take their final on Thursday, March 18.
