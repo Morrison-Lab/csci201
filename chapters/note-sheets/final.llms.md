@@ -6,7 +6,7 @@ The whole course: the tables of the three midterm sheets
 
 Published
 
-Last modified: 2026-11-19 12:07:39 (PST)
+Last modified: 2026-11-20 17:02:44 (PST)
 
 This sheet comes printed with the final exam. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the [notes](https://morrison-lab.github.io/mcs/). [Download the PDF](final.pdf) to print it.
 
