@@ -6,7 +6,7 @@ Induction, loop invariants, recursion, recurrences and growth
 
 Published
 
-Last modified: 2026-11-20 17:02:44 (PST)
+Last modified: 2026-11-23 14:14:21 (PST)
 
 This sheet comes printed with Midterm 2. You may not bring your own notes, so study with this sheet. It leaves out some results; the full definitions are in the [notes](https://morrison-lab.github.io/mcs/). [Download the PDF](midterm-2.pdf) to print it.
 
